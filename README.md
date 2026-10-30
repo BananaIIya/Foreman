@@ -4,6 +4,8 @@
 
 Built for the **Nebius × NVIDIA Global AI Hackathon 2026** (Coding and Agentic Engineering track).
 
+▶️ **Demo video:** https://youtu.be/g4HrsnyDhh8
+
 ## How it works
 
 - **Lead (Claude Opus 5.5):** reads the task, writes a short brief, and reviews the sidekick's report, including the commands it ran (with exit codes) and the files it changed.
