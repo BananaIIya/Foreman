@@ -1,4 +1,59 @@
-# T3 Code: multi-model fork
+# Foreman
+
+**Frontier brains, Nemotron prices.** Foreman is a coding agent where a frontier model leads and NVIDIA Nemotron, served by Nebius Token Factory, does the work.
+
+Built for the **Nebius × NVIDIA Global AI Hackathon 2026** (Coding and Agentic Engineering track).
+
+## How it works
+
+- **Lead (Claude Opus 5.5):** reads the task, writes a short brief, and reviews the sidekick's report, including the commands it ran (with exit codes) and the files it changed.
+- **Sidekick (NVIDIA Nemotron 3.5 Super VL on Nebius Token Factory):** takes well-scoped work such as exploring the code, running tests, or implementing what the lead specified. It never sees the lead's conversation, only its briefs, and keeps its own memory across briefs.
+- **Small tasks** the lead finishes alone, at the same cost as a single model.
+- **Every turn shows its cost**, summed across lead and sidekick and priced per model from [`apps/server/src/usage/pricing.json`](apps/server/src/usage/pricing.json).
+
+## Results
+
+Same task, same prompt: implement the Exercism `rest-api` exercise, graded by 9 hidden tests the agent cannot see.
+
+| Setup | Hidden tests | Cost per task |
+| --- | --- | --- |
+| Nemotron 3.5 Super VL alone | 0 / 9 | $0.0405 |
+| Claude Opus 5.5 alone | 9 / 9 | $0.2301 |
+| **Foreman** (Opus 5.5 lead + Nemotron sidekick) | **9 / 9** | **$0.0930** |
+
+Foreman matches Opus at about 60% lower cost. Costs are API-equivalent estimates shown in the app for a single recorded run of each setup. More experiments are archived in [benchmarks/](benchmarks/README.md).
+
+## How we use NVIDIA Nemotron and Nebius Token Factory
+
+- **Nebius provider.** Settings → Providers → **Nebius · OpenCode** (off by default). It points OpenCode's OpenAI-compatible adapter at `https://api.tokenfactory.nebius.com/v1`. See [`packages/provider-opencode/src/nebiusModels.ts`](packages/provider-opencode/src/nebiusModels.ts).
+- **Models available:** Nemotron 3 Nano, Nemotron 3 Super, Nemotron 3.5 Super VL, and Nemotron 3 Ultra. The demo uses **Nemotron 3.5 Super VL** (1M context) as the sidekick.
+- **Key handling.** The API key lives in T3's secret store. The OpenCode config only references `{env:NEBIUS_API_KEY}`, so the key never appears in config files or logs.
+- **Tuning.** Nemotron 3 Nano sometimes put its tool call inside its reasoning, where it was dropped. Sending `temperature: 0.6` fixed this in 19 of 20 replays of a real mid-run call, versus 23 of 30 without a temperature.
+- **Cost tracking.** Nemotron per-token prices from Token Factory are bundled in `pricing.json`, so the Usage page shows Lead and Sidekick cost separately.
+
+**How Token Factory helped:** because its API is OpenAI-compatible, we reused the existing OpenCode adapter instead of writing a new provider. We did not provision any GPUs, and one API key gave us the whole Nemotron family, so switching the sidekick model is a dropdown change.
+
+## Try it (for judges)
+
+1. Install Node 24 and [`vp`](#install-vp).
+2. Authenticate **Claude Code** (`claude auth login`) or **Codex** (`codex login`). The lead needs one of them.
+3. Install [OpenCode](https://opencode.ai). The Nebius provider runs through the OpenCode runtime.
+4. From the repository root:
+
+   ```bash
+   vp i
+   vp run dev
+   ```
+
+5. Open the web URL from the `[dev-runner]` line.
+6. Settings → Providers → **Nebius**: paste your Nebius Token Factory API key and turn the instance on.
+7. In a new thread, open the multi-model menu above the conversation, choose **Lead + sidekick**, and pick **Nebius · OpenCode · Nemotron 3.5 Super VL** as the sidekick.
+
+This fork stores its data in `~/.t3-nvidia`, separate from an official T3 Code install.
+
+---
+
+## Fork details
 
 This repository is a fork of [pingdotgg/t3code](https://github.com/pingdotgg/t3code), pinned at upstream commit `58d253231d83f669a2cdfefa5fe479751d22c582` and not tracking upstream after it. Everything below the "Upstream T3 Code" heading is upstream's README. The fork adds the five features below; the rest is upstream T3 Code.
 

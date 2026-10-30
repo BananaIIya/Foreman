@@ -22,6 +22,7 @@ Settings → Providers 中提供 **Nebius · OpenCode**。它默认关闭，并�
 | ---------------- | --------------------------------------- |
 | Nemotron 3 Nano  | `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B` |
 | Nemotron 3 Super | `nvidia/nemotron-3-super-120b-a12b`     |
+| Nemotron 3.5 Super VL | `nvidia/Nemotron-3.5-Super-VL`     |
 | Nemotron 3 Ultra | `nvidia/Nemotron-3-Ultra-550b-a55b`     |
 
 目录来自 [Nebius 官方 Nemotron cookbook](https://github.com/nebius/token-factory-cookbook/blob/main/models/nemotron/README.md)，不会为了显示模型而发送推理请求；具体账户可用性尚未验证。
