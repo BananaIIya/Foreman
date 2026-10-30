@@ -1,0 +1,48 @@
+{
+  "delegations": 2,
+  "second_report_mentions_code": true,
+  "lead_final_mentions_code": true,
+  "sidekick_costs_by_query": [0.00015554000000000002, 0.00027420000000000005],
+  "sidekick_cost_cumulative": true,
+  "lead_result_subtype": "success",
+  "lead_cost_usd": 0.00033242000000000005,
+  "sidekick_cost_usd": 0.00027420000000000005,
+  "models_in_lead": ["claude-haiku-5-5"],
+  "delay_sec": 130,
+  "lead_usage": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 988,
+    "cache_read_input_tokens": 4222,
+    "output_tokens": 184
+  },
+  "delegation_rows": [
+    {
+      "n": 1,
+      "fresh_session": true,
+      "brief_chars": 74,
+      "seconds": 1.9,
+      "commands": 0,
+      "changed_files": 0,
+      "turns": 1,
+      "subtype": "success",
+      "interrupted": false,
+      "error": null,
+      "session_cost_after": 0.00015554000000000002,
+      "cost_usd": 0.00015554000000000002
+    },
+    {
+      "n": 2,
+      "fresh_session": false,
+      "brief_chars": 67,
+      "seconds": 1.6,
+      "commands": 0,
+      "changed_files": 0,
+      "turns": 1,
+      "subtype": "success",
+      "interrupted": false,
+      "error": null,
+      "session_cost_after": 0.00027420000000000005,
+      "cost_usd": 0.00011866000000000003
+    }
+  ]
+}

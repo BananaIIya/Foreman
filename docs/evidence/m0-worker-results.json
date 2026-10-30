@@ -1,0 +1,195 @@
+{
+  "testedAt": "2026-10-12T08:37:01.948Z",
+  "results": [
+    {
+      "worker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "attempt": 1,
+      "threadId": "c03337e8-6ded-4561-a8da-a8a60c290a89",
+      "projectId": "e1122e2f-0bf5-43ff-a6a3-7d3276d17ecc",
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 9183,
+      "outputSha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+      "persistedWorker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "providers": ["codex"]
+    },
+    {
+      "worker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "attempt": 2,
+      "threadId": "30174878-7056-4d35-bcbb-72fbb8e6ea5d",
+      "projectId": "e1122e2f-0bf5-43ff-a6a3-7d3276d17ecc",
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 8125,
+      "outputSha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+      "persistedWorker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "providers": ["codex"]
+    },
+    {
+      "worker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "attempt": 3,
+      "threadId": "9c7a0589-7bcd-40c7-83d8-dedac4e74c02",
+      "projectId": "e1122e2f-0bf5-43ff-a6a3-7d3276d17ecc",
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 7075,
+      "outputSha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+      "persistedWorker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "providers": ["codex"]
+    },
+    {
+      "worker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "attempt": 4,
+      "threadId": "58da29a2-b6d5-415e-b1de-0a8c6f639f46",
+      "projectId": "e1122e2f-0bf5-43ff-a6a3-7d3276d17ecc",
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 8113,
+      "outputSha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+      "persistedWorker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "providers": ["codex"]
+    },
+    {
+      "worker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "attempt": 5,
+      "threadId": "073e8759-f96e-4e2e-8230-8edc03894307",
+      "projectId": "e1122e2f-0bf5-43ff-a6a3-7d3276d17ecc",
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 6088,
+      "outputSha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+      "persistedWorker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "providers": ["codex"]
+    },
+    {
+      "worker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "attempt": 1,
+      "threadId": "3870ce28-ef14-4e7c-87e5-b786d7c98145",
+      "projectId": "b5c3220f-30cd-4bd6-89d8-d48ae811da26",
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 12126,
+      "outputSha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+      "persistedWorker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "providers": ["claudeAgent"]
+    },
+    {
+      "worker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "attempt": 2,
+      "threadId": "9a02aeca-921c-4c2a-84df-193f0043df36",
+      "projectId": "b5c3220f-30cd-4bd6-89d8-d48ae811da26",
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 5082,
+      "outputSha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+      "persistedWorker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "providers": ["claudeAgent"]
+    },
+    {
+      "worker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "attempt": 3,
+      "threadId": "fbd8bd80-0921-4627-8a2f-4e3825108ff4",
+      "projectId": "b5c3220f-30cd-4bd6-89d8-d48ae811da26",
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 6062,
+      "outputSha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+      "persistedWorker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "providers": ["claudeAgent"]
+    },
+    {
+      "worker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "attempt": 4,
+      "threadId": "afbee044-10e1-4f65-bfaf-252a059751cd",
+      "projectId": "b5c3220f-30cd-4bd6-89d8-d48ae811da26",
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 6095,
+      "outputSha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+      "persistedWorker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "providers": ["claudeAgent"]
+    },
+    {
+      "worker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "attempt": 5,
+      "threadId": "8747ba04-53e8-44a7-8782-3c26ac9a2506",
+      "projectId": "b5c3220f-30cd-4bd6-89d8-d48ae811da26",
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 7088,
+      "outputSha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+      "persistedWorker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "providers": ["claudeAgent"]
+    }
+  ]
+}

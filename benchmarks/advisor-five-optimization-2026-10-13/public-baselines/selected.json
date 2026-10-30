@@ -1,0 +1,41 @@
+{
+  "tb4-sol61-high": {
+    "model": "GPT-6.1 Sol",
+    "harness": "fast-agent",
+    "effort": "high",
+    "date": "2026-10-01",
+    "tasks": {
+      "cad-model": "11111",
+      "hof-topology-interpenetration": "11111",
+      "satb-audio-transcription": "11111",
+      "atrx-vep-crispr": "00000",
+      "wal-recovery-ordering": "11111"
+    }
+  },
+  "tb4-grok47-medium": {
+    "model": "Grok 4.7",
+    "harness": "fast-agent",
+    "effort": "medium",
+    "date": "2026-10-04",
+    "tasks": {
+      "cad-model": "00000",
+      "hof-topology-interpenetration": "00000",
+      "satb-audio-transcription": "00000",
+      "atrx-vep-crispr": "01111",
+      "wal-recovery-ordering": "11011"
+    }
+  },
+  "tb4-codex-gpt-6-luna-max": {
+    "model": "GPT-6 Luna",
+    "harness": "Codex",
+    "effort": "max",
+    "date": "2026-09-22",
+    "tasks": {
+      "cad-model": "00000",
+      "hof-topology-interpenetration": "00001",
+      "satb-audio-transcription": "00000",
+      "atrx-vep-crispr": "00000",
+      "wal-recovery-ordering": "00000"
+    }
+  }
+}

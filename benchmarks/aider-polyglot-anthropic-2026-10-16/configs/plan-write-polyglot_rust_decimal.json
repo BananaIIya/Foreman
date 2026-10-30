@@ -1,0 +1,25 @@
+{
+  "job_name": "plan-write-polyglot_rust_decimal",
+  "jobs_dir": "<workspace>/benchmark-results/aider-polyglot-anthropic-2026-10-16/raw/jobs",
+  "n_attempts": 1,
+  "n_concurrent_trials": 1,
+  "retry": {
+    "max_retries": 0
+  },
+  "environment": {
+    "type": "daytona",
+    "delete": true
+  },
+  "tasks": [
+    {
+      "path": "<workspace>/benchmark-results/aider-polyglot-anthropic-2026-10-16/raw/tasks/aider-polyglot/polyglot_rust_decimal"
+    }
+  ],
+  "agents": [
+    {
+      "import_path": "arms:PlanThenWrite",
+      "model_name": "anthropic/claude-haiku-5-5",
+      "kwargs": {}
+    }
+  ]
+}

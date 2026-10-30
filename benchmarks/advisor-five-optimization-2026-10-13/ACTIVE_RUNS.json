@@ -1,0 +1,52 @@
+{
+  "updated_at": "2026-10-14T20:08:54.372702Z",
+  "goal": "statistical_acceptance_failed_awaiting_user",
+  "live": [],
+  "previous_v1_runs": "WAL and CAD finalized; wrong, exceptions null",
+  "approval_pending": null,
+  "idle_owned_terminals": [
+    {
+      "id": "b7f68922-619f-41b4-abdf-d290e31c094a",
+      "generation": 1
+    },
+    {
+      "id": "e32916c4-39d4-4502-8b14-a660bafcd487",
+      "generation": 1
+    },
+    {
+      "id": "89ed5978-5c0f-4234-9ed1-680d7ef5a655",
+      "generation": 1
+    }
+  ],
+  "last_completed": {
+    "name": "v60_statistical_protocol",
+    "result": "0/4 tasks pass (accuracy below solo on all four)",
+    "report": "reports/Worker\u4e0eAdvisor\u4f18\u5316\u7edf\u8ba1\u9a8c\u6536\u7ed3\u8bba2026\u5e7410\u670814\u65e5.md"
+  },
+  "authorized_additional_attempts": {
+    "wal-recovery-ordering": 1,
+    "atrx-vep-crispr": 0
+  },
+  "last_stopped": [
+    {
+      "run_id": "f29fbf53-132d-4633-b18c-f67918648d3c",
+      "exit_code": 130,
+      "reason": "CAD initial provider failure followed by hung Harbor log upload; all processes exited, owned container deleted"
+    },
+    {
+      "run_id": "bc40da26-ab9f-4a08-bdc5-7dbef2a80653",
+      "exit_code": 130,
+      "reason": "Stopped unspent waiting queue; resumed with explicit terminal cleanup dependency"
+    }
+  ],
+  "cost_goal_preference_pending": null,
+  "last_probe": {
+    "name": "v24_reviewer_synthetic",
+    "run_id": "20755b61-8690-4386-b24f-a96c9e5ab9fb",
+    "exit_code": 0,
+    "cost_usd": 0.0008502
+  },
+  "acceptance_policy": "acceptance-policy-20261014.json",
+  "authorization_conditions": "authorization-conditional-wal-20261014.json; ONE new WAL remains unused, SATB must pass first on SAME frozen candidate; condition unmet",
+  "unlaunched_draft": null
+}

@@ -1,0 +1,54 @@
+{
+  "candidate": "v23",
+  "all_five_complete": false,
+  "pending": [
+    "cad-model",
+    "hof-topology-interpenetration",
+    "atrx-vep-crispr",
+    "wal-recovery-ordering"
+  ],
+  "problems": [
+    "satb-audio-transcription: Missing hybrid completion"
+  ],
+  "original_files_checked": 98,
+  "qualifying_correct_and_cheaper": 0,
+  "hybrid_total_usd": null,
+  "solo_total_usd": 4.119332,
+  "aggregate_savings_fraction": null,
+  "goal_evidence_passes": false,
+  "rows": [
+    {
+      "task": "cad-model",
+      "status": "pending_or_running",
+      "problems": []
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "status": "pending_or_running",
+      "problems": []
+    },
+    {
+      "task": "satb-audio-transcription",
+      "status": "invalid",
+      "problems": [
+        "Missing hybrid completion"
+      ]
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "status": "pending_or_running",
+      "problems": []
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "status": "pending_or_running",
+      "problems": []
+    }
+  ],
+  "limitations": [
+    "One frozen attempt per task; does not establish repeat-run stability.",
+    "Standard native token price equivalents, not subscription invoice.",
+    "Development attempts are retained separately in expenses.json.",
+    "Infrastructure, outer engineering cost and unreported provider tool surcharges excluded."
+  ]
+}

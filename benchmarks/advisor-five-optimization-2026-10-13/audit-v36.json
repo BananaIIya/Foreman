@@ -1,0 +1,73 @@
+{
+  "candidate": "v36",
+  "all_five_complete": false,
+  "pending": [
+    "cad-model",
+    "hof-topology-interpenetration",
+    "atrx-vep-crispr",
+    "wal-recovery-ordering"
+  ],
+  "problems": [],
+  "original_files_checked": 98,
+  "qualifying_correct_and_cheaper": 0,
+  "hybrid_total_usd": null,
+  "solo_total_usd": 4.119332,
+  "aggregate_savings_fraction": null,
+  "goal_evidence_passes": false,
+  "rows": [
+    {
+      "task": "cad-model",
+      "status": "pending_or_running",
+      "problems": []
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "status": "pending_or_running",
+      "problems": []
+    },
+    {
+      "task": "satb-audio-transcription",
+      "status": "wrong",
+      "problems": [],
+      "snapshot_warnings": [],
+      "cost_usd": 0.32640759999999996,
+      "solo_cost_usd": 0.4645816,
+      "solo_status": "correct",
+      "savings_fraction": 0.2974159975341254,
+      "qualifies": false,
+      "tests": {
+        "tests": 40,
+        "passed": 33,
+        "failed": 7,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791939767996,
+        "stop": 1791939768237
+      },
+      "roles": {
+        "advisor": 0.2860312,
+        "decision": 0.0023744,
+        "worker": 0.038002
+      }
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "status": "pending_or_running",
+      "problems": []
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "status": "pending_or_running",
+      "problems": []
+    }
+  ],
+  "limitations": [
+    "One frozen attempt per task; does not establish repeat-run stability.",
+    "Standard native token price equivalents, not subscription invoice.",
+    "Development attempts are retained separately in expenses.json.",
+    "Infrastructure, outer engineering cost and unreported provider tool surcharges excluded."
+  ],
+  "acceptance_policy": "acceptance-policy-20261014.json",
+  "successful_task_weighted_savings_fraction": null
+}

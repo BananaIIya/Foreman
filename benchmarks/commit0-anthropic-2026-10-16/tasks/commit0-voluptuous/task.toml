@@ -1,0 +1,23 @@
+version = "1.0"
+
+[task]
+name = "commit0/voluptuous"
+
+[metadata]
+source = "commit0"
+base_commit = "d98e0a0b6a909d26dca6ac1a87cf1a3b60fb62d4"
+reference_commit = "dcaaf3dd68be156253518a045feb1c4172dbd2d5"
+
+[verifier]
+timeout_sec = 1800.0
+
+[agent]
+timeout_sec = 5400.0
+
+[environment]
+build_timeout_sec = 1800.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+gpus = 0
+allow_internet = true

@@ -1,0 +1,260 @@
+{
+  "candidate": "v9",
+  "complete": false,
+  "tasks": [
+    {
+      "task": "cad-model",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791880950137,
+          "stop": 1791880951706
+        },
+        "cost_usd": 0.1877124,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-cad-model/cad-model__tKoUz92/result.json"
+      },
+      "hybrid": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791903274952,
+          "stop": 1791903276391
+        },
+        "cost_usd": 0.1309967,
+        "role_cost_usd": {
+          "worker": 0.020614,
+          "decision": 0.0064919,
+          "advisor": 0.1038908
+        },
+        "model": {
+          "worker": "cursor/grok-4.7-low",
+          "advisor": "gpt-6.1-sol",
+          "advisor_effort": "high",
+          "worker_effort": "low",
+          "decision": "gpt-6-luna",
+          "decision_effort": "medium"
+        },
+        "terminal_reason": "deliver",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v9-cad-model/cad-model__YZtzm9i/result.json"
+      },
+      "savings_fraction": 0.3021414674789732,
+      "qualifies": true
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 38,
+          "passed": 38,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791881393811,
+          "stop": 1791881393844
+        },
+        "cost_usd": 0.330346,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-hof-topology-interpenetration/hof-topology-interpenetration__ck6Xzt2/result.json"
+      },
+      "hybrid": {
+        "status": "wrong",
+        "reward": 0.0,
+        "tests": {
+          "tests": 38,
+          "passed": 0,
+          "failed": 38,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791903663900,
+          "stop": 1791903664007
+        },
+        "cost_usd": 0.2324996,
+        "role_cost_usd": {
+          "worker": 0.023484,
+          "decision": 0.0080852,
+          "advisor": 0.2009304
+        },
+        "model": {
+          "worker": "cursor/grok-4.7-low",
+          "advisor": "gpt-6.1-sol",
+          "advisor_effort": "high",
+          "worker_effort": "low",
+          "decision": "gpt-6-luna",
+          "decision_effort": "medium"
+        },
+        "terminal_reason": "budget_exhausted",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v9-hof-topology-interpenetration/hof-topology-interpenetration__VBjeWdP/result.json"
+      },
+      "savings_fraction": 0.2961936878303354,
+      "qualifies": false
+    },
+    {
+      "task": "satb-audio-transcription",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 40,
+          "passed": 40,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791882394861,
+          "stop": 1791882395009
+        },
+        "cost_usd": 0.4645816,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-satb-audio-transcription/satb-audio-transcription__AEaYs7b/result.json"
+      },
+      "hybrid": {
+        "status": "wrong",
+        "reward": 0.0,
+        "tests": {
+          "tests": 40,
+          "passed": 1,
+          "failed": 39,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791904227843,
+          "stop": 1791904229371
+        },
+        "cost_usd": 0.3272962,
+        "role_cost_usd": {
+          "worker": 0.021672,
+          "decision": 0.0014906,
+          "advisor": 0.3041336
+        },
+        "model": {
+          "worker": "cursor/grok-4.7-low",
+          "advisor": "gpt-6.1-sol",
+          "advisor_effort": "high",
+          "worker_effort": "low",
+          "decision": "gpt-6-luna",
+          "decision_effort": "medium"
+        },
+        "terminal_reason": "budget_exhausted_after_integration",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v9-satb-audio-transcription/satb-audio-transcription__dbB9LzT/result.json"
+      },
+      "savings_fraction": 0.2955033087836454,
+      "qualifies": false
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "solo": {
+        "status": "wrong",
+        "reward": 0,
+        "tests": {
+          "tests": 16,
+          "passed": 8,
+          "failed": 8,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791885341187,
+          "stop": 1791885342317
+        },
+        "cost_usd": 1.545018,
+        "role_cost_usd": null,
+        "model": "Grok 4.7 256K High",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-atrx-vep-crispr/atrx-vep-crispr__d2mL9vv/result.json"
+      },
+      "hybrid": {
+        "status": "pending_or_running"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 97,
+          "passed": 97,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791887239409,
+          "stop": 1791887258680
+        },
+        "cost_usd": 1.591674,
+        "role_cost_usd": null,
+        "model": "Grok 4.7 256K High",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-wal-recovery-ordering/wal-recovery-ordering__4Uq3wWq/result.json"
+      },
+      "hybrid": {
+        "status": "pending_or_running"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    }
+  ],
+  "qualifying_tasks": 1,
+  "correct_tasks": 1,
+  "solo_cost_usd": 4.119332,
+  "hybrid_cost_usd": null,
+  "aggregate_savings_fraction": null,
+  "goal_achieved": false,
+  "final_audit_required": true,
+  "cost_basis": {
+    "kind": "native token usage at standard list prices",
+    "actual_subscription_invoice": false,
+    "included": [
+      "all worker phases",
+      "all decision phases",
+      "all advisor phases",
+      "all attempted repair phases",
+      "explicit cache read/write counters",
+      "reasoning included once in output"
+    ],
+    "excluded": [
+      "Daytona infrastructure",
+      "outer engineering agent work",
+      "unreported provider tool surcharges"
+    ],
+    "development_runs_reported_separately": true,
+    "sources": [
+      "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "https://cursor.com/docs/models-and-pricing"
+    ]
+  }
+}

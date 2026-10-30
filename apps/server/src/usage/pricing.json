@@ -1,0 +1,66 @@
+{
+  "version": "2026-10-30-nemotron-super-vl",
+  "currency": "USD",
+  "unit": "perMillionTokens",
+  "models": {
+    "claude-haiku-5-5": {
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "input": 0.1,
+      "cachedInput": 0.01,
+      "cacheCreation": 0.125,
+      "output": 0.5,
+      "longContext": {
+        "aboveInputTokens": 100000,
+        "input": 0.5,
+        "cachedInput": 0.05,
+        "cacheCreation": 0.625,
+        "output": 2.5,
+        "cacheCreation1h": 1
+      },
+      "cacheCreation1h": 0.2
+    },
+    "gpt-6-luna": {
+      "source": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "input": 0.1,
+      "cachedInput": 0.01,
+      "cacheCreation": 0.125,
+      "output": 0.5
+    },
+    "nebius/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B": {
+      "source": "https://nebius.com/services/token-factory/models/nvidia-nemotron-models-inference",
+      "input": 0.06,
+      "cachedInput": 0.06,
+      "cacheCreation": 0.06,
+      "output": 0.24
+    },
+    "nebius/nvidia/nemotron-3-super-120b-a12b": {
+      "source": "https://nebius.com/services/token-factory/models/nvidia-nemotron-models-inference",
+      "input": 0.3,
+      "cachedInput": 0.3,
+      "cacheCreation": 0.3,
+      "output": 0.9
+    },
+    "nebius/nvidia/Nemotron-3.5-Super-VL": {
+      "source": "https://nebius.com/services/token-factory/models/nvidia-nemotron-models-inference",
+      "input": 0.3,
+      "cachedInput": 0.3,
+      "cacheCreation": 0.3,
+      "output": 0.9
+    },
+    "nebius/nvidia/Nemotron-3-Ultra-550b-a55b": {
+      "source": "https://nebius.com/services/token-factory/models/nvidia-nemotron-models-inference",
+      "input": 1,
+      "cachedInput": 1,
+      "cacheCreation": 1,
+      "output": 3
+    },
+    "claude-opus-5-5": {
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "input": 4,
+      "cachedInput": 0.2,
+      "cacheCreation": 5,
+      "cacheCreation1h": 8,
+      "output": 20
+    }
+  }
+}

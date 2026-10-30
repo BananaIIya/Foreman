@@ -1,0 +1,23 @@
+{
+  "source": "Explicit human reply in current conversation",
+  "question_item": "call_bed3bb9a0e694b93914ef98e69a76342",
+  "answer": "允许，两题各重跑一次",
+  "recorded_at": "2026-10-13T15:35:19.271574+00:00",
+  "authorized_fresh_attempts": {
+    "wal-recovery-ordering": 1,
+    "atrx-vep-crispr": 1
+  },
+  "launched_fresh_attempts": {
+    "wal-recovery-ordering": {
+      "job_name": "hybrid-v10-wal-recovery-ordering",
+      "launch_requested_at": "2026-10-13T18:09:24.609870+00:00",
+      "automatic_retries": 0
+    },
+    "atrx-vep-crispr": {
+      "job_name": "hybrid-v10-atrx-vep-crispr",
+      "launch_requested_at": "2026-10-13T18:26:55.580260+00:00",
+      "automatic_retries": 0
+    }
+  },
+  "note": "Do not interpret goal auto-continuations as additional attempts. Current Sol cohort must finish before using its container capacity."
+}

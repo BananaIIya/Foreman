@@ -1,0 +1,70 @@
+{
+  "selected_at": "2026-10-19",
+  "why": "four tasks with earlier Sol/Haiku data in this workspace (HOF, SATB, WAL, CAD) plus four small-environment Software/Operations tasks; ATRX excluded (reference conflict noted in earlier runs)",
+  "tasks": [
+    {
+      "task": "hof-topology-interpenetration",
+      "registry_ref": "sha256:2534e62c5ab3c8592f4e0de3dee14ff07a5c1c9434164e7f80e2f564273de014",
+      "source": "terminal-bench/terminal-bench@4.0.0 (Harbor Hub), cached copy from kimi-k28-baseline",
+      "path": "<workspace>/benchmark-results/fusion-lead-sidekick-2026-10-19/raw/tasks/hof-topology-interpenetration",
+      "files": 19,
+      "tree_sha256": "befd0896152f351d93bb3f27ff1bf3b07f6699dd3de35116ff0dc0ab0f6768d8"
+    },
+    {
+      "task": "satb-audio-transcription",
+      "registry_ref": "sha256:2b1bf5dcc71458a7e378f84468959993a304a8e89e51381ac0f78163e6e60f14",
+      "source": "terminal-bench/terminal-bench@4.0.0 (Harbor Hub), cached copy from kimi-k28-baseline",
+      "path": "<workspace>/benchmark-results/fusion-lead-sidekick-2026-10-19/raw/tasks/satb-audio-transcription",
+      "files": 14,
+      "tree_sha256": "6eb720a4542f969e4dd5edd49df1715d17329534941b4f287f840f1bbbebacd3"
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "registry_ref": "sha256:8eb700419711e0d5eba317b8f6dec41aa3411e03e320e82b8da8070974ff3aae",
+      "source": "terminal-bench/terminal-bench@4.0.0 (Harbor Hub), cached copy from kimi-k28-baseline",
+      "path": "<workspace>/benchmark-results/fusion-lead-sidekick-2026-10-19/raw/tasks/wal-recovery-ordering",
+      "files": 32,
+      "tree_sha256": "5de98d43e6e0081b07a5b8e6437c277d7ab4e514dfab99de5cd7067a69a6d1dd"
+    },
+    {
+      "task": "cad-model",
+      "registry_ref": "sha256:037b83651678230c04217bc7bd077c9e2c3d5a383bb368cdeb19e88a2202f644",
+      "source": "terminal-bench/terminal-bench@4.0.0 (Harbor Hub), cached copy from kimi-k28-baseline",
+      "path": "<workspace>/benchmark-results/fusion-lead-sidekick-2026-10-19/raw/tasks/cad-model",
+      "files": 10,
+      "tree_sha256": "1b0df35658a0c7b8bab722c6d14aa8507504ebf4fafc8a5b135e0145f66995fa"
+    },
+    {
+      "task": "fin-saccr-rwa",
+      "registry_ref": "sha256:bd0ee47169986cfdd4b0ccc98f461382c612e1301dd75f98d1381015eb25398a",
+      "source": "terminal-bench/terminal-bench@4.0.0 (Harbor Hub), cached copy from kimi-k28-baseline",
+      "path": "<workspace>/benchmark-results/fusion-lead-sidekick-2026-10-19/raw/tasks/fin-saccr-rwa",
+      "files": 23,
+      "tree_sha256": "02a314b2c3668e75d9993864727dffd47cfb14f193556c4d87d0ae1fe9cfa649"
+    },
+    {
+      "task": "cargo-flight-dispatch",
+      "registry_ref": "sha256:18a1c2670ce4be0e6752f48ed6c750281d7f97db025f5e74edc6c8728f62f5b5",
+      "source": "terminal-bench/terminal-bench@4.0.0 (Harbor Hub), cached copy from kimi-k28-baseline",
+      "path": "<workspace>/benchmark-results/fusion-lead-sidekick-2026-10-19/raw/tasks/cargo-flight-dispatch",
+      "files": 20,
+      "tree_sha256": "ae305c1dac68a72135ae327e94b342eb12e79e2c94c5a5293f7e9bc66addc613"
+    },
+    {
+      "task": "session-window-debug",
+      "registry_ref": "sha256:f7e05e0d4c0e90d7050445fd158db514158272c50aafa1b2446ef3f68bd01182",
+      "source": "terminal-bench/terminal-bench@4.0.0 (Harbor Hub), cached copy from kimi-k28-baseline",
+      "path": "<workspace>/benchmark-results/fusion-lead-sidekick-2026-10-19/raw/tasks/session-window-debug",
+      "files": 23,
+      "tree_sha256": "21c9da0558bc01243242e2881b7ec4d68ea53a917d94d70f8b72493be9c4cc60"
+    },
+    {
+      "task": "mvcc-lsm-compaction",
+      "registry_ref": "sha256:370406dd79cc164e50b73568de37c34eba1b0e30782d7dc03f87c38c68123137",
+      "source": "terminal-bench/terminal-bench@4.0.0 (Harbor Hub), cached copy from kimi-k28-baseline",
+      "path": "<workspace>/benchmark-results/fusion-lead-sidekick-2026-10-19/raw/tasks/mvcc-lsm-compaction",
+      "files": 26,
+      "tree_sha256": "d34d2a1c633c41b47054d1bcfd2d6dae9fa6c4479b612fa313b8070ab72830ee"
+    }
+  ]
+}

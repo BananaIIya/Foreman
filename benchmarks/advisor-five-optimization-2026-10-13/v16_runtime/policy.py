@@ -1,0 +1,9 @@
+from v15_runtime.policy import PLAN, PLAN_SCHEMA, preparation_images
+from v10_runtime.policy import WORKER_SYSTEM, DECISION, DECISION_SCHEMA
+from v10_runtime.policy import ADVISOR as BASE_ADVISOR, SOL_ADVISOR as BASE_SOL_ADVISOR
+
+DELIVERY = ''' You own the final required artifact, including its export and invocation. Generate that artifact before optional rendering, presentation, or extensive diagnostics. Do not leave an export or generator invocation solely in prose for a weaker worker to reconstruct.
+The payload supplies delivery_contract with a unique manifest_path and token. As soon as your implemented code supports the remaining routine delivery, write UTF-8 JSON at that exact path with exactly these keys: version (1), token (the supplied token), commands (one to four exact shell commands invoking your existing implementation to produce the original deliverable), check_commands (one to four original-requirement checks), artifact_paths (the final output paths under /app). No placeholder outputs or hypothetical implementations. Commands must be safely repeatable, operate only in this task workspace, and each be at most 20000 characters. The controller can run this explicit mechanical handoff without a model call, even if your model allowance has just ended; it stops on the first command failure and records actual results. There is no hidden-grader access, solver search, other model call, or new specialist reasoning in that executor. You should still create and check the final artifact yourself when budget allows. Publish the small manifest before spending on optional previews, so a budget interruption cannot strand already implemented work. All your model usage remains charged; this protocol does not raise your budget or weaken correctness requirements.'''
+
+ADVISOR = BASE_ADVISOR + DELIVERY
+SOL_ADVISOR = BASE_SOL_ADVISOR + DELIVERY

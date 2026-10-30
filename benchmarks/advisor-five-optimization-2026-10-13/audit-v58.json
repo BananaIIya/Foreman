@@ -1,0 +1,130 @@
+{
+  "candidate": "v58",
+  "pending": [
+    "atrx-vep-crispr"
+  ],
+  "problems": [],
+  "original_files_checked": 98,
+  "frozen_files_checked": 2171,
+  "correct_tasks": 0,
+  "qualifying_tasks": 0,
+  "successful_task_weighted_savings_fraction": null,
+  "numerical_acceptance_pass": false,
+  "goal_evidence_passes": false,
+  "rows": [
+    {
+      "task": "cad-model",
+      "status": "wrong",
+      "problems": [],
+      "cost_usd": 0.09972002,
+      "known_cost_lower_bound_usd": 0.09972002,
+      "solo_cost_usd": 0.1877124,
+      "solo_status": "correct",
+      "savings_fraction": 0.4687616801021136,
+      "tests": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791969576607,
+        "stop": 1791969577982
+      },
+      "roles": {
+        "advisor": 0.09236760000000001,
+        "decision": 0.0032156,
+        "worker": 0.00413682
+      },
+      "terminal_reason": "deliver"
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "status": "wrong",
+      "problems": [],
+      "cost_usd": 0.23816190000000004,
+      "known_cost_lower_bound_usd": 0.23816190000000004,
+      "solo_cost_usd": 0.330346,
+      "solo_status": "correct",
+      "savings_fraction": 0.27905317455031975,
+      "tests": {
+        "tests": 38,
+        "passed": 35,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791969965690,
+        "stop": 1791969965741
+      },
+      "roles": {
+        "advisor": 0.22854560000000002,
+        "decision": 0.0057941,
+        "worker": 0.0038222
+      },
+      "terminal_reason": "budget_exhausted"
+    },
+    {
+      "task": "satb-audio-transcription",
+      "status": "wrong",
+      "problems": [],
+      "cost_usd": 0.34007016000000007,
+      "known_cost_lower_bound_usd": 0.34007016000000007,
+      "solo_cost_usd": 0.4645816,
+      "solo_status": "correct",
+      "savings_fraction": 0.2680076869165716,
+      "tests": {
+        "tests": 40,
+        "passed": 24,
+        "failed": 16,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791972000221,
+        "stop": 1791972000540
+      },
+      "roles": {
+        "advisor": 0.3319636,
+        "decision": 0.0053023,
+        "worker": 0.00280426
+      },
+      "terminal_reason": "budget_exhausted"
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "status": "pending_or_running",
+      "problems": []
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "status": "wrong",
+      "problems": [],
+      "cost_usd": 1.1086574599999999,
+      "known_cost_lower_bound_usd": 1.1086574599999999,
+      "solo_cost_usd": 1.591674,
+      "solo_status": "correct",
+      "savings_fraction": 0.30346449084423077,
+      "tests": {
+        "tests": 97,
+        "passed": 95,
+        "failed": 2,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791971500357,
+        "stop": 1791971533172
+      },
+      "roles": {
+        "advisor": 1.0928280000000001,
+        "decision": 0.007729400000000001,
+        "worker": 0.00810006
+      },
+      "terminal_reason": "budget_exhausted"
+    }
+  ],
+  "limitations": [
+    "One frozen attempt per task; not a repeat-run stability estimate.",
+    "Standard native token price equivalents, not invoices; infrastructure excluded.",
+    "All development and failed attempts retained in expenses.json."
+  ]
+}

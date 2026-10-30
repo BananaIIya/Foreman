@@ -1,0 +1,122 @@
+{
+  "rows": [
+    {
+      "task": "wal-recovery-ordering",
+      "status": "wrong",
+      "passed": 95,
+      "tests": 97,
+      "haiku_cost": 0.025767019999999998,
+      "haiku_stop": [
+        "success"
+      ],
+      "haiku_models": [
+        "claude-haiku-5-5"
+      ],
+      "native_server_tools": [],
+      "sol_cost": 0.0879352,
+      "sol_interrupted": null,
+      "sol_commands": 4,
+      "sol_changed_files": 0,
+      "accepted_without_edits": true,
+      "total": 0.11370222,
+      "haiku_error": null,
+      "ratio_vs_solo_mean": 0.0856859008625194
+    },
+    {
+      "task": "cad-model",
+      "status": "correct",
+      "passed": 8,
+      "tests": 8,
+      "haiku_cost": 0.02111044,
+      "haiku_stop": [
+        "success"
+      ],
+      "haiku_models": [
+        "claude-haiku-5-5"
+      ],
+      "native_server_tools": [],
+      "sol_cost": 0.1811788,
+      "sol_interrupted": "budget_boundary_exceeded",
+      "sol_commands": 7,
+      "sol_changed_files": 5,
+      "accepted_without_edits": false,
+      "total": 0.20228924,
+      "haiku_error": null,
+      "ratio_vs_solo_mean": 1.0937273051677714
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "status": "wrong",
+      "passed": 27,
+      "tests": 38,
+      "haiku_cost": 0.034748690000000006,
+      "haiku_stop": [
+        "success"
+      ],
+      "haiku_models": [
+        "claude-haiku-5-5"
+      ],
+      "native_server_tools": [],
+      "sol_cost": 0.29205559999999997,
+      "sol_interrupted": "budget_boundary_exceeded",
+      "sol_commands": 15,
+      "sol_changed_files": 132,
+      "accepted_without_edits": false,
+      "total": 0.32680429,
+      "haiku_error": null,
+      "ratio_vs_solo_mean": 1.001872579912698
+    },
+    {
+      "task": "satb-audio-transcription",
+      "status": "wrong",
+      "passed": 29,
+      "tests": 40,
+      "haiku_cost": 0.19822038999999997,
+      "haiku_stop": [
+        "success"
+      ],
+      "haiku_models": [
+        "claude-haiku-5-5"
+      ],
+      "native_server_tools": [],
+      "sol_cost": 0.4416888,
+      "sol_interrupted": "budget_boundary_exceeded",
+      "sol_commands": 18,
+      "sol_changed_files": 34,
+      "accepted_without_edits": false,
+      "total": 0.63990919,
+      "haiku_error": null,
+      "ratio_vs_solo_mean": 1.2799921175967617
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "status": "wrong",
+      "passed": 1,
+      "tests": 16,
+      "haiku_cost": 0.06475543,
+      "haiku_stop": [
+        "success"
+      ],
+      "haiku_models": [
+        "claude-haiku-5-5"
+      ],
+      "native_server_tools": [],
+      "sol_cost": 0.3419792,
+      "sol_interrupted": null,
+      "sol_commands": 17,
+      "sol_changed_files": 16,
+      "accepted_without_edits": false,
+      "total": 0.40673463,
+      "haiku_error": null,
+      "ratio_vs_solo_mean": 0.2632555931387207
+    }
+  ],
+  "solo_mean_reference": {
+    "cad-model": 0.184954,
+    "hof-topology-interpenetration": 0.32619346666666665,
+    "satb-audio-transcription": 0.49993213333333336,
+    "wal-recovery-ordering": 1.3269653333333333,
+    "atrx-vep-crispr": 1.545018
+  },
+  "note": "n=1 per task"
+}

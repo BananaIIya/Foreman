@@ -1,0 +1,18 @@
+{
+  "seed": 20261016,
+  "per_language": 2,
+  "tasks": [
+    "polyglot_cpp_circular-buffer",
+    "polyglot_cpp_sublist",
+    "polyglot_go_tree-building",
+    "polyglot_go_variable-length-quantity",
+    "polyglot_java_variable-length-quantity",
+    "polyglot_java_word-search",
+    "polyglot_javascript_queen-attack",
+    "polyglot_javascript_simple-linked-list",
+    "polyglot_python_poker",
+    "polyglot_python_tree-building",
+    "polyglot_rust_book-store",
+    "polyglot_rust_decimal"
+  ]
+}

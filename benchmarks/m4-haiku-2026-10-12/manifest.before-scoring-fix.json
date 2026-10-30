@@ -1,0 +1,751 @@
+{
+  "version": 1,
+  "purpose": "M4 subscription-model comparison; NVIDIA/Nebius evaluation deferred by user",
+  "groups": {
+    "A": {
+      "worker": {
+        "instanceId": "claudeAgent",
+        "model": "claude-opus-5-5",
+        "options": [
+          {
+            "id": "effort",
+            "value": "medium"
+          },
+          {
+            "id": "fastMode",
+            "value": false
+          }
+        ]
+      }
+    },
+    "B": {
+      "worker": {
+        "instanceId": "claudeAgent",
+        "model": "claude-haiku-5-5",
+        "options": [
+          {
+            "id": "effort",
+            "value": "medium"
+          },
+          {
+            "id": "fastMode",
+            "value": false
+          }
+        ]
+      },
+      "advisor": {
+        "instanceId": "claudeAgent",
+        "model": "claude-opus-5-5",
+        "options": [
+          {
+            "id": "effort",
+            "value": "medium"
+          },
+          {
+            "id": "fastMode",
+            "value": false
+          }
+        ]
+      }
+    },
+    "C": {
+      "worker": {
+        "instanceId": "claudeAgent",
+        "model": "claude-haiku-5-5",
+        "options": [
+          {
+            "id": "effort",
+            "value": "medium"
+          },
+          {
+            "id": "fastMode",
+            "value": false
+          }
+        ]
+      }
+    }
+  },
+  "repetitions": 3,
+  "concurrency": 2,
+  "trialTimeoutMs": 600000,
+  "stopLaunchingAtUsd": 45,
+  "trialStopAtUsd": 1.5,
+  "budgetUsd": 50,
+  "budgetNote": "API-equivalent spend guard, sampled every 10s; $5 global headroom for in-flight work. Subscription invoices are not API charges.",
+  "scoring": "All hidden and visible assertions pass, solution changes, public fixtures unchanged, successful terminal run/pipeline, and at least one observed tool call.",
+  "retries": "No external retry or hidden-test feedback. B uses the unchanged M3 public-acceptance pipeline (3 worker failures per replan, up to 3 replans).",
+  "prices": {
+    "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "checkedOn": "2026-10-13",
+    "perMillionTokens": {
+      "claude-opus-5-5": {
+        "input": 4,
+        "output": 20,
+        "cacheRead": 0.2,
+        "cacheWrite5m": 5,
+        "cacheWrite1h": 8
+      },
+      "claude-haiku-5-5": {
+        "input": 0.1,
+        "output": 0.5,
+        "cacheRead": 0.01,
+        "cacheWrite5m": 0.125,
+        "cacheWrite1h": 0.2,
+        "longContextAbove100kMultiplier": 5
+      }
+    },
+    "accounting": "T3 server.getUsageSummary, native Claude sessionWithAuxiliary accounting, provider/pricing source retained per turn. Output already includes reasoning tokens."
+  },
+  "suiteSha256": "be0ba784134cbf59ffa9460e3d30fae4c8881fb48318fca0a5c84d800fdb93de",
+  "schedule": [
+    {
+      "id": "A-slug-1",
+      "group": "A",
+      "taskId": "slug",
+      "repetition": 1
+    },
+    {
+      "id": "B-slug-1",
+      "group": "B",
+      "taskId": "slug",
+      "repetition": 1
+    },
+    {
+      "id": "C-slug-1",
+      "group": "C",
+      "taskId": "slug",
+      "repetition": 1
+    },
+    {
+      "id": "B-csv-1",
+      "group": "B",
+      "taskId": "csv",
+      "repetition": 1
+    },
+    {
+      "id": "C-csv-1",
+      "group": "C",
+      "taskId": "csv",
+      "repetition": 1
+    },
+    {
+      "id": "A-csv-1",
+      "group": "A",
+      "taskId": "csv",
+      "repetition": 1
+    },
+    {
+      "id": "C-intervals-1",
+      "group": "C",
+      "taskId": "intervals",
+      "repetition": 1
+    },
+    {
+      "id": "A-intervals-1",
+      "group": "A",
+      "taskId": "intervals",
+      "repetition": 1
+    },
+    {
+      "id": "B-intervals-1",
+      "group": "B",
+      "taskId": "intervals",
+      "repetition": 1
+    },
+    {
+      "id": "A-query-1",
+      "group": "A",
+      "taskId": "query",
+      "repetition": 1
+    },
+    {
+      "id": "B-query-1",
+      "group": "B",
+      "taskId": "query",
+      "repetition": 1
+    },
+    {
+      "id": "C-query-1",
+      "group": "C",
+      "taskId": "query",
+      "repetition": 1
+    },
+    {
+      "id": "B-toposort-1",
+      "group": "B",
+      "taskId": "toposort",
+      "repetition": 1
+    },
+    {
+      "id": "C-toposort-1",
+      "group": "C",
+      "taskId": "toposort",
+      "repetition": 1
+    },
+    {
+      "id": "A-toposort-1",
+      "group": "A",
+      "taskId": "toposort",
+      "repetition": 1
+    },
+    {
+      "id": "C-ttl-lru-1",
+      "group": "C",
+      "taskId": "ttl-lru",
+      "repetition": 1
+    },
+    {
+      "id": "A-ttl-lru-1",
+      "group": "A",
+      "taskId": "ttl-lru",
+      "repetition": 1
+    },
+    {
+      "id": "B-ttl-lru-1",
+      "group": "B",
+      "taskId": "ttl-lru",
+      "repetition": 1
+    },
+    {
+      "id": "A-map-limit-1",
+      "group": "A",
+      "taskId": "map-limit",
+      "repetition": 1
+    },
+    {
+      "id": "B-map-limit-1",
+      "group": "B",
+      "taskId": "map-limit",
+      "repetition": 1
+    },
+    {
+      "id": "C-map-limit-1",
+      "group": "C",
+      "taskId": "map-limit",
+      "repetition": 1
+    },
+    {
+      "id": "B-retry-1",
+      "group": "B",
+      "taskId": "retry",
+      "repetition": 1
+    },
+    {
+      "id": "C-retry-1",
+      "group": "C",
+      "taskId": "retry",
+      "repetition": 1
+    },
+    {
+      "id": "A-retry-1",
+      "group": "A",
+      "taskId": "retry",
+      "repetition": 1
+    },
+    {
+      "id": "C-deep-merge-1",
+      "group": "C",
+      "taskId": "deep-merge",
+      "repetition": 1
+    },
+    {
+      "id": "A-deep-merge-1",
+      "group": "A",
+      "taskId": "deep-merge",
+      "repetition": 1
+    },
+    {
+      "id": "B-deep-merge-1",
+      "group": "B",
+      "taskId": "deep-merge",
+      "repetition": 1
+    },
+    {
+      "id": "A-money-1",
+      "group": "A",
+      "taskId": "money",
+      "repetition": 1
+    },
+    {
+      "id": "B-money-1",
+      "group": "B",
+      "taskId": "money",
+      "repetition": 1
+    },
+    {
+      "id": "C-money-1",
+      "group": "C",
+      "taskId": "money",
+      "repetition": 1
+    },
+    {
+      "id": "B-byte-ranges-1",
+      "group": "B",
+      "taskId": "byte-ranges",
+      "repetition": 1
+    },
+    {
+      "id": "C-byte-ranges-1",
+      "group": "C",
+      "taskId": "byte-ranges",
+      "repetition": 1
+    },
+    {
+      "id": "A-byte-ranges-1",
+      "group": "A",
+      "taskId": "byte-ranges",
+      "repetition": 1
+    },
+    {
+      "id": "C-emitter-1",
+      "group": "C",
+      "taskId": "emitter",
+      "repetition": 1
+    },
+    {
+      "id": "A-emitter-1",
+      "group": "A",
+      "taskId": "emitter",
+      "repetition": 1
+    },
+    {
+      "id": "B-emitter-1",
+      "group": "B",
+      "taskId": "emitter",
+      "repetition": 1
+    },
+    {
+      "id": "B-toposort-2",
+      "group": "B",
+      "taskId": "toposort",
+      "repetition": 2
+    },
+    {
+      "id": "C-toposort-2",
+      "group": "C",
+      "taskId": "toposort",
+      "repetition": 2
+    },
+    {
+      "id": "A-toposort-2",
+      "group": "A",
+      "taskId": "toposort",
+      "repetition": 2
+    },
+    {
+      "id": "C-ttl-lru-2",
+      "group": "C",
+      "taskId": "ttl-lru",
+      "repetition": 2
+    },
+    {
+      "id": "A-ttl-lru-2",
+      "group": "A",
+      "taskId": "ttl-lru",
+      "repetition": 2
+    },
+    {
+      "id": "B-ttl-lru-2",
+      "group": "B",
+      "taskId": "ttl-lru",
+      "repetition": 2
+    },
+    {
+      "id": "A-map-limit-2",
+      "group": "A",
+      "taskId": "map-limit",
+      "repetition": 2
+    },
+    {
+      "id": "B-map-limit-2",
+      "group": "B",
+      "taskId": "map-limit",
+      "repetition": 2
+    },
+    {
+      "id": "C-map-limit-2",
+      "group": "C",
+      "taskId": "map-limit",
+      "repetition": 2
+    },
+    {
+      "id": "B-retry-2",
+      "group": "B",
+      "taskId": "retry",
+      "repetition": 2
+    },
+    {
+      "id": "C-retry-2",
+      "group": "C",
+      "taskId": "retry",
+      "repetition": 2
+    },
+    {
+      "id": "A-retry-2",
+      "group": "A",
+      "taskId": "retry",
+      "repetition": 2
+    },
+    {
+      "id": "C-deep-merge-2",
+      "group": "C",
+      "taskId": "deep-merge",
+      "repetition": 2
+    },
+    {
+      "id": "A-deep-merge-2",
+      "group": "A",
+      "taskId": "deep-merge",
+      "repetition": 2
+    },
+    {
+      "id": "B-deep-merge-2",
+      "group": "B",
+      "taskId": "deep-merge",
+      "repetition": 2
+    },
+    {
+      "id": "A-money-2",
+      "group": "A",
+      "taskId": "money",
+      "repetition": 2
+    },
+    {
+      "id": "B-money-2",
+      "group": "B",
+      "taskId": "money",
+      "repetition": 2
+    },
+    {
+      "id": "C-money-2",
+      "group": "C",
+      "taskId": "money",
+      "repetition": 2
+    },
+    {
+      "id": "B-byte-ranges-2",
+      "group": "B",
+      "taskId": "byte-ranges",
+      "repetition": 2
+    },
+    {
+      "id": "C-byte-ranges-2",
+      "group": "C",
+      "taskId": "byte-ranges",
+      "repetition": 2
+    },
+    {
+      "id": "A-byte-ranges-2",
+      "group": "A",
+      "taskId": "byte-ranges",
+      "repetition": 2
+    },
+    {
+      "id": "C-emitter-2",
+      "group": "C",
+      "taskId": "emitter",
+      "repetition": 2
+    },
+    {
+      "id": "A-emitter-2",
+      "group": "A",
+      "taskId": "emitter",
+      "repetition": 2
+    },
+    {
+      "id": "B-emitter-2",
+      "group": "B",
+      "taskId": "emitter",
+      "repetition": 2
+    },
+    {
+      "id": "A-slug-2",
+      "group": "A",
+      "taskId": "slug",
+      "repetition": 2
+    },
+    {
+      "id": "B-slug-2",
+      "group": "B",
+      "taskId": "slug",
+      "repetition": 2
+    },
+    {
+      "id": "C-slug-2",
+      "group": "C",
+      "taskId": "slug",
+      "repetition": 2
+    },
+    {
+      "id": "B-csv-2",
+      "group": "B",
+      "taskId": "csv",
+      "repetition": 2
+    },
+    {
+      "id": "C-csv-2",
+      "group": "C",
+      "taskId": "csv",
+      "repetition": 2
+    },
+    {
+      "id": "A-csv-2",
+      "group": "A",
+      "taskId": "csv",
+      "repetition": 2
+    },
+    {
+      "id": "C-intervals-2",
+      "group": "C",
+      "taskId": "intervals",
+      "repetition": 2
+    },
+    {
+      "id": "A-intervals-2",
+      "group": "A",
+      "taskId": "intervals",
+      "repetition": 2
+    },
+    {
+      "id": "B-intervals-2",
+      "group": "B",
+      "taskId": "intervals",
+      "repetition": 2
+    },
+    {
+      "id": "A-query-2",
+      "group": "A",
+      "taskId": "query",
+      "repetition": 2
+    },
+    {
+      "id": "B-query-2",
+      "group": "B",
+      "taskId": "query",
+      "repetition": 2
+    },
+    {
+      "id": "C-query-2",
+      "group": "C",
+      "taskId": "query",
+      "repetition": 2
+    },
+    {
+      "id": "C-deep-merge-3",
+      "group": "C",
+      "taskId": "deep-merge",
+      "repetition": 3
+    },
+    {
+      "id": "A-deep-merge-3",
+      "group": "A",
+      "taskId": "deep-merge",
+      "repetition": 3
+    },
+    {
+      "id": "B-deep-merge-3",
+      "group": "B",
+      "taskId": "deep-merge",
+      "repetition": 3
+    },
+    {
+      "id": "A-money-3",
+      "group": "A",
+      "taskId": "money",
+      "repetition": 3
+    },
+    {
+      "id": "B-money-3",
+      "group": "B",
+      "taskId": "money",
+      "repetition": 3
+    },
+    {
+      "id": "C-money-3",
+      "group": "C",
+      "taskId": "money",
+      "repetition": 3
+    },
+    {
+      "id": "B-byte-ranges-3",
+      "group": "B",
+      "taskId": "byte-ranges",
+      "repetition": 3
+    },
+    {
+      "id": "C-byte-ranges-3",
+      "group": "C",
+      "taskId": "byte-ranges",
+      "repetition": 3
+    },
+    {
+      "id": "A-byte-ranges-3",
+      "group": "A",
+      "taskId": "byte-ranges",
+      "repetition": 3
+    },
+    {
+      "id": "C-emitter-3",
+      "group": "C",
+      "taskId": "emitter",
+      "repetition": 3
+    },
+    {
+      "id": "A-emitter-3",
+      "group": "A",
+      "taskId": "emitter",
+      "repetition": 3
+    },
+    {
+      "id": "B-emitter-3",
+      "group": "B",
+      "taskId": "emitter",
+      "repetition": 3
+    },
+    {
+      "id": "A-slug-3",
+      "group": "A",
+      "taskId": "slug",
+      "repetition": 3
+    },
+    {
+      "id": "B-slug-3",
+      "group": "B",
+      "taskId": "slug",
+      "repetition": 3
+    },
+    {
+      "id": "C-slug-3",
+      "group": "C",
+      "taskId": "slug",
+      "repetition": 3
+    },
+    {
+      "id": "B-csv-3",
+      "group": "B",
+      "taskId": "csv",
+      "repetition": 3
+    },
+    {
+      "id": "C-csv-3",
+      "group": "C",
+      "taskId": "csv",
+      "repetition": 3
+    },
+    {
+      "id": "A-csv-3",
+      "group": "A",
+      "taskId": "csv",
+      "repetition": 3
+    },
+    {
+      "id": "C-intervals-3",
+      "group": "C",
+      "taskId": "intervals",
+      "repetition": 3
+    },
+    {
+      "id": "A-intervals-3",
+      "group": "A",
+      "taskId": "intervals",
+      "repetition": 3
+    },
+    {
+      "id": "B-intervals-3",
+      "group": "B",
+      "taskId": "intervals",
+      "repetition": 3
+    },
+    {
+      "id": "A-query-3",
+      "group": "A",
+      "taskId": "query",
+      "repetition": 3
+    },
+    {
+      "id": "B-query-3",
+      "group": "B",
+      "taskId": "query",
+      "repetition": 3
+    },
+    {
+      "id": "C-query-3",
+      "group": "C",
+      "taskId": "query",
+      "repetition": 3
+    },
+    {
+      "id": "B-toposort-3",
+      "group": "B",
+      "taskId": "toposort",
+      "repetition": 3
+    },
+    {
+      "id": "C-toposort-3",
+      "group": "C",
+      "taskId": "toposort",
+      "repetition": 3
+    },
+    {
+      "id": "A-toposort-3",
+      "group": "A",
+      "taskId": "toposort",
+      "repetition": 3
+    },
+    {
+      "id": "C-ttl-lru-3",
+      "group": "C",
+      "taskId": "ttl-lru",
+      "repetition": 3
+    },
+    {
+      "id": "A-ttl-lru-3",
+      "group": "A",
+      "taskId": "ttl-lru",
+      "repetition": 3
+    },
+    {
+      "id": "B-ttl-lru-3",
+      "group": "B",
+      "taskId": "ttl-lru",
+      "repetition": 3
+    },
+    {
+      "id": "A-map-limit-3",
+      "group": "A",
+      "taskId": "map-limit",
+      "repetition": 3
+    },
+    {
+      "id": "B-map-limit-3",
+      "group": "B",
+      "taskId": "map-limit",
+      "repetition": 3
+    },
+    {
+      "id": "C-map-limit-3",
+      "group": "C",
+      "taskId": "map-limit",
+      "repetition": 3
+    },
+    {
+      "id": "B-retry-3",
+      "group": "B",
+      "taskId": "retry",
+      "repetition": 3
+    },
+    {
+      "id": "C-retry-3",
+      "group": "C",
+      "taskId": "retry",
+      "repetition": 3
+    },
+    {
+      "id": "A-retry-3",
+      "group": "A",
+      "taskId": "retry",
+      "repetition": 3
+    }
+  ],
+  "cold": ["cold-add", "cold-dedupe"]
+}

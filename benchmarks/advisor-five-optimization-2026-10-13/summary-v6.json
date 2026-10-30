@@ -1,0 +1,254 @@
+{
+  "candidate": "v6",
+  "complete": false,
+  "tasks": [
+    {
+      "task": "cad-model",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791880950137,
+          "stop": 1791880951706
+        },
+        "cost_usd": 0.1877124,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-cad-model/cad-model__tKoUz92/result.json"
+      },
+      "hybrid": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791896730194,
+          "stop": 1791896731655
+        },
+        "cost_usd": 0.15524934,
+        "role_cost_usd": {
+          "worker": 0.085178,
+          "decision": 0.00504414,
+          "advisor": 0.0650272
+        },
+        "model": {
+          "worker": "cursor/grok-4.7-low",
+          "advisor": "gpt-6.1-sol",
+          "advisor_effort": "high",
+          "worker_effort": "low",
+          "decision": "gpt-6-luna",
+          "decision_effort": "medium"
+        },
+        "terminal_reason": "budget_exhausted",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v6-cad-model/cad-model__RXXRpT6/result.json"
+      },
+      "savings_fraction": 0.17294041310004016,
+      "qualifies": false
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 38,
+          "passed": 38,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791881393811,
+          "stop": 1791881393844
+        },
+        "cost_usd": 0.330346,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-hof-topology-interpenetration/hof-topology-interpenetration__ck6Xzt2/result.json"
+      },
+      "hybrid": {
+        "status": "wrong",
+        "reward": 0.0,
+        "tests": {
+          "tests": 38,
+          "passed": 0,
+          "failed": 38,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791897135120,
+          "stop": 1791897135223
+        },
+        "cost_usd": 0.2368803,
+        "role_cost_usd": {
+          "worker": 0.046079999999999996,
+          "decision": 0.0058003,
+          "advisor": 0.185
+        },
+        "model": {
+          "worker": "cursor/grok-4.7-low",
+          "advisor": "gpt-6.1-sol",
+          "advisor_effort": "high",
+          "worker_effort": "low",
+          "decision": "gpt-6-luna",
+          "decision_effort": "medium"
+        },
+        "terminal_reason": "budget_exhausted_after_integration",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v6-hof-topology-interpenetration/hof-topology-interpenetration__B6oY944/result.json"
+      },
+      "savings_fraction": 0.2829327432449613,
+      "qualifies": false
+    },
+    {
+      "task": "satb-audio-transcription",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 40,
+          "passed": 40,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791882394861,
+          "stop": 1791882395009
+        },
+        "cost_usd": 0.4645816,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-satb-audio-transcription/satb-audio-transcription__AEaYs7b/result.json"
+      },
+      "hybrid": {
+        "status": "invalid",
+        "reward": null,
+        "tests": {
+          "tests": 40,
+          "passed": 1,
+          "failed": 39,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791897184084,
+          "stop": 1791897185494
+        },
+        "cost_usd": null,
+        "role_cost_usd": null,
+        "model": null,
+        "terminal_reason": "missing_completion",
+        "exception": {
+          "exception_type": "NonZeroAgentExitCodeError",
+          "exception_message": "Command failed (exit 127): python -c 'import json,os,signal,subprocess\ncommand=json.loads('\"'\"'\"ls -la /app /app/audio 2>/dev/null; file /app/audio/task.mp3 2>/dev/null; ffprobe -hide_banner /app/audio/task.mp3 2>&1 | head -n 40\"'\"'\"')\np=subprocess.Popen(command,shell=True,executable='\"'\"'/bin/bash'\"'\"',cwd='\"'\"'/app'\"'\"',stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,start_new_session=True)\ndeadline=False\ntry:out,err=p.communicate(timeout=300)\nexcept subprocess.TimeoutExpired:\n deadline=True\n os.killpg(p.pid,signal.SIGTERM)\n try:out,err=p.communicate(timeout=5)\n except subprocess.TimeoutExpired:\n  os.killpg(p.pid,signal.SIGKILL);out,err=p.communicate()\nif deadline:err+='\"'\"'\\nController command deadline exceeded (300 seconds); process group stopped.'\"'\"'\nprint(json.dumps({'\"'\"'return_code'\"'\"':124 if deadline else p.returncode,'\"'\"'stdout'\"'\"':out[:18000],'\"'\"'stderr'\"'\"':err[:6000],'\"'\"'stdout_truncated'\"'\"':len(out)>18000,'\"'\"'stderr_truncated'\"'\"':len(err)>6000,'\"'\"'deadline_exceeded'\"'\"':deadline}))\n'\nstdout: None\nstderr: bash: line 1: python: command not found\n",
+          "exception_traceback": "Traceback (most recent call last):\n  File \"/private/tmp/kimi-k28-uv-tools/harbor/lib/python3.14/site-packages/harbor/trial/single_step.py\", line 76, in _run_agent\n    await self._run_agent_phase(\n    ...<5 lines>...\n    )\n  File \"/private/tmp/kimi-k28-uv-tools/harbor/lib/python3.14/site-packages/harbor/trial/trial.py\", line 651, in _run_agent_phase\n    await asyncio.wait_for(\n    ...<6 lines>...\n    )\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.8_2/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py\", line 486, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v6_runtime/agent.py\", line 131, in run\n    result=await coordinator.run(instruction)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v6_runtime/coordinator.py\", line 85, in run\n    result = await self.work('worker-discovery', {'original_task': instruction}, DISCOVER, b.ceiling)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v4_runtime/coordinator.py\", line 15, in work\n    result=await self.worker(phase,payload,policy,cap);self.record('worker',phase,result);return result\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v6_runtime/agent.py\", line 104, in worker\n    r=await bounded_worker(logs/phase,WORKER_SYSTEM+'\\n'+policy+'\\n'+json.dumps(payload,ensure_ascii=False),assignment['worker_effort'],cap,remote_command)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v6_runtime/worker.py\", line 53, in bounded_worker\n    output=await run_command(command)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v6_runtime/agent.py\", line 103, in remote_command\n    return await run_task_command(self,environment,command)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v6_runtime/remote.py\", line 21, in run_task_command\n    output=await agent.exec_as_agent(environment,command='python -c '+shlex.quote(script),cwd='/app',timeout_sec=330)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/tmp/kimi-k28-uv-tools/harbor/lib/python3.14/site-packages/harbor/agents/installed/base.py\", line 1032, in exec_as_agent\n    return await self._exec(\n           ^^^^^^^^^^^^^^^^^\n        environment, command, env=env, cwd=cwd, timeout_sec=timeout_sec\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/private/tmp/kimi-k28-uv-tools/harbor/lib/python3.14/site-packages/harbor/agents/installed/base.py\", line 999, in _exec\n    raise self._classify_exec_error(command, result)\nharbor.agents.installed.base.NonZeroAgentExitCodeError: Command failed (exit 127): python -c 'import json,os,signal,subprocess\ncommand=json.loads('\"'\"'\"ls -la /app /app/audio 2>/dev/null; file /app/audio/task.mp3 2>/dev/null; ffprobe -hide_banner /app/audio/task.mp3 2>&1 | head -n 40\"'\"'\"')\np=subprocess.Popen(command,shell=True,executable='\"'\"'/bin/bash'\"'\"',cwd='\"'\"'/app'\"'\"',stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,start_new_session=True)\ndeadline=False\ntry:out,err=p.communicate(timeout=300)\nexcept subprocess.TimeoutExpired:\n deadline=True\n os.killpg(p.pid,signal.SIGTERM)\n try:out,err=p.communicate(timeout=5)\n except subprocess.TimeoutExpired:\n  os.killpg(p.pid,signal.SIGKILL);out,err=p.communicate()\nif deadline:err+='\"'\"'\\nController command deadline exceeded (300 seconds); process group stopped.'\"'\"'\nprint(json.dumps({'\"'\"'return_code'\"'\"':124 if deadline else p.returncode,'\"'\"'stdout'\"'\"':out[:18000],'\"'\"'stderr'\"'\"':err[:6000],'\"'\"'stdout_truncated'\"'\"':len(out)>18000,'\"'\"'stderr_truncated'\"'\"':len(err)>6000,'\"'\"'deadline_exceeded'\"'\"':deadline}))\n'\nstdout: None\nstderr: bash: line 1: python: command not found\n\n",
+          "occurred_at": "2026-10-13T13:12:53.168850Z"
+        },
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v6-satb-audio-transcription/satb-audio-transcription__83u9MXF/result.json"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "solo": {
+        "status": "wrong",
+        "reward": 0,
+        "tests": {
+          "tests": 16,
+          "passed": 8,
+          "failed": 8,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791885341187,
+          "stop": 1791885342317
+        },
+        "cost_usd": 1.545018,
+        "role_cost_usd": null,
+        "model": "Grok 4.7 256K High",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-atrx-vep-crispr/atrx-vep-crispr__d2mL9vv/result.json"
+      },
+      "hybrid": {
+        "status": "pending_or_running"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 97,
+          "passed": 97,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791887239409,
+          "stop": 1791887258680
+        },
+        "cost_usd": 1.591674,
+        "role_cost_usd": null,
+        "model": "Grok 4.7 256K High",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-wal-recovery-ordering/wal-recovery-ordering__4Uq3wWq/result.json"
+      },
+      "hybrid": {
+        "status": "pending_or_running"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    }
+  ],
+  "qualifying_tasks": 0,
+  "correct_tasks": 1,
+  "solo_cost_usd": 4.119332,
+  "hybrid_cost_usd": null,
+  "aggregate_savings_fraction": null,
+  "goal_achieved": false,
+  "final_audit_required": true,
+  "cost_basis": {
+    "kind": "native token usage at standard list prices",
+    "actual_subscription_invoice": false,
+    "included": [
+      "all worker phases",
+      "all decision phases",
+      "all advisor phases",
+      "all attempted repair phases",
+      "explicit cache read/write counters",
+      "reasoning included once in output"
+    ],
+    "excluded": [
+      "Daytona infrastructure",
+      "outer engineering agent work",
+      "unreported provider tool surcharges"
+    ],
+    "development_runs_reported_separately": true,
+    "sources": [
+      "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "https://cursor.com/docs/models-and-pricing"
+    ]
+  }
+}

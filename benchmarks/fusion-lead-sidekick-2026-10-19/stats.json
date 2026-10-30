@@ -1,0 +1,133 @@
+{
+  "summary": {
+    "opus-solo": {
+      "finished_with_reward": 0,
+      "passed": 0,
+      "total_cost_usd": 0,
+      "cost_complete": true,
+      "infra_or_unfinished": []
+    },
+    "fusion": {
+      "finished_with_reward": 2,
+      "passed": 1,
+      "total_cost_usd": 2.324732,
+      "cost_complete": true,
+      "infra_or_unfinished": []
+    },
+    "sol-fusion": {
+      "finished_with_reward": 2,
+      "passed": 2,
+      "total_cost_usd": 0.55918,
+      "cost_complete": true,
+      "infra_or_unfinished": []
+    },
+    "haiku-advisor": {
+      "finished_with_reward": 0,
+      "passed": 0,
+      "total_cost_usd": 0,
+      "cost_complete": true,
+      "infra_or_unfinished": []
+    },
+    "haiku-solo": {
+      "finished_with_reward": 0,
+      "passed": 0,
+      "total_cost_usd": 0,
+      "cost_complete": true,
+      "infra_or_unfinished": []
+    }
+  },
+  "trials": {
+    "fusion-hof-topology-interpenetration-r1": {
+      "advisor_calls": 0,
+      "per_model_cost_usd": {
+        "lead": {
+          "claude-opus-5-5": 1.4631450000000001
+        },
+        "sidekick": {
+          "claude-haiku-5-5": 0.02386348
+        }
+      },
+      "reward": 1.0,
+      "exception": null,
+      "checks": [38, 38],
+      "cost_usd": 1.48700848,
+      "lead_or_solo_cost_usd": 1.4631450000000001,
+      "sidekick_cost_usd": 0.02386348,
+      "delegations": 2,
+      "lead_turns": 24,
+      "sidekick_turns": 41,
+      "wall_seconds": 2611.1,
+      "outcome": "completed",
+      "models": {
+        "lead": ["claude-opus-5-5"],
+        "sidekick": ["claude-haiku-5-5"]
+      }
+    },
+    "fusion-wal-recovery-ordering-r1": {
+      "advisor_calls": 0,
+      "per_model_cost_usd": {
+        "lead": {
+          "claude-opus-5-5": 0.7859084
+        },
+        "sidekick": {
+          "claude-haiku-5-5": 0.051815429999999996
+        }
+      },
+      "reward": 0.0,
+      "exception": null,
+      "checks": [95, 97],
+      "cost_usd": 0.83772383,
+      "lead_or_solo_cost_usd": 0.7859084,
+      "sidekick_cost_usd": 0.051815429999999996,
+      "delegations": 2,
+      "lead_turns": 13,
+      "sidekick_turns": 28,
+      "wall_seconds": 664.7,
+      "outcome": "completed",
+      "models": {
+        "lead": ["claude-opus-5-5"],
+        "sidekick": ["claude-haiku-5-5"]
+      }
+    },
+    "sol-fusion-hof-topology-interpenetration-r1": {
+      "advisor_calls": 0,
+      "per_model_cost_usd": {
+        "lead": null
+      },
+      "reward": 1.0,
+      "exception": null,
+      "checks": [38, 38],
+      "cost_usd": 0.3626644,
+      "lead_or_solo_cost_usd": 0.3626644,
+      "sidekick_cost_usd": null,
+      "delegations": 0,
+      "lead_turns": 16,
+      "sidekick_turns": null,
+      "wall_seconds": 274.4,
+      "outcome": "completed",
+      "models": {
+        "lead": ["gpt-6.1-sol"]
+      }
+    },
+    "sol-fusion-wal-recovery-ordering-r1": {
+      "advisor_calls": 0,
+      "per_model_cost_usd": {
+        "lead": null
+      },
+      "reward": 1.0,
+      "exception": null,
+      "checks": [97, 97],
+      "cost_usd": 0.1965156,
+      "lead_or_solo_cost_usd": 0.1965156,
+      "sidekick_cost_usd": null,
+      "delegations": 0,
+      "lead_turns": 8,
+      "sidekick_turns": null,
+      "wall_seconds": 226.8,
+      "outcome": "completed",
+      "models": {
+        "lead": ["gpt-6.1-sol"]
+      }
+    }
+  }
+}

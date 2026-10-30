@@ -1,0 +1,4822 @@
+{
+  "auditedAt": "2026-10-13T02:24:06.713Z",
+  "trials": 110,
+  "nativeSessions": 146,
+  "uniqueNativeSessions": true,
+  "changes": [],
+  "audits": [
+    {
+      "id": "A-byte-ranges-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["25d6cc80-bce3-4b8b-8286-a76936b38764"],
+      "nativeTokenTotals": {
+        "inputTokens": 131801,
+        "cachedInputTokens": 109291,
+        "cacheCreationTokens": 22502,
+        "outputTokens": 1686
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 133315,
+        "cachedInputTokens": 109291,
+        "cacheCreationTokens": 22502,
+        "outputTokens": 1705
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2357871,
+      "nativeMainAgentPriceUsd": 0.2356262,
+      "nativeSessionCostUsd": 0.2357871,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 133315,
+        "cachedInputTokens": 109291,
+        "cacheCreationTokens": 22502,
+        "outputTokens": 1705
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1514,
+          "outputTokens": 19,
+          "costUsd": 0.0001609
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 131801,
+          "outputTokens": 1686,
+          "costUsd": 0.2356262
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1681202,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-byte-ranges-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["8c6f5315-d26a-40c4-8c6e-10402b9a4f91"],
+      "nativeTokenTotals": {
+        "inputTokens": 98276,
+        "cachedInputTokens": 75420,
+        "cacheCreationTokens": 22850,
+        "outputTokens": 1855
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99790,
+        "cachedInputTokens": 75420,
+        "cacheCreationTokens": 22850,
+        "outputTokens": 1878
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2351709,
+      "nativeMainAgentPriceUsd": 0.23500799999999997,
+      "nativeSessionCostUsd": 0.2351709,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99790,
+        "cachedInputTokens": 75420,
+        "cacheCreationTokens": 22850,
+        "outputTokens": 1878
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1514,
+          "outputTokens": 23,
+          "costUsd": 0.0001629
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 98276,
+          "outputTokens": 1855,
+          "costUsd": 0.235008
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.16645800000000002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-byte-ranges-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["c0ed82be-3145-434d-b471-51338a3e8eaa"],
+      "nativeTokenTotals": {
+        "inputTokens": 98001,
+        "cachedInputTokens": 75420,
+        "cacheCreationTokens": 22575,
+        "outputTokens": 1597
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99515,
+        "cachedInputTokens": 75420,
+        "cacheCreationTokens": 22575,
+        "outputTokens": 1618
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2278099,
+      "nativeMainAgentPriceUsd": 0.227648,
+      "nativeSessionCostUsd": 0.2278099,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99515,
+        "cachedInputTokens": 75420,
+        "cacheCreationTokens": 22575,
+        "outputTokens": 1618
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1514,
+          "outputTokens": 21,
+          "costUsd": 0.0001619
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 98001,
+          "outputTokens": 1597,
+          "costUsd": 0.22764800000000002
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.15992299999999998,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-csv-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["4d78a948-6297-4428-bf64-f5b4d5c5cb40"],
+      "nativeTokenTotals": {
+        "inputTokens": 168286,
+        "cachedInputTokens": 144474,
+        "cacheCreationTokens": 23802,
+        "outputTokens": 2054
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 206407,
+        "cachedInputTokens": 144474,
+        "cacheCreationTokens": 23802,
+        "outputTokens": 5574
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.8000086000000001,
+      "nativeMainAgentPriceUsd": 0.2583218,
+      "nativeSessionCostUsd": 0.8000086000000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 206407,
+        "cachedInputTokens": 144474,
+        "cacheCreationTokens": 23802,
+        "outputTokens": 5574
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1463,
+          "outputTokens": 21,
+          "costUsd": 0.00015680000000000002
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 168286,
+          "outputTokens": 2054,
+          "costUsd": 0.2583218
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 36658,
+          "outputTokens": 3499,
+          "costUsd": 0.5415300000000001
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1890248,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-csv-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["89e5b10d-533d-4ff0-8470-7618154df332"],
+      "nativeTokenTotals": {
+        "inputTokens": 133101,
+        "cachedInputTokens": 110041,
+        "cacheCreationTokens": 23052,
+        "outputTokens": 1905
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 134564,
+        "cachedInputTokens": 110041,
+        "cacheCreationTokens": 23052,
+        "outputTokens": 1926
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.244713,
+      "nativeMainAgentPriceUsd": 0.2445562,
+      "nativeSessionCostUsd": 0.244713,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 134564,
+        "cachedInputTokens": 110041,
+        "cacheCreationTokens": 23052,
+        "outputTokens": 1926
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1463,
+          "outputTokens": 21,
+          "costUsd": 0.00015680000000000002
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 133101,
+          "outputTokens": 1905,
+          "costUsd": 0.2445562
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1754002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-csv-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["abf06c30-7bab-4efb-8129-29648655a7f3"],
+      "nativeTokenTotals": {
+        "inputTokens": 98093,
+        "cachedInputTokens": 75314,
+        "cacheCreationTokens": 22773,
+        "outputTokens": 1568
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99556,
+        "cachedInputTokens": 75314,
+        "cacheCreationTokens": 22773,
+        "outputTokens": 1589
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2287876,
+      "nativeMainAgentPriceUsd": 0.2286308,
+      "nativeSessionCostUsd": 0.2287876,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99556,
+        "cachedInputTokens": 75314,
+        "cacheCreationTokens": 22773,
+        "outputTokens": 1589
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1463,
+          "outputTokens": 21,
+          "costUsd": 0.00015680000000000002
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 98093,
+          "outputTokens": 1568,
+          "costUsd": 0.2286308
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1603118,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-deep-merge-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["7ba5b335-8382-4342-99b1-0f54d9d66a5f"],
+      "nativeTokenTotals": {
+        "inputTokens": 131158,
+        "cachedInputTokens": 108883,
+        "cacheCreationTokens": 22267,
+        "outputTokens": 1364
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 132603,
+        "cachedInputTokens": 108883,
+        "cacheCreationTokens": 22267,
+        "outputTokens": 1385
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.22737959999999996,
+      "nativeMainAgentPriceUsd": 0.22722459999999997,
+      "nativeSessionCostUsd": 0.22737959999999996,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 132603,
+        "cachedInputTokens": 108883,
+        "cacheCreationTokens": 22267,
+        "outputTokens": 1385
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1445,
+          "outputTokens": 21,
+          "costUsd": 0.00015500000000000003
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 131158,
+          "outputTokens": 1364,
+          "costUsd": 0.22722459999999997
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1604236,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-deep-merge-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["0c230694-ef32-4ca4-a125-a85b36131087"],
+      "nativeTokenTotals": {
+        "inputTokens": 131611,
+        "cachedInputTokens": 109280,
+        "cacheCreationTokens": 22323,
+        "outputTokens": 1331
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 133056,
+        "cachedInputTokens": 109280,
+        "cacheCreationTokens": 22323,
+        "outputTokens": 1352
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.22724700000000003,
+      "nativeMainAgentPriceUsd": 0.227092,
+      "nativeSessionCostUsd": 0.22724700000000003,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 133056,
+        "cachedInputTokens": 109280,
+        "cacheCreationTokens": 22323,
+        "outputTokens": 1352
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1445,
+          "outputTokens": 21,
+          "costUsd": 0.00015500000000000003
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 131611,
+          "outputTokens": 1331,
+          "costUsd": 0.22709200000000004
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.160123,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-deep-merge-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["161f516e-bc83-48ae-af70-b9179ccf11c4"],
+      "nativeTokenTotals": {
+        "inputTokens": 99020,
+        "cachedInputTokens": 77067,
+        "cacheCreationTokens": 21947,
+        "outputTokens": 1288
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 100465,
+        "cachedInputTokens": 77067,
+        "cacheCreationTokens": 21947,
+        "outputTokens": 1309
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2169284,
+      "nativeMainAgentPriceUsd": 0.21677339999999998,
+      "nativeSessionCostUsd": 0.2169284,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 100465,
+        "cachedInputTokens": 77067,
+        "cacheCreationTokens": 21947,
+        "outputTokens": 1309
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1445,
+          "outputTokens": 21,
+          "costUsd": 0.00015500000000000003
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 99020,
+          "outputTokens": 1288,
+          "costUsd": 0.2167734
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1509324,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-emitter-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["0bebeaad-1977-437e-91f3-1def82028293"],
+      "nativeTokenTotals": {
+        "inputTokens": 133104,
+        "cachedInputTokens": 110113,
+        "cacheCreationTokens": 22983,
+        "outputTokens": 1985
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 134612,
+        "cachedInputTokens": 110113,
+        "cacheCreationTokens": 22983,
+        "outputTokens": 2009
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.24578139999999998,
+      "nativeMainAgentPriceUsd": 0.24561859999999996,
+      "nativeSessionCostUsd": 0.24578139999999998,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 134612,
+        "cachedInputTokens": 110113,
+        "cacheCreationTokens": 22983,
+        "outputTokens": 2009
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1508,
+          "outputTokens": 24,
+          "costUsd": 0.0001628
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 133104,
+          "outputTokens": 1985,
+          "costUsd": 0.2456186
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.17666959999999998,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-emitter-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["6b5dd15c-4caa-4e75-847d-12a4f0f0b3a0"],
+      "nativeTokenTotals": {
+        "inputTokens": 133875,
+        "cachedInputTokens": 108680,
+        "cacheCreationTokens": 25187,
+        "outputTokens": 1961
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 170570,
+        "cachedInputTokens": 108680,
+        "cacheCreationTokens": 25187,
+        "outputTokens": 4663
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.7441808000000001,
+      "nativeMainAgentPriceUsd": 0.258248,
+      "nativeSessionCostUsd": 0.7441808000000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 170570,
+        "cachedInputTokens": 108680,
+        "cacheCreationTokens": 25187,
+        "outputTokens": 4663
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1508,
+          "outputTokens": 24,
+          "costUsd": 0.0001628
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 133875,
+          "outputTokens": 1961,
+          "costUsd": 0.258248
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 35187,
+          "outputTokens": 2678,
+          "costUsd": 0.48577000000000004
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.186923,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-emitter-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["6e6a41cb-d8de-4e7e-b87d-2205afedb315"],
+      "nativeTokenTotals": {
+        "inputTokens": 97953,
+        "cachedInputTokens": 75185,
+        "cacheCreationTokens": 22762,
+        "outputTokens": 1790
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99461,
+        "cachedInputTokens": 75185,
+        "cacheCreationTokens": 22762,
+        "outputTokens": 1814
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.23311979999999996,
+      "nativeMainAgentPriceUsd": 0.23295699999999997,
+      "nativeSessionCostUsd": 0.23311979999999996,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99461,
+        "cachedInputTokens": 75185,
+        "cacheCreationTokens": 22762,
+        "outputTokens": 1814
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1508,
+          "outputTokens": 24,
+          "costUsd": 0.0001628
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97953,
+          "outputTokens": 1790,
+          "costUsd": 0.23295699999999997
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.164671,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-intervals-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["0920f8df-9f33-45e3-854f-b18956a8d100"],
+      "nativeTokenTotals": {
+        "inputTokens": 167984,
+        "cachedInputTokens": 144060,
+        "cacheCreationTokens": 23914,
+        "outputTokens": 1701
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 205382,
+        "cachedInputTokens": 144060,
+        "cacheCreationTokens": 23914,
+        "outputTokens": 3936
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.7232441999999999,
+      "nativeMainAgentPriceUsd": 0.252582,
+      "nativeSessionCostUsd": 0.7232441999999999,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 205382,
+        "cachedInputTokens": 144060,
+        "cacheCreationTokens": 23914,
+        "outputTokens": 3936
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1407,
+          "outputTokens": 23,
+          "costUsd": 0.0001522
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 167984,
+          "outputTokens": 1701,
+          "costUsd": 0.252582
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 35991,
+          "outputTokens": 2212,
+          "costUsd": 0.47051
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.182442,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-intervals-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["1efacf08-e950-4058-8887-5391a2308c75"],
+      "nativeTokenTotals": {
+        "inputTokens": 166518,
+        "cachedInputTokens": 143072,
+        "cacheCreationTokens": 23436,
+        "outputTokens": 1782
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 167925,
+        "cachedInputTokens": 143072,
+        "cacheCreationTokens": 23436,
+        "outputTokens": 1806
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2519351,
+      "nativeMainAgentPriceUsd": 0.25178239999999996,
+      "nativeSessionCostUsd": 0.2519351,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 167925,
+        "cachedInputTokens": 143072,
+        "cacheCreationTokens": 23436,
+        "outputTokens": 1806
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1407,
+          "outputTokens": 24,
+          "costUsd": 0.0001527
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 166518,
+          "outputTokens": 1782,
+          "costUsd": 0.2517824
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1814744,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-intervals-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["f94fae61-c3f3-4e94-bf75-5a8444684f56"],
+      "nativeTokenTotals": {
+        "inputTokens": 202087,
+        "cachedInputTokens": 177811,
+        "cacheCreationTokens": 24264,
+        "outputTokens": 1944
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 240632,
+        "cachedInputTokens": 177811,
+        "cacheCreationTokens": 24264,
+        "outputTokens": 4617
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.7707624,
+      "nativeMainAgentPriceUsd": 0.2667302,
+      "nativeSessionCostUsd": 0.7707624,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 240632,
+        "cachedInputTokens": 177811,
+        "cacheCreationTokens": 24264,
+        "outputTokens": 4617
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1407,
+          "outputTokens": 23,
+          "costUsd": 0.0001522
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 202087,
+          "outputTokens": 1944,
+          "costUsd": 0.2667302
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 37138,
+          "outputTokens": 2650,
+          "costUsd": 0.50388
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1958102,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-map-limit-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["87f18304-009c-4366-8073-3124294e02ee"],
+      "nativeTokenTotals": {
+        "inputTokens": 97498,
+        "cachedInputTokens": 74997,
+        "cacheCreationTokens": 22495,
+        "outputTokens": 1656
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 98935,
+        "cachedInputTokens": 74997,
+        "cacheCreationTokens": 22495,
+        "outputTokens": 1683
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2282606,
+      "nativeMainAgentPriceUsd": 0.2281034,
+      "nativeSessionCostUsd": 0.2282606,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 98935,
+        "cachedInputTokens": 74997,
+        "cacheCreationTokens": 22495,
+        "outputTokens": 1683
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1437,
+          "outputTokens": 27,
+          "costUsd": 0.0001572
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97498,
+          "outputTokens": 1656,
+          "costUsd": 0.2281034
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.16061840000000002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-map-limit-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["575f6f5b-f81f-41db-a05b-f4dfade3d4e2"],
+      "nativeTokenTotals": {
+        "inputTokens": 97867,
+        "cachedInputTokens": 75301,
+        "cacheCreationTokens": 22560,
+        "outputTokens": 1383
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99304,
+        "cachedInputTokens": 75301,
+        "cacheCreationTokens": 22560,
+        "outputTokens": 1408
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.22338039999999998,
+      "nativeMainAgentPriceUsd": 0.22322419999999998,
+      "nativeSessionCostUsd": 0.22338039999999998,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99304,
+        "cachedInputTokens": 75301,
+        "cacheCreationTokens": 22560,
+        "outputTokens": 1408
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1437,
+          "outputTokens": 25,
+          "costUsd": 0.0001562
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97867,
+          "outputTokens": 1383,
+          "costUsd": 0.22322419999999998
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.15554420000000002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-map-limit-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["99b13f08-93d0-4c88-8242-945a7eade636"],
+      "nativeTokenTotals": {
+        "inputTokens": 167618,
+        "cachedInputTokens": 143773,
+        "cacheCreationTokens": 23835,
+        "outputTokens": 1623
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 204898,
+        "cachedInputTokens": 143773,
+        "cacheCreationTokens": 23835,
+        "outputTokens": 6225
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.8375258000000001,
+      "nativeMainAgentPriceUsd": 0.2501886,
+      "nativeSessionCostUsd": 0.8375258000000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 204898,
+        "cachedInputTokens": 143773,
+        "cacheCreationTokens": 23835,
+        "outputTokens": 6225
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1437,
+          "outputTokens": 27,
+          "costUsd": 0.0001572
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 167618,
+          "outputTokens": 1623,
+          "costUsd": 0.2501886
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 35843,
+          "outputTokens": 4575,
+          "costUsd": 0.58718
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1804296,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-money-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["9071e425-683b-4d1c-ac5f-f55315fb7c78"],
+      "nativeTokenTotals": {
+        "inputTokens": 97693,
+        "cachedInputTokens": 75325,
+        "cacheCreationTokens": 22362,
+        "outputTokens": 1220
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99171,
+        "cachedInputTokens": 75325,
+        "cacheCreationTokens": 22362,
+        "outputTokens": 1240
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.21854280000000004,
+      "nativeMainAgentPriceUsd": 0.218385,
+      "nativeSessionCostUsd": 0.21854280000000004,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99171,
+        "cachedInputTokens": 75325,
+        "cacheCreationTokens": 22362,
+        "outputTokens": 1240
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1478,
+          "outputTokens": 20,
+          "costUsd": 0.00015780000000000001
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97693,
+          "outputTokens": 1220,
+          "costUsd": 0.21838500000000002
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.15129900000000002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-money-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["47529754-8fe8-4a82-a2c1-c87cc8eb7237"],
+      "nativeTokenTotals": {
+        "inputTokens": 96979,
+        "cachedInputTokens": 75025,
+        "cacheCreationTokens": 21948,
+        "outputTokens": 1191
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 98457,
+        "cachedInputTokens": 75025,
+        "cacheCreationTokens": 21948,
+        "outputTokens": 1217
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2145938,
+      "nativeMainAgentPriceUsd": 0.21443299999999998,
+      "nativeSessionCostUsd": 0.2145938,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 98457,
+        "cachedInputTokens": 75025,
+        "cacheCreationTokens": 21948,
+        "outputTokens": 1217
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1478,
+          "outputTokens": 26,
+          "costUsd": 0.0001608
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 96979,
+          "outputTokens": 1191,
+          "costUsd": 0.214433
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.14858900000000003,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-money-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["7b689ae2-bd5c-461f-9fcc-4c8ddff36635"],
+      "nativeTokenTotals": {
+        "inputTokens": 97705,
+        "cachedInputTokens": 75325,
+        "cacheCreationTokens": 22374,
+        "outputTokens": 1236
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99183,
+        "cachedInputTokens": 75325,
+        "cacheCreationTokens": 22374,
+        "outputTokens": 1262
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2189618,
+      "nativeMainAgentPriceUsd": 0.218801,
+      "nativeSessionCostUsd": 0.2189618,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99183,
+        "cachedInputTokens": 75325,
+        "cacheCreationTokens": 22374,
+        "outputTokens": 1262
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1478,
+          "outputTokens": 26,
+          "costUsd": 0.0001608
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97705,
+          "outputTokens": 1236,
+          "costUsd": 0.21880100000000002
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.151679,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-query-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["0d3182f7-18d6-41a2-8e2e-836e633161d3"],
+      "nativeTokenTotals": {
+        "inputTokens": 97191,
+        "cachedInputTokens": 75253,
+        "cacheCreationTokens": 21932,
+        "outputTokens": 1010
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 98632,
+        "cachedInputTokens": 75253,
+        "cacheCreationTokens": 21932,
+        "outputTokens": 1028
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2108837,
+      "nativeMainAgentPriceUsd": 0.2107306,
+      "nativeSessionCostUsd": 0.2108837,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 98632,
+        "cachedInputTokens": 75253,
+        "cacheCreationTokens": 21932,
+        "outputTokens": 1028
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1441,
+          "outputTokens": 18,
+          "costUsd": 0.0001531
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97191,
+          "outputTokens": 1010,
+          "costUsd": 0.21073060000000002
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.14493460000000002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-query-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["a49b5dba-77b1-484c-924d-5a1e10754db9"],
+      "nativeTokenTotals": {
+        "inputTokens": 96820,
+        "cachedInputTokens": 74947,
+        "cacheCreationTokens": 21867,
+        "outputTokens": 995
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 98261,
+        "cachedInputTokens": 74947,
+        "cacheCreationTokens": 21867,
+        "outputTokens": 1015
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.21000349999999998,
+      "nativeMainAgentPriceUsd": 0.2098494,
+      "nativeSessionCostUsd": 0.21000349999999998,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 98261,
+        "cachedInputTokens": 74947,
+        "cacheCreationTokens": 21867,
+        "outputTokens": 1015
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1441,
+          "outputTokens": 20,
+          "costUsd": 0.0001541
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 96820,
+          "outputTokens": 995,
+          "costUsd": 0.2098494
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1442484,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-query-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["da3652cd-a1f8-4280-a9bf-ef086405df5d"],
+      "nativeTokenTotals": {
+        "inputTokens": 97184,
+        "cachedInputTokens": 75251,
+        "cacheCreationTokens": 21927,
+        "outputTokens": 867
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 98625,
+        "cachedInputTokens": 75251,
+        "cacheCreationTokens": 21927,
+        "outputTokens": 887
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2079843,
+      "nativeMainAgentPriceUsd": 0.20783019999999996,
+      "nativeSessionCostUsd": 0.2079843,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 98625,
+        "cachedInputTokens": 75251,
+        "cacheCreationTokens": 21927,
+        "outputTokens": 887
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1441,
+          "outputTokens": 20,
+          "costUsd": 0.0001541
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97184,
+          "outputTokens": 867,
+          "costUsd": 0.20783020000000002
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.14204920000000004,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-retry-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["303384e5-e4bb-4794-8e40-6a5a27f6495f"],
+      "nativeTokenTotals": {
+        "inputTokens": 97156,
+        "cachedInputTokens": 75140,
+        "cacheCreationTokens": 22010,
+        "outputTokens": 1510
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 98671,
+        "cachedInputTokens": 75140,
+        "cacheCreationTokens": 22010,
+        "outputTokens": 1530
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.22149350000000004,
+      "nativeMainAgentPriceUsd": 0.22133199999999997,
+      "nativeSessionCostUsd": 0.22149350000000004,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 98671,
+        "cachedInputTokens": 75140,
+        "cacheCreationTokens": 22010,
+        "outputTokens": 1530
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1515,
+          "outputTokens": 20,
+          "costUsd": 0.00016150000000000002
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97156,
+          "outputTokens": 1510,
+          "costUsd": 0.22133200000000003
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.155302,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-retry-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["7a9a6116-9ba5-4867-a3ed-6be400417972"],
+      "nativeTokenTotals": {
+        "inputTokens": 97744,
+        "cachedInputTokens": 75440,
+        "cacheCreationTokens": 22298,
+        "outputTokens": 1715
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99259,
+        "cachedInputTokens": 75440,
+        "cacheCreationTokens": 22298,
+        "outputTokens": 1735
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2279575,
+      "nativeMainAgentPriceUsd": 0.227796,
+      "nativeSessionCostUsd": 0.2279575,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99259,
+        "cachedInputTokens": 75440,
+        "cacheCreationTokens": 22298,
+        "outputTokens": 1735
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1515,
+          "outputTokens": 20,
+          "costUsd": 0.00016150000000000002
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97744,
+          "outputTokens": 1715,
+          "costUsd": 0.227796
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.160902,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-retry-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["6036b415-8559-4d30-8a11-913e239705b4"],
+      "nativeTokenTotals": {
+        "inputTokens": 97931,
+        "cachedInputTokens": 75442,
+        "cacheCreationTokens": 22483,
+        "outputTokens": 1637
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99446,
+        "cachedInputTokens": 75442,
+        "cacheCreationTokens": 22483,
+        "outputTokens": 1657
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2278779,
+      "nativeMainAgentPriceUsd": 0.22771639999999999,
+      "nativeSessionCostUsd": 0.2278779,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99446,
+        "cachedInputTokens": 75442,
+        "cacheCreationTokens": 22483,
+        "outputTokens": 1657
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1515,
+          "outputTokens": 20,
+          "costUsd": 0.00016150000000000002
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97931,
+          "outputTokens": 1637,
+          "costUsd": 0.22771639999999999
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1602674,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-slug-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["64a455b1-180c-4bd4-92ba-b3645668f274"],
+      "nativeTokenTotals": {
+        "inputTokens": 96506,
+        "cachedInputTokens": 74874,
+        "cacheCreationTokens": 21626,
+        "outputTokens": 817
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 97886,
+        "cachedInputTokens": 74874,
+        "cacheCreationTokens": 21626,
+        "outputTokens": 838
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2044953,
+      "nativeMainAgentPriceUsd": 0.2043468,
+      "nativeSessionCostUsd": 0.2044953,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 97886,
+        "cachedInputTokens": 74874,
+        "cacheCreationTokens": 21626,
+        "outputTokens": 838
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1380,
+          "outputTokens": 21,
+          "costUsd": 0.0001485
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 96506,
+          "outputTokens": 817,
+          "costUsd": 0.2043468
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1394688,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-slug-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["f785a845-fe5a-465f-8d3c-66d12ddd7a75"],
+      "nativeTokenTotals": {
+        "inputTokens": 130764,
+        "cachedInputTokens": 108555,
+        "cacheCreationTokens": 22201,
+        "outputTokens": 1224
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 132144,
+        "cachedInputTokens": 108555,
+        "cacheCreationTokens": 22201,
+        "outputTokens": 1244
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.22397900000000004,
+      "nativeMainAgentPriceUsd": 0.223831,
+      "nativeSessionCostUsd": 0.22397900000000004,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 132144,
+        "cachedInputTokens": 108555,
+        "cacheCreationTokens": 22201,
+        "outputTokens": 1244
+      },
+      "nativeSessionModels": {
+        "claude-opus-5-5": {
+          "inputTokens": 130764,
+          "outputTokens": 1224,
+          "costUsd": 0.22383100000000003
+        },
+        "claude-haiku-5-5": {
+          "inputTokens": 1380,
+          "outputTokens": 20,
+          "costUsd": 0.000148
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.157228,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-slug-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["a3548206-8313-4a7b-9728-8224d8f98a09"],
+      "nativeTokenTotals": {
+        "inputTokens": 130799,
+        "cachedInputTokens": 108559,
+        "cacheCreationTokens": 22232,
+        "outputTokens": 1289
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 132179,
+        "cachedInputTokens": 108559,
+        "cacheCreationTokens": 22232,
+        "outputTokens": 1310
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.22552830000000001,
+      "nativeMainAgentPriceUsd": 0.2253798,
+      "nativeSessionCostUsd": 0.22552830000000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 132179,
+        "cachedInputTokens": 108559,
+        "cacheCreationTokens": 22232,
+        "outputTokens": 1310
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1380,
+          "outputTokens": 21,
+          "costUsd": 0.0001485
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 130799,
+          "outputTokens": 1289,
+          "costUsd": 0.22537980000000002
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.15868379999999999,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-toposort-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["bea3d40b-65eb-47c6-a6ee-11e77d790cb0"],
+      "nativeTokenTotals": {
+        "inputTokens": 98036,
+        "cachedInputTokens": 75234,
+        "cacheCreationTokens": 22796,
+        "outputTokens": 1720
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99455,
+        "cachedInputTokens": 75234,
+        "cacheCreationTokens": 22796,
+        "outputTokens": 1743
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2319922,
+      "nativeMainAgentPriceUsd": 0.23183879999999998,
+      "nativeSessionCostUsd": 0.2319922,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99455,
+        "cachedInputTokens": 75234,
+        "cacheCreationTokens": 22796,
+        "outputTokens": 1743
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1419,
+          "outputTokens": 23,
+          "costUsd": 0.00015340000000000002
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 98036,
+          "outputTokens": 1720,
+          "costUsd": 0.2318388
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.16345080000000003,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-toposort-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["d7d9b6fc-182d-464e-873d-5c70672831c6"],
+      "nativeTokenTotals": {
+        "inputTokens": 97685,
+        "cachedInputTokens": 74907,
+        "cacheCreationTokens": 22772,
+        "outputTokens": 1861
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99104,
+        "cachedInputTokens": 74907,
+        "cacheCreationTokens": 22772,
+        "outputTokens": 1881
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.23455330000000002,
+      "nativeMainAgentPriceUsd": 0.2344014,
+      "nativeSessionCostUsd": 0.23455330000000002,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99104,
+        "cachedInputTokens": 74907,
+        "cacheCreationTokens": 22772,
+        "outputTokens": 1881
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1419,
+          "outputTokens": 20,
+          "costUsd": 0.0001519
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97685,
+          "outputTokens": 1861,
+          "costUsd": 0.2344014
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.16608540000000002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-toposort-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["7db8869f-aaff-4a98-9d5f-a11e60847a0d"],
+      "nativeTokenTotals": {
+        "inputTokens": 98000,
+        "cachedInputTokens": 75211,
+        "cacheCreationTokens": 22783,
+        "outputTokens": 1781
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99419,
+        "cachedInputTokens": 75211,
+        "cacheCreationTokens": 22783,
+        "outputTokens": 1803
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2331031,
+      "nativeMainAgentPriceUsd": 0.2329502,
+      "nativeSessionCostUsd": 0.2331031,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99419,
+        "cachedInputTokens": 75211,
+        "cacheCreationTokens": 22783,
+        "outputTokens": 1803
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1419,
+          "outputTokens": 22,
+          "costUsd": 0.0001529
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 98000,
+          "outputTokens": 1781,
+          "costUsd": 0.2329502
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1646012,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-ttl-lru-1",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["ad955b1f-1766-4179-9800-f3679a6d2a12"],
+      "nativeTokenTotals": {
+        "inputTokens": 169864,
+        "cachedInputTokens": 144596,
+        "cacheCreationTokens": 25258,
+        "outputTokens": 2556
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 207736,
+        "cachedInputTokens": 144596,
+        "cacheCreationTokens": 25258,
+        "outputTokens": 5965
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.8130183,
+      "nativeMainAgentPriceUsd": 0.2798962,
+      "nativeSessionCostUsd": 0.8130183,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 207736,
+        "cachedInputTokens": 144596,
+        "cacheCreationTokens": 25258,
+        "outputTokens": 5965
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1511,
+          "outputTokens": 22,
+          "costUsd": 0.0001621
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 169864,
+          "outputTokens": 2556,
+          "costUsd": 0.27989620000000004
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 36361,
+          "outputTokens": 3387,
+          "costUsd": 0.53296
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.2063692,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-ttl-lru-2",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["72b73272-0a46-433e-a4f8-11c9264d1093"],
+      "nativeTokenTotals": {
+        "inputTokens": 97783,
+        "cachedInputTokens": 75148,
+        "cacheCreationTokens": 22629,
+        "outputTokens": 1786
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 99294,
+        "cachedInputTokens": 75148,
+        "cacheCreationTokens": 22629,
+        "outputTokens": 1808
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2319677,
+      "nativeMainAgentPriceUsd": 0.2318056,
+      "nativeSessionCostUsd": 0.2319677,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 99294,
+        "cachedInputTokens": 75148,
+        "cacheCreationTokens": 22629,
+        "outputTokens": 1808
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1511,
+          "outputTokens": 22,
+          "costUsd": 0.0001621
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 97783,
+          "outputTokens": 1786,
+          "costUsd": 0.2318056
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1639186,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "A-ttl-lru-3",
+      "nativeModels": ["claude-opus-5-5"],
+      "nativeSessions": ["8ec9994b-2076-401c-b8f5-35be25794421"],
+      "nativeTokenTotals": {
+        "inputTokens": 169602,
+        "cachedInputTokens": 145192,
+        "cacheCreationTokens": 24400,
+        "outputTokens": 2090
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 207575,
+        "cachedInputTokens": 145192,
+        "cacheCreationTokens": 24400,
+        "outputTokens": 4534
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.7503704999999999,
+      "nativeMainAgentPriceUsd": 0.2644884,
+      "nativeSessionCostUsd": 0.7503704999999999,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 207575,
+        "cachedInputTokens": 145192,
+        "cacheCreationTokens": 24400,
+        "outputTokens": 4534
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 1511,
+          "outputTokens": 22,
+          "costUsd": 0.0001621
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 169602,
+          "outputTokens": 2090,
+          "costUsd": 0.26448839999999996
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 36462,
+          "outputTokens": 2422,
+          "costUsd": 0.48572
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.1928784,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-byte-ranges-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "812db9c3-aad2-477e-99ed-fc2735742bdb",
+        "92e3bdfb-9155-4a08-ac81-3c18a4dd1d27"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 320946,
+        "cachedInputTokens": 268707,
+        "cacheCreationTokens": 52221,
+        "outputTokens": 5109
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 325344,
+        "cachedInputTokens": 268707,
+        "cacheCreationTokens": 52221,
+        "outputTokens": 5151
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.30281395999999994,
+      "nativeMainAgentPriceUsd": 0.30235316,
+      "nativeSessionCostUsd": 0.30281395999999994,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 325344,
+        "cachedInputTokens": 268707,
+        "cacheCreationTokens": 52221,
+        "outputTokens": 5151
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 109821,
+          "outputTokens": 2824,
+          "costUsd": 0.007827760000000001
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 215523,
+          "outputTokens": 2327,
+          "costUsd": 0.2949862
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.22145058500000003,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-byte-ranges-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "e25f21e1-9acf-49f4-b433-500e076b846a",
+        "c4ff68da-e15a-4cdd-828b-2123ede1a601"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 323576,
+        "cachedInputTokens": 270302,
+        "cacheCreationTokens": 53256,
+        "outputTokens": 5611
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 328152,
+        "cachedInputTokens": 270302,
+        "cacheCreationTokens": 53256,
+        "outputTokens": 6186
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.31241796000000005,
+      "nativeMainAgentPriceUsd": 0.31167286,
+      "nativeSessionCostUsd": 0.31241796000000005,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 328152,
+        "cachedInputTokens": 270302,
+        "cacheCreationTokens": 53256,
+        "outputTokens": 6186
+      },
+      "nativeSessionModels": {
+        "claude-opus-5-5": {
+          "inputTokens": 217204,
+          "outputTokens": 2598,
+          "costUsd": 0.30406520000000004
+        },
+        "claude-haiku-5-5": {
+          "inputTokens": 110948,
+          "outputTokens": 3588,
+          "costUsd": 0.008352759999999999
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.22944661000000005,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-byte-ranges-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "a81515b9-da6f-43ef-bbba-230c90ec31f0",
+        "5c3f108e-8383-479b-9a2a-7f805668edac"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 288148,
+        "cachedInputTokens": 235105,
+        "cacheCreationTokens": 53027,
+        "outputTokens": 6195
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 292761,
+        "cachedInputTokens": 235105,
+        "cacheCreationTokens": 53027,
+        "outputTokens": 6231
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2960054899999999,
+      "nativeMainAgentPriceUsd": 0.29552618999999997,
+      "nativeSessionCostUsd": 0.2960054899999999,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 292761,
+        "cachedInputTokens": 235105,
+        "cacheCreationTokens": 53027,
+        "outputTokens": 6231
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 149267,
+          "outputTokens": 3586,
+          "costUsd": 0.00876829
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 143494,
+          "outputTokens": 2645,
+          "costUsd": 0.28723719999999997
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.214446165,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-csv-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "22c20647-fc4c-4c61-a51b-21539b77a116",
+        "82d74555-a96c-470e-8ffd-38bdf445d03b"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 287039,
+        "cachedInputTokens": 234220,
+        "cacheCreationTokens": 52803,
+        "outputTokens": 7387
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 291366,
+        "cachedInputTokens": 234220,
+        "cacheCreationTokens": 52803,
+        "outputTokens": 7432
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.26473881,
+      "nativeMainAgentPriceUsd": 0.26428360999999995,
+      "nativeSessionCostUsd": 0.26473881,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 291366,
+        "cachedInputTokens": 234220,
+        "cacheCreationTokens": 52803,
+        "outputTokens": 7432
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 152525,
+          "outputTokens": 5581,
+          "costUsd": 0.01011501
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 138841,
+          "outputTokens": 1851,
+          "costUsd": 0.2546238
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.189146435,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-csv-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "78c52963-60f3-4bd8-b880-82d9dbe461f1",
+        "d31dbdf6-e25f-48a8-baa1-f871c78d92dd"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 250181,
+        "cachedInputTokens": 196020,
+        "cacheCreationTokens": 54147,
+        "outputTokens": 7344
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 254666,
+        "cachedInputTokens": 196020,
+        "cacheCreationTokens": 54147,
+        "outputTokens": 7389
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.28080707000000005,
+      "nativeMainAgentPriceUsd": 0.28033607,
+      "nativeSessionCostUsd": 0.28080707000000005,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 254666,
+        "cachedInputTokens": 196020,
+        "cacheCreationTokens": 54147,
+        "outputTokens": 7389
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 112270,
+          "outputTokens": 5340,
+          "costUsd": 0.00957047
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 142396,
+          "outputTokens": 2049,
+          "costUsd": 0.27123660000000005
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.20061992000000003,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-csv-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "1f7f2146-8cec-45df-afb4-d7ee669772fc",
+        "50821446-15dc-475b-9b06-a9ba1687e83f"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 325542,
+        "cachedInputTokens": 272244,
+        "cacheCreationTokens": 53280,
+        "outputTokens": 5715
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 330253,
+        "cachedInputTokens": 272244,
+        "cacheCreationTokens": 53280,
+        "outputTokens": 5760
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.29187331,
+      "nativeMainAgentPriceUsd": 0.29137970999999996,
+      "nativeSessionCostUsd": 0.29187331,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 330253,
+        "cachedInputTokens": 272244,
+        "cacheCreationTokens": 53280,
+        "outputTokens": 5760
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 150532,
+          "outputTokens": 3592,
+          "costUsd": 0.00888871
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 179721,
+          "outputTokens": 2168,
+          "costUsd": 0.28298460000000003
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.21101781,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-deep-merge-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "f7dce1a5-2145-4add-b219-a6760189b59f",
+        "e448a8ff-c7c7-47dd-83a8-2f0edb31b37a"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 321391,
+        "cachedInputTokens": 269658,
+        "cacheCreationTokens": 51715,
+        "outputTokens": 4998
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 325613,
+        "cachedInputTokens": 269658,
+        "cacheCreationTokens": 51715,
+        "outputTokens": 5041
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2796153,
+      "nativeMainAgentPriceUsd": 0.2791716,
+      "nativeSessionCostUsd": 0.2796153,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 325613,
+        "cachedInputTokens": 269658,
+        "cacheCreationTokens": 51715,
+        "outputTokens": 5041
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 147366,
+          "outputTokens": 3262,
+          "costUsd": 0.008441700000000002
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 178247,
+          "outputTokens": 1779,
+          "costUsd": 0.2711736
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.20032814999999998,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-deep-merge-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "22b044c8-94d4-435d-ac5f-da343891a1ae",
+        "e0310618-1ef6-46e2-8874-4f9ba442caee"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 321957,
+        "cachedInputTokens": 269706,
+        "cacheCreationTokens": 52233,
+        "outputTokens": 4786
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 326559,
+        "cachedInputTokens": 269706,
+        "cacheCreationTokens": 52233,
+        "outputTokens": 4830
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.30512537,
+      "nativeMainAgentPriceUsd": 0.30464316999999996,
+      "nativeSessionCostUsd": 0.30512537,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 326559,
+        "cachedInputTokens": 269706,
+        "cacheCreationTokens": 52233,
+        "outputTokens": 4830
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 110532,
+          "outputTokens": 2432,
+          "costUsd": 0.0076355699999999995
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 216027,
+          "outputTokens": 2398,
+          "costUsd": 0.2974898
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.22337114499999997,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-deep-merge-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "c405897b-74af-4150-a668-5adabc09abdd",
+        "a3982759-35e9-4a43-bd73-0d6d240eb4a8"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 323861,
+        "cachedInputTokens": 271210,
+        "cacheCreationTokens": 52633,
+        "outputTokens": 5199
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 328421,
+        "cachedInputTokens": 271210,
+        "cacheCreationTokens": 52633,
+        "outputTokens": 5245
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.29277924000000005,
+      "nativeMainAgentPriceUsd": 0.29230024000000004,
+      "nativeSessionCostUsd": 0.29277924000000005,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 328421,
+        "cachedInputTokens": 271210,
+        "cacheCreationTokens": 52633,
+        "outputTokens": 5245
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 148528,
+          "outputTokens": 3038,
+          "costUsd": 0.00844204
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 179893,
+          "outputTokens": 2207,
+          "costUsd": 0.28433720000000007
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.21178504000000004,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-emitter-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "6ef4b119-37b6-461a-b9fc-a1b46018a267",
+        "9220f5db-89f9-4336-88dc-18c16c80517e"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 361704,
+        "cachedInputTokens": 307751,
+        "cacheCreationTokens": 53933,
+        "outputTokens": 6642
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 365912,
+        "cachedInputTokens": 307751,
+        "cacheCreationTokens": 53933,
+        "outputTokens": 6690
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.30322576999999995,
+      "nativeMainAgentPriceUsd": 0.30278097,
+      "nativeSessionCostUsd": 0.30322576999999995,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 365912,
+        "cachedInputTokens": 307751,
+        "cacheCreationTokens": 53933,
+        "outputTokens": 6690
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 149564,
+          "outputTokens": 4458,
+          "costUsd": 0.00933497
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 216348,
+          "outputTokens": 2232,
+          "costUsd": 0.29389079999999995
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.221510145,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-emitter-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "8a5ed535-289c-4ce7-8e82-7633296943bd",
+        "12397d52-0664-422a-ae09-316aacee33f1"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 284994,
+        "cachedInputTokens": 233026,
+        "cacheCreationTokens": 51952,
+        "outputTokens": 5323
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 289270,
+        "cachedInputTokens": 233026,
+        "cacheCreationTokens": 51952,
+        "outputTokens": 5368
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.29492064,
+      "nativeMainAgentPriceUsd": 0.29447053999999995,
+      "nativeSessionCostUsd": 0.29492064,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 289270,
+        "cachedInputTokens": 233026,
+        "cacheCreationTokens": 51952,
+        "outputTokens": 5368
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 109536,
+          "outputTokens": 3015,
+          "costUsd": 0.007890240000000001
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 179734,
+          "outputTokens": 2353,
+          "costUsd": 0.2870304
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.21407954,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-emitter-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "a379be85-6eb3-4819-b5a8-877726338a91",
+        "6dce686f-cd41-4f59-9094-1f314483a1a1"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 480634,
+        "cachedInputTokens": 425722,
+        "cacheCreationTokens": 54886,
+        "outputTokens": 7085
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 485028,
+        "cachedInputTokens": 425722,
+        "cacheCreationTokens": 54886,
+        "outputTokens": 7130
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.30773190999999994,
+      "nativeMainAgentPriceUsd": 0.30727001000000004,
+      "nativeSessionCostUsd": 0.30773190999999994,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 485028,
+        "cachedInputTokens": 425722,
+        "cacheCreationTokens": 54886,
+        "outputTokens": 7130
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 268514,
+          "outputTokens": 4778,
+          "costUsd": 0.010869710000000001
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 216514,
+          "outputTokens": 2352,
+          "costUsd": 0.29686219999999996
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.22572588500000001,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-intervals-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "78cd7147-7170-4017-84b1-0a75edba7f6c",
+        "92e548bd-781e-4e62-8059-0b941881636f"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 354042,
+        "cachedInputTokens": 302702,
+        "cacheCreationTokens": 51320,
+        "outputTokens": 4435
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 358160,
+        "cachedInputTokens": 302702,
+        "cacheCreationTokens": 51320,
+        "outputTokens": 4481
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.28792739,
+      "nativeMainAgentPriceUsd": 0.28749259000000005,
+      "nativeSessionCostUsd": 0.28792739,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 358160,
+        "cachedInputTokens": 302702,
+        "cacheCreationTokens": 51320,
+        "outputTokens": 4481
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 145197,
+          "outputTokens": 2612,
+          "costUsd": 0.008010789999999999
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 212963,
+          "outputTokens": 1869,
+          "costUsd": 0.2799166
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.20868168999999998,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-intervals-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "b916d115-5592-484c-add7-dbccc07de4fc",
+        "b1f9f8f8-2a58-47f7-9cb7-b1dab4dfb682"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 317628,
+        "cachedInputTokens": 267171,
+        "cacheCreationTokens": 50439,
+        "outputTokens": 3807
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 321711,
+        "cachedInputTokens": 267171,
+        "cacheCreationTokens": 50439,
+        "outputTokens": 3852
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.28694328999999996,
+      "nativeMainAgentPriceUsd": 0.28651248999999995,
+      "nativeSessionCostUsd": 0.28694328999999996,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 321711,
+        "cachedInputTokens": 267171,
+        "cacheCreationTokens": 50439,
+        "outputTokens": 3852
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 107916,
+          "outputTokens": 2046,
+          "costUsd": 0.0071608900000000005
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 213795,
+          "outputTokens": 1806,
+          "costUsd": 0.2797824
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.20740788999999998,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-intervals-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "017ef8f7-a3fd-4a7c-991a-f9f441dfb672",
+        "84e518b8-7d91-4f68-9998-75f3fbf76680"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 354369,
+        "cachedInputTokens": 302966,
+        "cacheCreationTokens": 51383,
+        "outputTokens": 4251
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 358493,
+        "cachedInputTokens": 302966,
+        "cacheCreationTokens": 51383,
+        "outputTokens": 4294
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2880145800000001,
+      "nativeMainAgentPriceUsd": 0.28758068000000003,
+      "nativeSessionCostUsd": 0.2880145800000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 358493,
+        "cachedInputTokens": 302966,
+        "cacheCreationTokens": 51383,
+        "outputTokens": 4294
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 144610,
+          "outputTokens": 2486,
+          "costUsd": 0.007924979999999998
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 213883,
+          "outputTokens": 1808,
+          "costUsd": 0.28008960000000005
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.20831168000000003,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-map-limit-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "46438d55-e624-4a4e-a57b-6842057eda21",
+        "029d46c0-9a9b-426c-ba5e-44ecd8dae932"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 282994,
+        "cachedInputTokens": 232252,
+        "cacheCreationTokens": 50726,
+        "outputTokens": 4120
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 287103,
+        "cachedInputTokens": 232252,
+        "cacheCreationTokens": 50726,
+        "outputTokens": 4167
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.28700713,
+      "nativeMainAgentPriceUsd": 0.28657273,
+      "nativeSessionCostUsd": 0.28700713,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 287103,
+        "cachedInputTokens": 232252,
+        "cacheCreationTokens": 50726,
+        "outputTokens": 4167
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 108190,
+          "outputTokens": 2047,
+          "costUsd": 0.007203329999999999
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 178913,
+          "outputTokens": 2120,
+          "costUsd": 0.27980380000000005
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.20717458,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-map-limit-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "3173df91-e921-4ae5-86eb-9c3b60040cc9",
+        "2adb89b8-2c3a-4c5d-b040-e2f52930454b"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 278783,
+        "cachedInputTokens": 229535,
+        "cacheCreationTokens": 49232,
+        "outputTokens": 3650
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 282852,
+        "cachedInputTokens": 229535,
+        "cacheCreationTokens": 49232,
+        "outputTokens": 3697
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.25979273999999997,
+      "nativeMainAgentPriceUsd": 0.25936233999999997,
+      "nativeSessionCostUsd": 0.25979273999999997,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 282852,
+        "cachedInputTokens": 229535,
+        "cacheCreationTokens": 49232,
+        "outputTokens": 3697
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 143349,
+          "outputTokens": 2009,
+          "costUsd": 0.0075165399999999995
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 139503,
+          "outputTokens": 1688,
+          "costUsd": 0.2522762
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.18420049000000002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-map-limit-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "cc961a85-6a40-401f-91fd-9573ee5261a7",
+        "f0fe4694-32fc-4e4e-9be8-80839fe1d794"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 281267,
+        "cachedInputTokens": 231269,
+        "cacheCreationTokens": 49982,
+        "outputTokens": 3388
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 285310,
+        "cachedInputTokens": 231269,
+        "cacheCreationTokens": 49982,
+        "outputTokens": 3435
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.27473558000000003,
+      "nativeMainAgentPriceUsd": 0.27430778,
+      "nativeSessionCostUsd": 0.27473558000000003,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 285310,
+        "cachedInputTokens": 231269,
+        "cacheCreationTokens": 49982,
+        "outputTokens": 3435
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 107635,
+          "outputTokens": 1745,
+          "costUsd": 0.006977380000000002
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 177675,
+          "outputTokens": 1690,
+          "costUsd": 0.26775820000000006
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.19616467999999998,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-money-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "dafb7277-efa0-46ca-8168-50b4dcd8cbe1",
+        "810af82a-d2d4-4c72-abe6-e16a78b3064a"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 319527,
+        "cachedInputTokens": 267738,
+        "cacheCreationTokens": 51771,
+        "outputTokens": 4733
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 323679,
+        "cachedInputTokens": 267738,
+        "cacheCreationTokens": 51771,
+        "outputTokens": 4776
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.28922491000000006,
+      "nativeMainAgentPriceUsd": 0.28878821,
+      "nativeSessionCostUsd": 0.28922491000000006,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 323679,
+        "cachedInputTokens": 267738,
+        "cacheCreationTokens": 51771,
+        "outputTokens": 4776
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 109185,
+          "outputTokens": 2954,
+          "costUsd": 0.00785951
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 214494,
+          "outputTokens": 1822,
+          "costUsd": 0.28136540000000004
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.20916251000000005,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-money-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "3d287017-24c1-4488-b692-d8b4e351e322",
+        "e6efb738-65c4-403d-8475-c2f2e24946a3"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 318725,
+        "cachedInputTokens": 267586,
+        "cacheCreationTokens": 51121,
+        "outputTokens": 4423
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 322929,
+        "cachedInputTokens": 267586,
+        "cacheCreationTokens": 51121,
+        "outputTokens": 4466
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.28950108,
+      "nativeMainAgentPriceUsd": 0.28905918,
+      "nativeSessionCostUsd": 0.28950108,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 322929,
+        "cachedInputTokens": 267586,
+        "cacheCreationTokens": 51121,
+        "outputTokens": 4466
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 108307,
+          "outputTokens": 2635,
+          "costUsd": 0.00756348
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 214622,
+          "outputTokens": 1831,
+          "costUsd": 0.2819376
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.209344755,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-money-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "2c4e6f20-6814-409c-91ea-1e4e02c9e1a1",
+        "de80f3d2-2ff7-4e44-ad8d-88af1c27b6c3"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 390080,
+        "cachedInputTokens": 338990,
+        "cacheCreationTokens": 51068,
+        "outputTokens": 4045
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 394384,
+        "cachedInputTokens": 338990,
+        "cacheCreationTokens": 51068,
+        "outputTokens": 4087
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.29184608,
+      "nativeMainAgentPriceUsd": 0.29139468,
+      "nativeSessionCostUsd": 0.29184608,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 394384,
+        "cachedInputTokens": 338990,
+        "cacheCreationTokens": 51068,
+        "outputTokens": 4087
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 180290,
+          "outputTokens": 2145,
+          "costUsd": 0.00804368
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 214094,
+          "outputTokens": 1942,
+          "costUsd": 0.2838024
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.21177783,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-query-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "49d7894e-be16-4506-94c3-98d374517a88",
+        "a59842bb-ad10-4a18-9274-c295cb11b814"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 313914,
+        "cachedInputTokens": 263811,
+        "cacheCreationTokens": 50085,
+        "outputTokens": 3610
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 317971,
+        "cachedInputTokens": 263811,
+        "cacheCreationTokens": 50085,
+        "outputTokens": 3652
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.27538873999999997,
+      "nativeMainAgentPriceUsd": 0.27496203999999996,
+      "nativeSessionCostUsd": 0.27538873999999997,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 317971,
+        "cachedInputTokens": 263811,
+        "cacheCreationTokens": 50085,
+        "outputTokens": 3652
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 143274,
+          "outputTokens": 1894,
+          "costUsd": 0.0074433400000000005
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 174697,
+          "outputTokens": 1758,
+          "costUsd": 0.2679454
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.19702766500000002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-query-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "4e1a8748-6567-4917-96bb-5a526922df56",
+        "0b80872e-c551-40e5-8f3e-bd4f2980e597"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 280069,
+        "cachedInputTokens": 230426,
+        "cacheCreationTokens": 49627,
+        "outputTokens": 3414
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 284029,
+        "cachedInputTokens": 230426,
+        "cacheCreationTokens": 49627,
+        "outputTokens": 3456
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.27504146,
+      "nativeMainAgentPriceUsd": 0.27462445999999996,
+      "nativeSessionCostUsd": 0.27504146,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 284029,
+        "cachedInputTokens": 230426,
+        "cacheCreationTokens": 49627,
+        "outputTokens": 3456
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 107096,
+          "outputTokens": 1688,
+          "costUsd": 0.00689346
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 176933,
+          "outputTokens": 1768,
+          "costUsd": 0.26814800000000005
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.19689116,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-query-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "71119bb2-58d2-46de-8a6e-b25368ae7461",
+        "761287ab-ec11-4763-8073-042b2bed0627"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 317523,
+        "cachedInputTokens": 266636,
+        "cacheCreationTokens": 50869,
+        "outputTokens": 3908
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 321619,
+        "cachedInputTokens": 266636,
+        "cacheCreationTokens": 50869,
+        "outputTokens": 3947
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.28689558,
+      "nativeMainAgentPriceUsd": 0.28646648,
+      "nativeSessionCostUsd": 0.28689558,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 321619,
+        "cachedInputTokens": 266636,
+        "cacheCreationTokens": 50869,
+        "outputTokens": 3947
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 143685,
+          "outputTokens": 1892,
+          "costUsd": 0.007479980000000001
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 177934,
+          "outputTokens": 2055,
+          "costUsd": 0.2794156
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.20664225500000002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-retry-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "c22ab19a-cd86-4ec3-99f4-c5f94c7822f6",
+        "889cdf8d-fc53-4923-a985-c3b17144e982"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 359516,
+        "cachedInputTokens": 306521,
+        "cacheCreationTokens": 52975,
+        "outputTokens": 5973
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 363794,
+        "cachedInputTokens": 306521,
+        "cacheCreationTokens": 52975,
+        "outputTokens": 6014
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.29588003000000007,
+      "nativeMainAgentPriceUsd": 0.29543173,
+      "nativeSessionCostUsd": 0.29588003000000007,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 363794,
+        "cachedInputTokens": 306521,
+        "cacheCreationTokens": 52975,
+        "outputTokens": 6014
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 148480,
+          "outputTokens": 4001,
+          "costUsd": 0.00897843
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 215314,
+          "outputTokens": 2013,
+          "costUsd": 0.28690160000000003
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.21513365499999998,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-retry-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "4db18f66-6f0a-4303-b0e0-30d704872ce5",
+        "34fb816b-0fc3-4073-8e58-6eed84d73274"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 355981,
+        "cachedInputTokens": 303426,
+        "cacheCreationTokens": 52535,
+        "outputTokens": 5914
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 360144,
+        "cachedInputTokens": 303426,
+        "cacheCreationTokens": 52535,
+        "outputTokens": 5957
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.30007892999999997,
+      "nativeMainAgentPriceUsd": 0.29964113,
+      "nativeSessionCostUsd": 0.30007892999999997,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 360144,
+        "cachedInputTokens": 303426,
+        "cacheCreationTokens": 52535,
+        "outputTokens": 5957
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 145359,
+          "outputTokens": 3706,
+          "costUsd": 0.008710329999999999
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 214785,
+          "outputTokens": 2251,
+          "costUsd": 0.2913686
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.21944625499999998,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-retry-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "14503636-bc78-4c5b-9fce-8b3f8dd74761",
+        "a75e459f-784b-4566-a55b-6461efca1c04"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 360662,
+        "cachedInputTokens": 307463,
+        "cacheCreationTokens": 53179,
+        "outputTokens": 3699
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 401705,
+        "cachedInputTokens": 307463,
+        "cacheCreationTokens": 53179,
+        "outputTokens": 7563
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.87958907,
+      "nativeMainAgentPriceUsd": 0.31882606999999996,
+      "nativeSessionCostUsd": 0.87958907,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 401705,
+        "cachedInputTokens": 307463,
+        "cacheCreationTokens": 53179,
+        "outputTokens": 7563
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 107937,
+          "outputTokens": 1684,
+          "costUsd": 0.00694187
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 256835,
+          "outputTokens": 2059,
+          "costUsd": 0.3123172
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 36933,
+          "outputTokens": 3820,
+          "costUsd": 0.56033
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.23505752,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-slug-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "0c72ed81-7466-4b44-8eb4-4e2c50e1630d",
+        "ba876e2c-909f-45fe-bf84-f8aada6fd272"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 278808,
+        "cachedInputTokens": 229617,
+        "cacheCreationTokens": 49175,
+        "outputTokens": 3125
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 282461,
+        "cachedInputTokens": 229617,
+        "cacheCreationTokens": 49175,
+        "outputTokens": 3165
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.27202438,
+      "nativeMainAgentPriceUsd": 0.27163908000000003,
+      "nativeSessionCostUsd": 0.27202438,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 282461,
+        "cachedInputTokens": 229617,
+        "cacheCreationTokens": 49175,
+        "outputTokens": 3165
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 105901,
+          "outputTokens": 1502,
+          "costUsd": 0.00669058
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 176560,
+          "outputTokens": 1663,
+          "costUsd": 0.2653338
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.19417953000000002,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-slug-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "9aa588f9-568b-465b-afb4-330cb71e51a4",
+        "bfc4abee-fb4b-4599-b9f3-6dc3c6f69280"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 242322,
+        "cachedInputTokens": 193513,
+        "cacheCreationTokens": 48795,
+        "outputTokens": 2690
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 245992,
+        "cachedInputTokens": 193513,
+        "cacheCreationTokens": 48795,
+        "outputTokens": 2730
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.25595814,
+      "nativeMainAgentPriceUsd": 0.25557114,
+      "nativeSessionCostUsd": 0.25595814,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 245992,
+        "cachedInputTokens": 193513,
+        "cacheCreationTokens": 48795,
+        "outputTokens": 2730
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 105392,
+          "outputTokens": 1445,
+          "costUsd": 0.00661634
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 140600,
+          "outputTokens": 1285,
+          "costUsd": 0.2493418
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.17860224,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-slug-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "076e32f5-d188-4256-846d-70cd4bd52753",
+        "a666d273-362e-4043-ad0f-30b3e539d75e"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 276530,
+        "cachedInputTokens": 228279,
+        "cacheCreationTokens": 48235,
+        "outputTokens": 2874
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 280333,
+        "cachedInputTokens": 228279,
+        "cacheCreationTokens": 48235,
+        "outputTokens": 3087
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.24944058,
+      "nativeMainAgentPriceUsd": 0.24895377999999996,
+      "nativeSessionCostUsd": 0.24944058,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 280333,
+        "cachedInputTokens": 228279,
+        "cacheCreationTokens": 48235,
+        "outputTokens": 3087
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 141999,
+          "outputTokens": 1731,
+          "costUsd": 0.00722838
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 138334,
+          "outputTokens": 1356,
+          "costUsd": 0.24221220000000002
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.17506303,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-toposort-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "a5e34c6b-57ae-4850-bb07-d3ee54846ad4",
+        "af13a2ee-7ae7-451e-8004-55b4a27a4ba6"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 280346,
+        "cachedInputTokens": 229860,
+        "cacheCreationTokens": 50470,
+        "outputTokens": 4736
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 284517,
+        "cachedInputTokens": 229860,
+        "cacheCreationTokens": 50470,
+        "outputTokens": 4777
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.27194287,
+      "nativeMainAgentPriceUsd": 0.27150527,
+      "nativeSessionCostUsd": 0.27194287,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 284517,
+        "cachedInputTokens": 229860,
+        "cacheCreationTokens": 50470,
+        "outputTokens": 4777
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 109082,
+          "outputTokens": 3005,
+          "costUsd": 0.00784427
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 175435,
+          "outputTokens": 1772,
+          "costUsd": 0.2640986
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.19514492,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-toposort-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "f81de630-100d-4444-96a3-1d3f2fea49ce",
+        "02683ab2-ad84-4b66-9c84-8bc57782fd25"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 356407,
+        "cachedInputTokens": 304660,
+        "cacheCreationTokens": 51727,
+        "outputTokens": 5369
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 360423,
+        "cachedInputTokens": 304660,
+        "cacheCreationTokens": 51727,
+        "outputTokens": 5408
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2724325,
+      "nativeMainAgentPriceUsd": 0.2720114,
+      "nativeSessionCostUsd": 0.2724325,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 360423,
+        "cachedInputTokens": 304660,
+        "cacheCreationTokens": 51727,
+        "outputTokens": 5408
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 183713,
+          "outputTokens": 3857,
+          "costUsd": 0.009160500000000002
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 176710,
+          "outputTokens": 1551,
+          "costUsd": 0.263272
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.194304875,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-toposort-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "6964531d-2c1f-41c5-98ca-ba12615fcc36",
+        "06f80323-bb51-4e16-a9ee-f7a14e20854b"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 393524,
+        "cachedInputTokens": 340926,
+        "cacheCreationTokens": 52576,
+        "outputTokens": 6365
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 397485,
+        "cachedInputTokens": 340926,
+        "cacheCreationTokens": 52576,
+        "outputTokens": 6405
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.26975465000000004,
+      "nativeMainAgentPriceUsd": 0.26933854999999995,
+      "nativeSessionCostUsd": 0.26975465000000004,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 397485,
+        "cachedInputTokens": 340926,
+        "cacheCreationTokens": 52576,
+        "outputTokens": 6405
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 222446,
+          "outputTokens": 4781,
+          "costUsd": 0.01028645
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 175039,
+          "outputTokens": 1624,
+          "costUsd": 0.25946820000000004
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.19341695,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-ttl-lru-1",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "6d95a1e6-07c3-458a-9a80-8d2ee5fdf86f",
+        "cf43fada-99bc-4144-8eb6-57aa00683d1b"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 400632,
+        "cachedInputTokens": 345954,
+        "cacheCreationTokens": 54656,
+        "outputTokens": 6033
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 444427,
+        "cachedInputTokens": 345954,
+        "cacheCreationTokens": 54656,
+        "outputTokens": 8611
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.826704485,
+      "nativeMainAgentPriceUsd": 0.30707748500000004,
+      "nativeSessionCostUsd": 0.826704485,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 444427,
+        "cachedInputTokens": 345954,
+        "cacheCreationTokens": 54656,
+        "outputTokens": 8611
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 189397,
+          "outputTokens": 3629,
+          "costUsd": 0.009433884999999998
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 215775,
+          "outputTokens": 2450,
+          "costUsd": 0.2981206
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 39255,
+          "outputTokens": 2532,
+          "costUsd": 0.51915
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.22581101000000003,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-ttl-lru-2",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "6a9feb4b-f0ee-4d95-9269-c42064c7cf70",
+        "15ac1299-5748-4807-b074-bf461da7187c"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 283858,
+        "cachedInputTokens": 231952,
+        "cacheCreationTokens": 51890,
+        "outputTokens": 5300
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 288495,
+        "cachedInputTokens": 231952,
+        "cacheCreationTokens": 51890,
+        "outputTokens": 5346
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.28823812,
+      "nativeMainAgentPriceUsd": 0.28775142,
+      "nativeSessionCostUsd": 0.28823812,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 288495,
+        "cachedInputTokens": 231952,
+        "cacheCreationTokens": 51890,
+        "outputTokens": 5346
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 110957,
+          "outputTokens": 3106,
+          "costUsd": 0.00807212
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 177538,
+          "outputTokens": 2240,
+          "costUsd": 0.28016599999999997
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.20892702,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "B-ttl-lru-3",
+      "nativeModels": ["claude-opus-5-5", "claude-haiku-5-5"],
+      "nativeSessions": [
+        "b23f734d-1cc9-4c12-9b75-e9643bee23cb",
+        "d7a03fe0-93d0-498a-869a-22f0e6543149"
+      ],
+      "nativeTokenTotals": {
+        "inputTokens": 359581,
+        "cachedInputTokens": 306567,
+        "cacheCreationTokens": 52994,
+        "outputTokens": 5712
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 363795,
+        "cachedInputTokens": 306567,
+        "cacheCreationTokens": 52994,
+        "outputTokens": 5757
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.2927138,
+      "nativeMainAgentPriceUsd": 0.2922699000000001,
+      "nativeSessionCostUsd": 0.2927138,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 363795,
+        "cachedInputTokens": 306567,
+        "cacheCreationTokens": 52994,
+        "outputTokens": 5757
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 148705,
+          "outputTokens": 3869,
+          "costUsd": 0.0089264
+        },
+        "claude-opus-5-5": {
+          "inputTokens": 215090,
+          "outputTokens": 1888,
+          "costUsd": 0.2837874
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.212183925,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-byte-ranges-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["25508bc3-de55-48af-8eb2-ac466fef4328"],
+      "nativeTokenTotals": {
+        "inputTokens": 102924,
+        "cachedInputTokens": 77016,
+        "cacheCreationTokens": 25902,
+        "outputTokens": 4132
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 104438,
+        "cachedInputTokens": 77016,
+        "cacheCreationTokens": 25902,
+        "outputTokens": 4151
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.008178060000000001,
+      "nativeMainAgentPriceUsd": 0.00801716,
+      "nativeSessionCostUsd": 0.008178060000000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 104438,
+        "cachedInputTokens": 77016,
+        "cacheCreationTokens": 25902,
+        "outputTokens": 4151
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 104438,
+          "outputTokens": 4151,
+          "costUsd": 0.008178060000000001
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.00607451,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-byte-ranges-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["954c9767-305b-4dd1-9184-41a1b2be7cb2"],
+      "nativeTokenTotals": {
+        "inputTokens": 103299,
+        "cachedInputTokens": 77279,
+        "cacheCreationTokens": 26014,
+        "outputTokens": 4014
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 104813,
+        "cachedInputTokens": 77279,
+        "cacheCreationTokens": 26014,
+        "outputTokens": 4033
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00814409,
+      "nativeMainAgentPriceUsd": 0.007983190000000001,
+      "nativeSessionCostUsd": 0.00814409,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 104813,
+        "cachedInputTokens": 77279,
+        "cacheCreationTokens": 26014,
+        "outputTokens": 4033
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 104813,
+          "outputTokens": 4033,
+          "costUsd": 0.00814409
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.006032139999999999,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-byte-ranges-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["83e70ea3-949c-4795-82d2-b9c6c8d657b8"],
+      "nativeTokenTotals": {
+        "inputTokens": 103039,
+        "cachedInputTokens": 77278,
+        "cacheCreationTokens": 25755,
+        "outputTokens": 3888
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 104553,
+        "cachedInputTokens": 77278,
+        "cacheCreationTokens": 25755,
+        "outputTokens": 3907
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00802928,
+      "nativeMainAgentPriceUsd": 0.007868380000000001,
+      "nativeSessionCostUsd": 0.00802928,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 104553,
+        "cachedInputTokens": 77278,
+        "cacheCreationTokens": 25755,
+        "outputTokens": 3907
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 104553,
+          "outputTokens": 3907,
+          "costUsd": 0.00802928
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.005936755,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-csv-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["840eda28-e2c7-40ea-af53-f793b3d66328"],
+      "nativeTokenTotals": {
+        "inputTokens": 143335,
+        "cachedInputTokens": 115966,
+        "cacheCreationTokens": 27361,
+        "outputTokens": 4600
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 182271,
+        "cachedInputTokens": 115966,
+        "cacheCreationTokens": 27361,
+        "outputTokens": 8237
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.564579485,
+      "nativeMainAgentPriceUsd": 0.008892685,
+      "nativeSessionCostUsd": 0.564579485,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 182271,
+        "cachedInputTokens": 115966,
+        "cacheCreationTokens": 27361,
+        "outputTokens": 8237
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 144798,
+          "outputTokens": 4621,
+          "costUsd": 0.009049485
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 37473,
+          "outputTokens": 3616,
+          "costUsd": 0.55553
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.006880585,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-csv-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["da6283a1-899a-4cf3-8178-56bdda9e9bea"],
+      "nativeTokenTotals": {
+        "inputTokens": 178622,
+        "cachedInputTokens": 150221,
+        "cacheCreationTokens": 28391,
+        "outputTokens": 5992
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 180085,
+        "cachedInputTokens": 150221,
+        "cacheCreationTokens": 28391,
+        "outputTokens": 6015
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.01033521,
+      "nativeMainAgentPriceUsd": 0.01017741,
+      "nativeSessionCostUsd": 0.01033521,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 180085,
+        "cachedInputTokens": 150221,
+        "cacheCreationTokens": 28391,
+        "outputTokens": 6015
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 180085,
+          "outputTokens": 6015,
+          "costUsd": 0.01033521
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.008048085,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-csv-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["cb1b5d36-802c-4555-8371-3fdb6895c4d1"],
+      "nativeTokenTotals": {
+        "inputTokens": 138882,
+        "cachedInputTokens": 111786,
+        "cacheCreationTokens": 27088,
+        "outputTokens": 4970
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 140345,
+        "cachedInputTokens": 111786,
+        "cacheCreationTokens": 27088,
+        "outputTokens": 4991
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.009178060000000002,
+      "nativeMainAgentPriceUsd": 0.00902126,
+      "nativeSessionCostUsd": 0.009178060000000002,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 140345,
+        "cachedInputTokens": 111786,
+        "cacheCreationTokens": 27088,
+        "outputTokens": 4991
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 140345,
+          "outputTokens": 4991,
+          "costUsd": 0.009178060000000002
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.006989660000000001,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-deep-merge-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["6fd62de3-bbd5-49f0-a46e-d7e2cfc872a0"],
+      "nativeTokenTotals": {
+        "inputTokens": 101439,
+        "cachedInputTokens": 77141,
+        "cacheCreationTokens": 24292,
+        "outputTokens": 2296
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 102884,
+        "cachedInputTokens": 77141,
+        "cacheCreationTokens": 24292,
+        "outputTokens": 2317
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00693341,
+      "nativeMainAgentPriceUsd": 0.00677841,
+      "nativeSessionCostUsd": 0.00693341,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 102884,
+        "cachedInputTokens": 77141,
+        "cacheCreationTokens": 24292,
+        "outputTokens": 2317
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 102884,
+          "outputTokens": 2317,
+          "costUsd": 0.00693341
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.00495651,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-deep-merge-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["d78dbd1d-2d2d-4a13-b5b8-ceafb2b3d98e"],
+      "nativeTokenTotals": {
+        "inputTokens": 101501,
+        "cachedInputTokens": 77167,
+        "cacheCreationTokens": 24328,
+        "outputTokens": 2270
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 102946,
+        "cachedInputTokens": 77167,
+        "cacheCreationTokens": 24328,
+        "outputTokens": 2291
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.006927870000000001,
+      "nativeMainAgentPriceUsd": 0.00677287,
+      "nativeSessionCostUsd": 0.006927870000000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 102946,
+        "cachedInputTokens": 77167,
+        "cacheCreationTokens": 24328,
+        "outputTokens": 2291
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 102946,
+          "outputTokens": 2291,
+          "costUsd": 0.006927870000000001
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.00494827,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-deep-merge-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["e27bd3bf-3928-4cc6-9853-78dc8cfab326"],
+      "nativeTokenTotals": {
+        "inputTokens": 101558,
+        "cachedInputTokens": 77179,
+        "cacheCreationTokens": 24373,
+        "outputTokens": 2339
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 103003,
+        "cachedInputTokens": 77179,
+        "cacheCreationTokens": 24373,
+        "outputTokens": 2360
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00697149,
+      "nativeMainAgentPriceUsd": 0.00681649,
+      "nativeSessionCostUsd": 0.00697149,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 103003,
+        "cachedInputTokens": 77179,
+        "cacheCreationTokens": 24373,
+        "outputTokens": 2360
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 103003,
+          "outputTokens": 2360,
+          "costUsd": 0.00697149
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.004988515,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-emitter-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["634f0e47-38c0-4285-a04c-e1af18da1a13"],
+      "nativeTokenTotals": {
+        "inputTokens": 140661,
+        "cachedInputTokens": 114494,
+        "cacheCreationTokens": 26159,
+        "outputTokens": 4139
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 142169,
+        "cachedInputTokens": 114494,
+        "cacheCreationTokens": 26159,
+        "outputTokens": 4163
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00860984,
+      "nativeMainAgentPriceUsd": 0.00844704,
+      "nativeSessionCostUsd": 0.00860984,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 142169,
+        "cachedInputTokens": 114494,
+        "cacheCreationTokens": 26159,
+        "outputTokens": 4163
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 142169,
+          "outputTokens": 4163,
+          "costUsd": 0.00860984
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.006485115,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-emitter-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["afbaae3d-7f9a-4366-aa59-8355ea278a80"],
+      "nativeTokenTotals": {
+        "inputTokens": 103138,
+        "cachedInputTokens": 77352,
+        "cacheCreationTokens": 25780,
+        "outputTokens": 3834
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 104646,
+        "cachedInputTokens": 77352,
+        "cacheCreationTokens": 25780,
+        "outputTokens": 3858
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00800992,
+      "nativeMainAgentPriceUsd": 0.00784712,
+      "nativeSessionCostUsd": 0.00800992,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 104646,
+        "cachedInputTokens": 77352,
+        "cacheCreationTokens": 25780,
+        "outputTokens": 3858
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 104646,
+          "outputTokens": 3858,
+          "costUsd": 0.00800992
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.00591362,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-emitter-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["a44794e6-7895-47d6-b19c-ed2f12c68988"],
+      "nativeTokenTotals": {
+        "inputTokens": 220678,
+        "cachedInputTokens": 192861,
+        "cacheCreationTokens": 27805,
+        "outputTokens": 4758
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 222186,
+        "cachedInputTokens": 192861,
+        "cacheCreationTokens": 27805,
+        "outputTokens": 4782
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.01003261,
+      "nativeMainAgentPriceUsd": 0.009869810000000001,
+      "nativeSessionCostUsd": 0.01003261,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 222186,
+        "cachedInputTokens": 192861,
+        "cacheCreationTokens": 27805,
+        "outputTokens": 4782
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 222186,
+          "outputTokens": 4782,
+          "costUsd": 0.01003261
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.007784435000000001,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-intervals-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["4b17b681-1826-48b1-b336-5979fff6e406"],
+      "nativeTokenTotals": {
+        "inputTokens": 100821,
+        "cachedInputTokens": 77124,
+        "cacheCreationTokens": 23691,
+        "outputTokens": 1759
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 102228,
+        "cachedInputTokens": 77124,
+        "cacheCreationTokens": 23691,
+        "outputTokens": 1782
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.006541739999999999,
+      "nativeMainAgentPriceUsd": 0.006389540000000001,
+      "nativeSessionCostUsd": 0.006541739999999999,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 102228,
+        "cachedInputTokens": 77124,
+        "cacheCreationTokens": 23691,
+        "outputTokens": 1782
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 102228,
+          "outputTokens": 1782,
+          "costUsd": 0.006541739999999999
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.004612714999999999,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-intervals-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["8d69e313-4849-4d15-9a0b-930d6a2114d0"],
+      "nativeTokenTotals": {
+        "inputTokens": 135858,
+        "cachedInputTokens": 111814,
+        "cacheCreationTokens": 24036,
+        "outputTokens": 2006
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 137265,
+        "cachedInputTokens": 111814,
+        "cacheCreationTokens": 24036,
+        "outputTokens": 2030
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.007081840000000001,
+      "nativeMainAgentPriceUsd": 0.00692914,
+      "nativeSessionCostUsd": 0.007081840000000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 137265,
+        "cachedInputTokens": 111814,
+        "cacheCreationTokens": 24036,
+        "outputTokens": 2030
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 137265,
+          "outputTokens": 2030,
+          "costUsd": 0.007081840000000001
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.00512644,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-intervals-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["baa942b2-e0e4-41ea-9418-ae1c6f4ad2e5"],
+      "nativeTokenTotals": {
+        "inputTokens": 101816,
+        "cachedInputTokens": 77088,
+        "cacheCreationTokens": 24722,
+        "outputTokens": 2535
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 103223,
+        "cachedInputTokens": 77088,
+        "cacheCreationTokens": 24722,
+        "outputTokens": 2558
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00713558,
+      "nativeMainAgentPriceUsd": 0.00698338,
+      "nativeSessionCostUsd": 0.00713558,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 103223,
+        "cachedInputTokens": 77088,
+        "cacheCreationTokens": 24722,
+        "outputTokens": 2558
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 103223,
+          "outputTokens": 2558,
+          "costUsd": 0.00713558
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.005129229999999999,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-map-limit-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["5b8ab92b-e194-4b55-9818-b6cc1fd8230a"],
+      "nativeTokenTotals": {
+        "inputTokens": 102661,
+        "cachedInputTokens": 77176,
+        "cacheCreationTokens": 25479,
+        "outputTokens": 3459
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 104098,
+        "cachedInputTokens": 77176,
+        "cacheCreationTokens": 25479,
+        "outputTokens": 3486
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00775486,
+      "nativeMainAgentPriceUsd": 0.00759766,
+      "nativeSessionCostUsd": 0.00775486,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 104098,
+        "cachedInputTokens": 77176,
+        "cacheCreationTokens": 25479,
+        "outputTokens": 3486
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 104098,
+          "outputTokens": 3486,
+          "costUsd": 0.00775486
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.005686734999999999,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-map-limit-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["cc2a7439-63e8-4aa4-b0c6-72d557d9e880"],
+      "nativeTokenTotals": {
+        "inputTokens": 102503,
+        "cachedInputTokens": 77178,
+        "cacheCreationTokens": 25319,
+        "outputTokens": 3426
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 103940,
+        "cachedInputTokens": 77178,
+        "cacheCreationTokens": 25319,
+        "outputTokens": 3453
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00770638,
+      "nativeMainAgentPriceUsd": 0.007549180000000001,
+      "nativeSessionCostUsd": 0.00770638,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 103940,
+        "cachedInputTokens": 77178,
+        "cacheCreationTokens": 25319,
+        "outputTokens": 3453
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 103940,
+          "outputTokens": 3453,
+          "costUsd": 0.00770638
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.005650254999999999,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-map-limit-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["8bf85586-0409-4e07-919c-aaa708e36abb"],
+      "nativeTokenTotals": {
+        "inputTokens": 103011,
+        "cachedInputTokens": 77193,
+        "cacheCreationTokens": 25812,
+        "outputTokens": 3976
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 104448,
+        "cachedInputTokens": 77193,
+        "cacheCreationTokens": 25812,
+        "outputTokens": 4003
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00808013,
+      "nativeMainAgentPriceUsd": 0.00792293,
+      "nativeSessionCostUsd": 0.00808013,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 104448,
+        "cachedInputTokens": 77193,
+        "cacheCreationTokens": 25812,
+        "outputTokens": 4003
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 104448,
+          "outputTokens": 4003,
+          "costUsd": 0.00808013
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.00598703,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-money-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["d52c0775-f313-4ab7-81f8-870afc108843"],
+      "nativeTokenTotals": {
+        "inputTokens": 101817,
+        "cachedInputTokens": 77225,
+        "cacheCreationTokens": 24586,
+        "outputTokens": 2396
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 103295,
+        "cachedInputTokens": 77225,
+        "cacheCreationTokens": 24586,
+        "outputTokens": 2422
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.007048850000000001,
+      "nativeMainAgentPriceUsd": 0.00688805,
+      "nativeSessionCostUsd": 0.007048850000000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 103295,
+        "cachedInputTokens": 77225,
+        "cacheCreationTokens": 24586,
+        "outputTokens": 2422
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 103295,
+          "outputTokens": 2422,
+          "costUsd": 0.007048850000000001
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.0050441,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-money-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["04d842cf-a59b-4b66-a2e5-f7246bd0a8f6"],
+      "nativeTokenTotals": {
+        "inputTokens": 101133,
+        "cachedInputTokens": 77214,
+        "cacheCreationTokens": 23913,
+        "outputTokens": 1808
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 102611,
+        "cachedInputTokens": 77214,
+        "cacheCreationTokens": 23913,
+        "outputTokens": 1834
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00662014,
+      "nativeMainAgentPriceUsd": 0.006459340000000001,
+      "nativeSessionCostUsd": 0.00662014,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 102611,
+        "cachedInputTokens": 77214,
+        "cacheCreationTokens": 23913,
+        "outputTokens": 1834
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 102611,
+          "outputTokens": 1834,
+          "costUsd": 0.00662014
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.004665865,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-money-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["26846eb8-1575-4812-bc87-14312f5b31cc"],
+      "nativeTokenTotals": {
+        "inputTokens": 101534,
+        "cachedInputTokens": 77257,
+        "cacheCreationTokens": 24271,
+        "outputTokens": 2098
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 103012,
+        "cachedInputTokens": 77257,
+        "cacheCreationTokens": 24271,
+        "outputTokens": 2118
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00683417,
+      "nativeMainAgentPriceUsd": 0.00667637,
+      "nativeSessionCostUsd": 0.00683417,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 103012,
+        "cachedInputTokens": 77257,
+        "cacheCreationTokens": 24271,
+        "outputTokens": 2118
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 103012,
+          "outputTokens": 2118,
+          "costUsd": 0.00683417
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.004856045,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-query-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["75a6c04a-f51d-402b-9014-01bffe5c1939"],
+      "nativeTokenTotals": {
+        "inputTokens": 136667,
+        "cachedInputTokens": 112401,
+        "cacheCreationTokens": 24258,
+        "outputTokens": 1956
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 138108,
+        "cachedInputTokens": 112401,
+        "cacheCreationTokens": 24258,
+        "outputTokens": 1974
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00710751,
+      "nativeMainAgentPriceUsd": 0.00695441,
+      "nativeSessionCostUsd": 0.00710751,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 138108,
+        "cachedInputTokens": 112401,
+        "cacheCreationTokens": 24258,
+        "outputTokens": 1974
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 138108,
+          "outputTokens": 1974,
+          "costUsd": 0.00710751
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.00513506,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-query-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["d619675a-02c6-4c63-84e3-89950d15fc02"],
+      "nativeTokenTotals": {
+        "inputTokens": 137636,
+        "cachedInputTokens": 113130,
+        "cacheCreationTokens": 24498,
+        "outputTokens": 2282
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 139077,
+        "cachedInputTokens": 113130,
+        "cacheCreationTokens": 24498,
+        "outputTokens": 2303
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.0073273,
+      "nativeMainAgentPriceUsd": 0.007172700000000001,
+      "nativeSessionCostUsd": 0.0073273,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 139077,
+        "cachedInputTokens": 113130,
+        "cacheCreationTokens": 24498,
+        "outputTokens": 2303
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 139077,
+          "outputTokens": 2303,
+          "costUsd": 0.0073273
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.00533535,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-query-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["e9a70489-f648-4820-b5db-961000c7114b"],
+      "nativeTokenTotals": {
+        "inputTokens": 137807,
+        "cachedInputTokens": 112978,
+        "cacheCreationTokens": 24821,
+        "outputTokens": 2704
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 139248,
+        "cachedInputTokens": 112978,
+        "cacheCreationTokens": 24821,
+        "outputTokens": 2722
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.007599879999999999,
+      "nativeMainAgentPriceUsd": 0.00744678,
+      "nativeSessionCostUsd": 0.007599879999999999,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 139248,
+        "cachedInputTokens": 112978,
+        "cacheCreationTokens": 24821,
+        "outputTokens": 2722
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 139248,
+          "outputTokens": 2722,
+          "costUsd": 0.007599879999999999
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.005585204999999999,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-retry-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["b58bd787-470c-43fe-8fe4-83e5721091d4"],
+      "nativeTokenTotals": {
+        "inputTokens": 138322,
+        "cachedInputTokens": 113474,
+        "cacheCreationTokens": 24840,
+        "outputTokens": 2848
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 139837,
+        "cachedInputTokens": 113474,
+        "cacheCreationTokens": 24840,
+        "outputTokens": 2869
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.007689539999999999,
+      "nativeMainAgentPriceUsd": 0.007527539999999999,
+      "nativeSessionCostUsd": 0.007689539999999999,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 139837,
+        "cachedInputTokens": 113474,
+        "cacheCreationTokens": 24840,
+        "outputTokens": 2869
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 139837,
+          "outputTokens": 2869,
+          "costUsd": 0.007689539999999999
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.005664539999999999,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-retry-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["5ff9d331-7656-40b0-8d13-0001ee2e1f89"],
+      "nativeTokenTotals": {
+        "inputTokens": 139387,
+        "cachedInputTokens": 113901,
+        "cacheCreationTokens": 25478,
+        "outputTokens": 3364
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 140902,
+        "cachedInputTokens": 113901,
+        "cacheCreationTokens": 25478,
+        "outputTokens": 3384
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00807891,
+      "nativeMainAgentPriceUsd": 0.007917410000000001,
+      "nativeSessionCostUsd": 0.00807891,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 140902,
+        "cachedInputTokens": 113901,
+        "cacheCreationTokens": 25478,
+        "outputTokens": 3384
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 140902,
+          "outputTokens": 3384,
+          "costUsd": 0.00807891
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.006006560000000001,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-retry-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["918e67b1-e0b7-4e2a-9794-c02f36cde76c"],
+      "nativeTokenTotals": {
+        "inputTokens": 139391,
+        "cachedInputTokens": 113960,
+        "cacheCreationTokens": 25423,
+        "outputTokens": 3496
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 140906,
+        "cachedInputTokens": 113960,
+        "cacheCreationTokens": 25423,
+        "outputTokens": 3516
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.0081345,
+      "nativeMainAgentPriceUsd": 0.007973,
+      "nativeSessionCostUsd": 0.0081345,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 140906,
+        "cachedInputTokens": 113960,
+        "cacheCreationTokens": 25423,
+        "outputTokens": 3516
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 140906,
+          "outputTokens": 3516,
+          "costUsd": 0.0081345
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.006066275,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-slug-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["f039b29c-17e3-4b2b-b8e3-441176728217"],
+      "nativeTokenTotals": {
+        "inputTokens": 137600,
+        "cachedInputTokens": 112828,
+        "cacheCreationTokens": 24764,
+        "outputTokens": 2737
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 138980,
+        "cachedInputTokens": 112828,
+        "cacheCreationTokens": 24764,
+        "outputTokens": 2757
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00759838,
+      "nativeMainAgentPriceUsd": 0.0074503799999999995,
+      "nativeSessionCostUsd": 0.00759838,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 138980,
+        "cachedInputTokens": 112828,
+        "cacheCreationTokens": 24764,
+        "outputTokens": 2757
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 138980,
+          "outputTokens": 2757,
+          "costUsd": 0.00759838
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.00559308,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-slug-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["c8c370f4-8314-409d-81ba-9f7a6b64b8b4"],
+      "nativeTokenTotals": {
+        "inputTokens": 100865,
+        "cachedInputTokens": 76742,
+        "cacheCreationTokens": 24117,
+        "outputTokens": 2325
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 102245,
+        "cachedInputTokens": 76742,
+        "cacheCreationTokens": 24117,
+        "outputTokens": 2345
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00690192,
+      "nativeMainAgentPriceUsd": 0.00675392,
+      "nativeSessionCostUsd": 0.00690192,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 102245,
+        "cachedInputTokens": 76742,
+        "cacheCreationTokens": 24117,
+        "outputTokens": 2345
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 102245,
+          "outputTokens": 2345,
+          "costUsd": 0.00690192
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.004945145,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-slug-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["788405a0-1f3e-4f09-9020-d01059edbc82"],
+      "nativeTokenTotals": {
+        "inputTokens": 135296,
+        "cachedInputTokens": 111371,
+        "cacheCreationTokens": 23917,
+        "outputTokens": 1772
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 136676,
+        "cachedInputTokens": 111371,
+        "cacheCreationTokens": 23917,
+        "outputTokens": 1792
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.0069319099999999995,
+      "nativeMainAgentPriceUsd": 0.006783910000000001,
+      "nativeSessionCostUsd": 0.0069319099999999995,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 136676,
+        "cachedInputTokens": 111371,
+        "cacheCreationTokens": 23917,
+        "outputTokens": 1792
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 136676,
+          "outputTokens": 1792,
+          "costUsd": 0.0069319099999999995
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.004990135,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-toposort-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["5eafc83c-3a19-4885-94af-b776ae4a9bde"],
+      "nativeTokenTotals": {
+        "inputTokens": 100781,
+        "cachedInputTokens": 76766,
+        "cacheCreationTokens": 24009,
+        "outputTokens": 2387
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 102200,
+        "cachedInputTokens": 76766,
+        "cacheCreationTokens": 24009,
+        "outputTokens": 2415
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.0069194600000000005,
+      "nativeMainAgentPriceUsd": 0.006763560000000001,
+      "nativeSessionCostUsd": 0.0069194600000000005,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 102200,
+        "cachedInputTokens": 76766,
+        "cacheCreationTokens": 24009,
+        "outputTokens": 2415
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 102200,
+          "outputTokens": 2415,
+          "costUsd": 0.0069194600000000005
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.004962884999999999,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-toposort-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["f44295e3-0501-4eb5-8410-af8d2b66accc"],
+      "nativeTokenTotals": {
+        "inputTokens": 176315,
+        "cachedInputTokens": 150412,
+        "cacheCreationTokens": 25893,
+        "outputTokens": 4151
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 177734,
+        "cachedInputTokens": 150412,
+        "cacheCreationTokens": 25893,
+        "outputTokens": 4171
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00891112,
+      "nativeMainAgentPriceUsd": 0.00875922,
+      "nativeSessionCostUsd": 0.00891112,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 177734,
+        "cachedInputTokens": 150412,
+        "cacheCreationTokens": 25893,
+        "outputTokens": 4171
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 177734,
+          "outputTokens": 4171,
+          "costUsd": 0.00891112
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.0068172449999999996,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-toposort-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["b1eee86f-36f9-4239-8661-cc66b5d292f0"],
+      "nativeTokenTotals": {
+        "inputTokens": 102981,
+        "cachedInputTokens": 77089,
+        "cacheCreationTokens": 25886,
+        "outputTokens": 4097
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 104400,
+        "cachedInputTokens": 77089,
+        "cacheCreationTokens": 25886,
+        "outputTokens": 4118
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00814959,
+      "nativeMainAgentPriceUsd": 0.00799719,
+      "nativeSessionCostUsd": 0.00814959,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 104400,
+        "cachedInputTokens": 77089,
+        "cacheCreationTokens": 25886,
+        "outputTokens": 4118
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 104400,
+          "outputTokens": 4118,
+          "costUsd": 0.00814959
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.00605574,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-ttl-lru-1",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["c6536262-ae7a-4c16-aa83-674811d167cc"],
+      "nativeTokenTotals": {
+        "inputTokens": 217161,
+        "cachedInputTokens": 188914,
+        "cacheCreationTokens": 28235,
+        "outputTokens": 4518
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 255785,
+        "cachedInputTokens": 188914,
+        "cacheCreationTokens": 28235,
+        "outputTokens": 7091
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.50854259,
+      "nativeMainAgentPriceUsd": 0.009700489999999999,
+      "nativeSessionCostUsd": 0.50854259,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 255785,
+        "cachedInputTokens": 188914,
+        "cacheCreationTokens": 28235,
+        "outputTokens": 7091
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 218672,
+          "outputTokens": 4540,
+          "costUsd": 0.00986259
+        },
+        "claude-fable-5-1": {
+          "inputTokens": 37113,
+          "outputTokens": 2551,
+          "costUsd": 0.49868
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.007678714999999999,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-ttl-lru-2",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["cd4d946c-fb76-4b40-ae25-de317b193a8b"],
+      "nativeTokenTotals": {
+        "inputTokens": 102869,
+        "cachedInputTokens": 77338,
+        "cacheCreationTokens": 25525,
+        "outputTokens": 3611
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 104380,
+        "cachedInputTokens": 77338,
+        "cacheCreationTokens": 25525,
+        "outputTokens": 3633
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.00784658,
+      "nativeMainAgentPriceUsd": 0.0076844800000000005,
+      "nativeSessionCostUsd": 0.00784658,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 104380,
+        "cachedInputTokens": 77338,
+        "cacheCreationTokens": 25525,
+        "outputTokens": 3633
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 104380,
+          "outputTokens": 3633,
+          "costUsd": 0.00784658
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.005770105,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "C-ttl-lru-3",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["890ec93c-690e-4b9c-aa8d-5d140e9f36ce"],
+      "nativeTokenTotals": {
+        "inputTokens": 102446,
+        "cachedInputTokens": 77285,
+        "cacheCreationTokens": 25155,
+        "outputTokens": 3175
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 103957,
+        "cachedInputTokens": 77285,
+        "cacheCreationTokens": 25155,
+        "outputTokens": 3197
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.0075540500000000005,
+      "nativeMainAgentPriceUsd": 0.007391950000000001,
+      "nativeSessionCostUsd": 0.0075540500000000005,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 103957,
+        "cachedInputTokens": 77285,
+        "cacheCreationTokens": 25155,
+        "outputTokens": 3197
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 103957,
+          "outputTokens": 3197,
+          "costUsd": 0.0075540500000000005
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.005505325,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "cold-cold-add",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["a3406e8e-17f6-4c58-9208-2108077760c5"],
+      "nativeTokenTotals": {
+        "inputTokens": 98849,
+        "cachedInputTokens": 76418,
+        "cacheCreationTokens": 22425,
+        "outputTokens": 827
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 100176,
+        "cachedInputTokens": 76418,
+        "cacheCreationTokens": 22425,
+        "outputTokens": 844
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.005804480000000001,
+      "nativeMainAgentPriceUsd": 0.005663280000000001,
+      "nativeSessionCostUsd": 0.005804480000000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 100176,
+        "cachedInputTokens": 76418,
+        "cacheCreationTokens": 22425,
+        "outputTokens": 844
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 100176,
+          "outputTokens": 844,
+          "costUsd": 0.005804480000000001
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.0039814049999999995,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    },
+    {
+      "id": "cold-cold-dedupe",
+      "nativeModels": ["claude-haiku-5-5"],
+      "nativeSessions": ["0e17c2c1-ff52-40ed-9b30-64ee180536fe"],
+      "nativeTokenTotals": {
+        "inputTokens": 169437,
+        "cachedInputTokens": 145969,
+        "cacheCreationTokens": 23458,
+        "outputTokens": 1608
+      },
+      "ledgerTokenTotals": {
+        "inputTokens": 170778,
+        "cachedInputTokens": 145969,
+        "cacheCreationTokens": 23458,
+        "outputTokens": 1628
+      },
+      "accountingScopes": ["sessionWithAuxiliary"],
+      "costUsd": 0.007100390000000001,
+      "nativeMainAgentPriceUsd": 0.00695629,
+      "nativeSessionCostUsd": 0.007100390000000001,
+      "nativeSessionTokenTotals": {
+        "inputTokens": 170778,
+        "cachedInputTokens": 145969,
+        "cacheCreationTokens": 23458,
+        "outputTokens": 1628
+      },
+      "nativeSessionModels": {
+        "claude-haiku-5-5": {
+          "inputTokens": 170778,
+          "outputTokens": 1628,
+          "costUsd": 0.007100390000000001
+        }
+      },
+      "nativePriceDifferenceUsd": 0,
+      "originalCostUsd": 0.005196940000000001,
+      "changedFiles": ["solution.mjs"],
+      "newFiles": [],
+      "fixtureCommitUnchanged": true
+    }
+  ]
+}

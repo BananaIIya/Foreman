@@ -1,0 +1,114 @@
+{
+  "note": "Empty provider startup failure is invalid, never a model wrong answer. Frozen v8 reporting code retained.",
+  "tasks": [
+    {
+      "task": "cad-model",
+      "status": "correct",
+      "reward": 1.0,
+      "tests": {
+        "tests": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791902083534,
+        "stop": 1791902084914
+      },
+      "cost_usd": 0.1407496,
+      "role_cost_usd": {
+        "worker": 0.020194,
+        "decision": 0.0017476,
+        "advisor": 0.118808
+      },
+      "model": {
+        "worker": "cursor/grok-4.7-low",
+        "advisor": "gpt-6.1-sol",
+        "advisor_effort": "high",
+        "worker_effort": "low",
+        "decision": "gpt-6-luna",
+        "decision_effort": "medium"
+      },
+      "terminal_reason": "budget_exhausted_after_integration",
+      "exception": null,
+      "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v8-cad-model/cad-model__D3pFZg3/result.json"
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "status": "wrong",
+      "reward": 0.0,
+      "tests": {
+        "tests": 38,
+        "passed": 0,
+        "failed": 38,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791901729318,
+        "stop": 1791901729428
+      },
+      "cost_usd": 0.4362221,
+      "role_cost_usd": {
+        "worker": 0.031202,
+        "decision": 0.0044621,
+        "advisor": 0.40055799999999997
+      },
+      "model": {
+        "worker": "cursor/grok-4.7-low",
+        "advisor": "gpt-6.1-sol",
+        "advisor_effort": "high",
+        "worker_effort": "low",
+        "decision": "gpt-6-luna",
+        "decision_effort": "medium"
+      },
+      "terminal_reason": "budget_exhausted_after_integration",
+      "exception": null,
+      "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v8-hof-topology-interpenetration/hof-topology-interpenetration__nKRXjEc/result.json"
+    },
+    {
+      "task": "satb-audio-transcription",
+      "status": "invalid",
+      "reward": null,
+      "tests": {
+        "tests": 40,
+        "passed": 1,
+        "failed": 39,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791901786510,
+        "stop": 1791901787995
+      },
+      "cost_usd": null,
+      "role_cost_usd": null,
+      "model": {
+        "worker": "cursor/grok-4.7-low",
+        "advisor": "gpt-6.1-sol",
+        "advisor_effort": "high",
+        "worker_effort": "low",
+        "decision": "gpt-6-luna",
+        "decision_effort": "medium"
+      },
+      "terminal_reason": "budget_exhausted",
+      "exception": null,
+      "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v8-satb-audio-transcription/satb-audio-transcription__aN2LmBF/result.json",
+      "raw_grader_reward": 0.0,
+      "validity_failure": {
+        "kind": "provider_failed_before_any_worker_answer",
+        "native_errors": [
+          {
+            "message": "[resource_exhausted] Error"
+          }
+        ]
+      }
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "status": "pending_or_running"
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "status": "pending_or_running"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "candidate": "v8",
+  "all_five_complete": false,
+  "pending": [
+    "atrx-vep-crispr",
+    "wal-recovery-ordering"
+  ],
+  "problems": [
+    "satb-audio-transcription: Missing native usage"
+  ],
+  "original_files_checked": 98,
+  "qualifying_correct_and_cheaper": 0,
+  "hybrid_total_usd": null,
+  "solo_total_usd": 4.119332,
+  "aggregate_savings_fraction": null,
+  "goal_evidence_passes": false,
+  "rows": [
+    {
+      "task": "cad-model",
+      "status": "correct",
+      "problems": [],
+      "cost_usd": 0.1407496,
+      "solo_cost_usd": 0.1877124,
+      "solo_status": "correct",
+      "savings_fraction": 0.2501848572603621,
+      "qualifies": false,
+      "tests": {
+        "tests": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791902083534,
+        "stop": 1791902084914
+      },
+      "roles": {
+        "advisor": 0.118808,
+        "decision": 0.0017476,
+        "worker": 0.020194
+      }
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "status": "wrong",
+      "problems": [],
+      "cost_usd": 0.4362221,
+      "solo_cost_usd": 0.330346,
+      "solo_status": "correct",
+      "savings_fraction": -0.3205006266157302,
+      "qualifies": false,
+      "tests": {
+        "tests": 38,
+        "passed": 0,
+        "failed": 38,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791901729318,
+        "stop": 1791901729428
+      },
+      "roles": {
+        "advisor": 0.40055799999999997,
+        "decision": 0.0044621,
+        "worker": 0.031202
+      }
+    },
+    {
+      "task": "satb-audio-transcription",
+      "status": "wrong",
+      "problems": [
+        "Missing native usage"
+      ],
+      "cost_usd": null,
+      "solo_cost_usd": 0.4645816,
+      "solo_status": "correct",
+      "savings_fraction": null,
+      "qualifies": false,
+      "tests": {
+        "tests": 40,
+        "passed": 1,
+        "failed": 39,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791901786510,
+        "stop": 1791901787995
+      },
+      "roles": {}
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "status": "pending_or_running",
+      "problems": []
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "status": "pending_or_running",
+      "problems": []
+    }
+  ],
+  "limitations": [
+    "One frozen attempt per task; does not establish repeat-run stability.",
+    "Standard native token price equivalents, not subscription invoice.",
+    "Development attempts are retained separately in expenses.json.",
+    "Infrastructure, outer engineering cost and unreported provider tool surcharges excluded."
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "candidate": "v60",
+  "problems": [],
+  "original_files_checked": 98,
+  "frozen_files_checked": 2187,
+  "runs": [
+    {
+      "run": "hybrid-v60-cad-model-r1",
+      "task": "cad-model",
+      "status": "wrong",
+      "problems": [],
+      "notes": [],
+      "cost_usd": 0.10040226000000001,
+      "known_cost_lower_bound_usd": 0.10040226000000001,
+      "tests": {
+        "tests": 8,
+        "passed": 6,
+        "failed": 2,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791998048739,
+        "stop": 1791998051044
+      },
+      "roles": {
+        "advisor": 0.0935204,
+        "decision": 0.0032665000000000003,
+        "worker": 0.00361536
+      },
+      "terminal_reason": "deliver"
+    },
+    {
+      "run": "hybrid-v60-cad-model-r2",
+      "task": "cad-model",
+      "status": "correct",
+      "problems": [],
+      "notes": [],
+      "cost_usd": 0.11398196000000001,
+      "known_cost_lower_bound_usd": 0.11398196000000001,
+      "tests": {
+        "tests": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792006329601,
+        "stop": 1792006331479
+      },
+      "roles": {
+        "advisor": 0.1080036,
+        "decision": 0.0029507,
+        "worker": 0.00302766
+      },
+      "terminal_reason": "deliver"
+    },
+    {
+      "run": "hybrid-v60-cad-model-r3",
+      "task": "cad-model",
+      "status": "correct",
+      "problems": [],
+      "notes": [],
+      "cost_usd": 0.09774128,
+      "known_cost_lower_bound_usd": 0.09774128,
+      "tests": {
+        "tests": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792007885308,
+        "stop": 1792007886957
+      },
+      "roles": {
+        "advisor": 0.0909796,
+        "decision": 0.0027624,
+        "worker": 0.00399928
+      },
+      "terminal_reason": "deliver"
+    },
+    {
+      "run": "hybrid-v60-hof-topology-interpenetration-r1",
+      "task": "hof-topology-interpenetration",
+      "status": "correct",
+      "problems": [],
+      "notes": [],
+      "cost_usd": 0.25231138,
+      "known_cost_lower_bound_usd": 0.25231138,
+      "tests": {
+        "tests": 38,
+        "passed": 38,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791998699070,
+        "stop": 1791998699105
+      },
+      "roles": {
+        "advisor": 0.2472384,
+        "decision": 0.0016734,
+        "worker": 0.00339958
+      },
+      "terminal_reason": "budget_exhausted_after_integration"
+    },
+    {
+      "run": "hybrid-v60-hof-topology-interpenetration-r2",
+      "task": "hof-topology-interpenetration",
+      "status": "correct",
+      "problems": [],
+      "notes": [],
+      "cost_usd": 0.23905266,
+      "known_cost_lower_bound_usd": 0.23905266,
+      "tests": {
+        "tests": 38,
+        "passed": 38,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792006906073,
+        "stop": 1792006906107
+      },
+      "roles": {
+        "advisor": 0.2315188,
+        "decision": 0.0042136,
+        "worker": 0.0033202600000000002
+      },
+      "terminal_reason": "budget_exhausted"
+    },
+    {
+      "run": "hybrid-v60-hof-topology-interpenetration-r3",
+      "task": "hof-topology-interpenetration",
+      "status": "wrong",
+      "problems": [],
+      "notes": [],
+      "cost_usd": 0.24123758,
+      "known_cost_lower_bound_usd": 0.24123758,
+      "tests": {
+        "tests": 38,
+        "passed": 0,
+        "failed": 38,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792008190230,
+        "stop": 1792008190342
+      },
+      "roles": {
+        "advisor": 0.2342724,
+        "decision": 0.0030868,
+        "worker": 0.00387838
+      },
+      "terminal_reason": "budget_exhausted"
+    },
+    {
+      "run": "hybrid-v60-satb-audio-transcription-r1",
+      "task": "satb-audio-transcription",
+      "status": "wrong",
+      "problems": [],
+      "notes": [],
+      "cost_usd": 0.33960492000000003,
+      "known_cost_lower_bound_usd": 0.33960492000000003,
+      "tests": {
+        "tests": 40,
+        "passed": 24,
+        "failed": 16,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792005294138,
+        "stop": 1792005294507
+      },
+      "roles": {
+        "advisor": 0.3324876,
+        "decision": 0.0048084,
+        "worker": 0.00230892
+      },
+      "terminal_reason": "budget_exhausted"
+    },
+    {
+      "run": "hybrid-v60-satb-audio-transcription-r2",
+      "task": "satb-audio-transcription",
+      "status": "wrong",
+      "problems": [],
+      "notes": [],
+      "cost_usd": 0.34484929999999997,
+      "known_cost_lower_bound_usd": 0.34484929999999997,
+      "tests": {
+        "tests": 40,
+        "passed": 26,
+        "failed": 14,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792007592014,
+        "stop": 1792007592375
+      },
+      "roles": {
+        "advisor": 0.3390008,
+        "decision": 0.0034011,
+        "worker": 0.0024474
+      },
+      "terminal_reason": "budget_exhausted_after_integration"
+    },
+    {
+      "run": "hybrid-v60-satb-audio-transcription-r3",
+      "task": "satb-audio-transcription",
+      "status": "wrong",
+      "problems": [],
+      "notes": [],
+      "cost_usd": 0.24623872,
+      "known_cost_lower_bound_usd": 0.24623872,
+      "tests": {
+        "tests": 40,
+        "passed": 25,
+        "failed": 15,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792008462697,
+        "stop": 1792008463008
+      },
+      "roles": {
+        "advisor": 0.23628639999999998,
+        "decision": 0.0057024,
+        "worker": 0.00424992
+      },
+      "terminal_reason": "budget_exhausted"
+    },
+    {
+      "run": "hybrid-v60-wal-recovery-ordering-r1",
+      "task": "wal-recovery-ordering",
+      "status": "wrong",
+      "problems": [],
+      "notes": [],
+      "cost_usd": 1.83193714,
+      "known_cost_lower_bound_usd": 1.83193714,
+      "tests": {
+        "tests": 97,
+        "passed": 95,
+        "failed": 2,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1792000205999,
+        "stop": 1792000237662
+      },
+      "roles": {
+        "advisor": 1.826444,
+        "decision": 0.0010914,
+        "worker": 0.00440174
+      },
+      "terminal_reason": "budget_exhausted_after_integration"
+    },
+    {
+      "run": "hybrid-v60-wal-recovery-ordering-r2",
+      "task": "wal-recovery-ordering",
+      "status": "pending",
+      "problems": [],
+      "notes": []
+    },
+    {
+      "run": "hybrid-v60-wal-recovery-ordering-r3",
+      "task": "wal-recovery-ordering",
+      "status": "pending",
+      "problems": [],
+      "notes": []
+    }
+  ],
+  "statistical_acceptance": {
+    "all_runs_complete": false,
+    "tasks_passing": 0,
+    "aggregate_savings_fraction": null,
+    "accept": false
+  },
+  "goal_evidence_passes": false
+}

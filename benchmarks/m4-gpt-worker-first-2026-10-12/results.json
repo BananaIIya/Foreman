@@ -1,0 +1,2204 @@
+[
+  {
+    "id": "cold-cold-add",
+    "group": "cold",
+    "taskId": "cold-add",
+    "repetition": 0,
+    "startedAt": "2026-10-13T03:42:07.634Z",
+    "completedAt": "2026-10-13T03:42:15.240Z",
+    "durationMs": 7606,
+    "completion": "completed",
+    "toolCalls": 2,
+    "passed": true,
+    "costUsd": 0.0011482800000000002,
+    "turns": [
+      {
+        "threadId": "b50750c1-b95b-47da-9315-695cd6d9f073",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335a-7302-74f2-8dd3-ccc4d882fdfd",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:42:14.000Z",
+        "inputTokens": 64096,
+        "cachedInputTokens": 59648,
+        "cacheCreationTokens": 0,
+        "outputTokens": 214,
+        "reasoningTokens": 0,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0011482800000000002,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:b50750c1-b95b-47da-9315-695cd6d9f073:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ab50750c1-b95b-47da-9315-695cd6d9f073%3Aordinal%3A1"
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "4a381860447226426a116b024081641b32f9b6c4f7c2c5d3cb86987e85c8ae33",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "cold-cold-dedupe",
+    "group": "cold",
+    "taskId": "cold-dedupe",
+    "repetition": 0,
+    "startedAt": "2026-10-13T03:42:15.294Z",
+    "completedAt": "2026-10-13T03:42:25.073Z",
+    "durationMs": 9779,
+    "completion": "completed",
+    "toolCalls": 3,
+    "passed": true,
+    "costUsd": 0.0018656,
+    "turns": [
+      {
+        "threadId": "6f4d0e18-4d04-4ca4-837c-910c4b3b95ff",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335a-9106-7573-8503-0823e869324a",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:42:24.000Z",
+        "inputTokens": 64138,
+        "cachedInputTokens": 52480,
+        "cacheCreationTokens": 0,
+        "outputTokens": 350,
+        "reasoningTokens": 102,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0018656,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:6f4d0e18-4d04-4ca4-837c-910c4b3b95ff:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A6f4d0e18-4d04-4ca4-837c-910c4b3b95ff%3Aordinal%3A1"
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "e4805c1dc0be16ed08ce3321b4330c9ec6ace1e6994ae16f8eeae8143496d8bc",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-csv-1",
+    "group": "B",
+    "taskId": "csv",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:42:25.253Z",
+    "completedAt": "2026-10-13T03:42:44.800Z",
+    "durationMs": 19547,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.003944080000000001,
+    "turns": [
+      {
+        "threadId": "70eb5368-a3ab-4068-9730-a1204299a7f0",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335a-b959-7181-bc8c-5dc3c010e9b0",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:42:44.000Z",
+        "inputTokens": 110763,
+        "cachedInputTokens": 87808,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1541,
+        "reasoningTokens": 237,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.003944080000000001,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:70eb5368-a3ab-4068-9730-a1204299a7f0:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A70eb5368-a3ab-4068-9730-a1204299a7f0%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "847af11cc483f374d63e60228cdb626f49f62d4b8523f5e68a73a3d62c988246",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-slug-1",
+    "group": "B",
+    "taskId": "slug",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:42:25.254Z",
+    "completedAt": "2026-10-13T03:42:37.838Z",
+    "durationMs": 12584,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0023771400000000002,
+    "turns": [
+      {
+        "threadId": "818c1a90-89f6-4a3e-8e57-feca6c5ce849",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335a-b956-7941-85bb-68966b5c4081",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:42:37.000Z",
+        "inputTokens": 108698,
+        "cachedInputTokens": 97024,
+        "cacheCreationTokens": 0,
+        "outputTokens": 479,
+        "reasoningTokens": 31,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0023771400000000002,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:818c1a90-89f6-4a3e-8e57-feca6c5ce849:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A818c1a90-89f6-4a3e-8e57-feca6c5ce849%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "c017ea37e7bb3b433799edaf641d4a85ba0777eb74437e6a4d947122ac63bd1b",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-intervals-1",
+    "group": "B",
+    "taskId": "intervals",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:42:37.880Z",
+    "completedAt": "2026-10-13T03:42:51.522Z",
+    "durationMs": 13642,
+    "completion": "completed",
+    "toolCalls": 4,
+    "passed": true,
+    "costUsd": 0.0052347800000000005,
+    "turns": [
+      {
+        "threadId": "f264747e-05a1-49c8-aaaf-514d7351df50",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335a-e942-77a1-ab0b-7c1310b5bca9",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:42:50.000Z",
+        "inputTokens": 109238,
+        "cachedInputTokens": 67328,
+        "cacheCreationTokens": 0,
+        "outputTokens": 741,
+        "reasoningTokens": 61,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0052347800000000005,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:f264747e-05a1-49c8-aaaf-514d7351df50:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Af264747e-05a1-49c8-aaaf-514d7351df50%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "7431efd9a7327e54fc9738cda369104f9a85a4d72a06d14f86a8abafe0170995",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-query-1",
+    "group": "B",
+    "taskId": "query",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:42:44.862Z",
+    "completedAt": "2026-10-13T03:42:57.684Z",
+    "durationMs": 12822,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00222006,
+    "turns": [
+      {
+        "threadId": "abbfbe0e-edd9-42a7-a8b8-0f81dede2202",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335b-047c-7330-823e-40bd68ffb1ae",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:42:56.000Z",
+        "inputTokens": 131110,
+        "cachedInputTokens": 124416,
+        "cacheCreationTokens": 0,
+        "outputTokens": 613,
+        "reasoningTokens": 0,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00222006,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:abbfbe0e-edd9-42a7-a8b8-0f81dede2202:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Aabbfbe0e-edd9-42a7-a8b8-0f81dede2202%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "08156ca4ab5470fa363bbb78a3578d623b1948b579869e85cea8d74a8f490932",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-toposort-1",
+    "group": "B",
+    "taskId": "toposort",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:42:51.669Z",
+    "completedAt": "2026-10-13T03:43:06.326Z",
+    "durationMs": 14657,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00302206,
+    "turns": [
+      {
+        "threadId": "f01caa85-a87d-492a-8d23-e8419e78fadf",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335b-2088-7b33-a01d-5c6f3072172f",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:43:05.000Z",
+        "inputTokens": 132052,
+        "cachedInputTokens": 119296,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1107,
+        "reasoningTokens": 93,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00302206,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:f01caa85-a87d-492a-8d23-e8419e78fadf:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Af01caa85-a87d-492a-8d23-e8419e78fadf%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "9e5fb09f0ee07f5f553428f3e482ace83b60843783aa9ef3f85a096725cabc29",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-ttl-lru-1",
+    "group": "B",
+    "taskId": "ttl-lru",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:42:57.739Z",
+    "completedAt": "2026-10-13T03:43:18.441Z",
+    "durationMs": 20702,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0028652400000000002,
+    "turns": [
+      {
+        "threadId": "d8687265-1d98-4067-b033-58a7d4579d9b",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335b-36c4-7483-ab2e-b77413c2ff86",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:43:17.000Z",
+        "inputTokens": 132517,
+        "cachedInputTokens": 121344,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1069,
+        "reasoningTokens": 178,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0028652400000000002,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:d8687265-1d98-4067-b033-58a7d4579d9b:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ad8687265-1d98-4067-b033-58a7d4579d9b%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "37c41ca1493fb481241ef1c4335bd65e0530a7f541fa6c52d9b79214cf205fcd",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-map-limit-1",
+    "group": "B",
+    "taskId": "map-limit",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:43:06.374Z",
+    "completedAt": "2026-10-13T03:43:22.850Z",
+    "durationMs": 16476,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00236276,
+    "turns": [
+      {
+        "threadId": "850c2de7-e55a-4c15-a63b-ffe93448f94e",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335b-5969-7523-8d18-3c63bd5e0089",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:43:22.000Z",
+        "inputTokens": 131612,
+        "cachedInputTokens": 124416,
+        "cacheCreationTokens": 0,
+        "outputTokens": 798,
+        "reasoningTokens": 168,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00236276,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:850c2de7-e55a-4c15-a63b-ffe93448f94e:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A850c2de7-e55a-4c15-a63b-ffe93448f94e%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "f9368d0a7c2fa1f92661d77175d22140e2f4c52e5ea637cdb446536856e95190",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-retry-1",
+    "group": "B",
+    "taskId": "retry",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:43:18.492Z",
+    "completedAt": "2026-10-13T03:43:30.982Z",
+    "durationMs": 12490,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00283272,
+    "turns": [
+      {
+        "threadId": "ce2f54ac-c604-4657-ba46-82ca7f86c1fe",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335b-87f5-7990-9935-fd06cb68a1e3",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:43:30.000Z",
+        "inputTokens": 131462,
+        "cachedInputTokens": 118272,
+        "cacheCreationTokens": 0,
+        "outputTokens": 662,
+        "reasoningTokens": 0,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00283272,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:ce2f54ac-c604-4657-ba46-82ca7f86c1fe:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ace2f54ac-c604-4657-ba46-82ca7f86c1fe%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "bfe6845d4ea3d5a4f7e4f56414b0e73465a084b64844ccc1354bafe30d212ad2",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-deep-merge-1",
+    "group": "B",
+    "taskId": "deep-merge",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:43:22.928Z",
+    "completedAt": "2026-10-13T03:43:43.220Z",
+    "durationMs": 20292,
+    "completion": "completed",
+    "toolCalls": 6,
+    "passed": true,
+    "costUsd": 0.00319572,
+    "turns": [
+      {
+        "threadId": "85e210b0-8933-4b2c-b1b7-97cc34f446eb",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335b-99a3-7a72-b54c-6703c7215033",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:43:42.000Z",
+        "inputTokens": 132087,
+        "cachedInputTokens": 118272,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1263,
+        "reasoningTokens": 138,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00319572,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:85e210b0-8933-4b2c-b1b7-97cc34f446eb:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A85e210b0-8933-4b2c-b1b7-97cc34f446eb%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "1a72cb6725455fc9166f0ee5012f16623837065ba44b3429390141d6b5d8e8df",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-money-1",
+    "group": "B",
+    "taskId": "money",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:43:31.081Z",
+    "completedAt": "2026-10-13T03:43:45.002Z",
+    "durationMs": 13921,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0028812200000000003,
+    "turns": [
+      {
+        "threadId": "6184d4b3-5012-4cc5-a903-78f186f2a39a",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335b-b9ed-7c91-979e-96b78734daef",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:43:44.000Z",
+        "inputTokens": 131457,
+        "cachedInputTokens": 118272,
+        "cacheCreationTokens": 0,
+        "outputTokens": 760,
+        "reasoningTokens": 99,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0028812200000000003,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:6184d4b3-5012-4cc5-a903-78f186f2a39a:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A6184d4b3-5012-4cc5-a903-78f186f2a39a%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "3e37f81142b6a2146e588930ce83bdec87deaf6d13f82c28e6a9855c16000f28",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-byte-ranges-1",
+    "group": "B",
+    "taskId": "byte-ranges",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:43:43.270Z",
+    "completedAt": "2026-10-13T03:44:18.969Z",
+    "durationMs": 35699,
+    "completion": "completed",
+    "toolCalls": 6,
+    "passed": true,
+    "costUsd": 0.00234322,
+    "turns": [
+      {
+        "threadId": "83e9aee7-a747-4612-8689-7a90b388057e",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335b-e975-7801-b117-d80ebb5244fe",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:44:18.000Z",
+        "inputTokens": 110600,
+        "cachedInputTokens": 104192,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1321,
+        "reasoningTokens": 274,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00234322,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:83e9aee7-a747-4612-8689-7a90b388057e:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A83e9aee7-a747-4612-8689-7a90b388057e%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "768f4512e6c621a8d47f9b4ed549dcb4bb9a6fa732ed933800a0053cae94e1d6",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-emitter-1",
+    "group": "B",
+    "taskId": "emitter",
+    "repetition": 1,
+    "startedAt": "2026-10-13T03:43:45.041Z",
+    "completedAt": "2026-10-13T03:44:03.827Z",
+    "durationMs": 18786,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00224862,
+    "turns": [
+      {
+        "threadId": "618c4a6d-2d73-4b8e-9c70-2f9a25d54bf9",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335b-f060-79c2-a9ff-8e256aee4108",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:44:03.000Z",
+        "inputTokens": 110379,
+        "cachedInputTokens": 104192,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1176,
+        "reasoningTokens": 294,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00224862,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:618c4a6d-2d73-4b8e-9c70-2f9a25d54bf9:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A618c4a6d-2d73-4b8e-9c70-2f9a25d54bf9%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "2b0c064bc9c08505bfb7a700f53be808e8ee437dafac1275650993d8671f9ccd",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-toposort-2",
+    "group": "B",
+    "taskId": "toposort",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:44:03.892Z",
+    "completedAt": "2026-10-13T03:44:20.926Z",
+    "durationMs": 17034,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0024154000000000003,
+    "turns": [
+      {
+        "threadId": "1bfc3f06-7cff-4838-9dd9-4c31c413b39e",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335c-397f-7cc1-8075-00f443eaa6a5",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:44:20.000Z",
+        "inputTokens": 131835,
+        "cachedInputTokens": 125440,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1043,
+        "reasoningTokens": 76,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0024154000000000003,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:1bfc3f06-7cff-4838-9dd9-4c31c413b39e:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A1bfc3f06-7cff-4838-9dd9-4c31c413b39e%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "3345cfd2c867548f909bd6ffade30f0cb2323bdcd677887b10f6de2cff5f381b",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-ttl-lru-2",
+    "group": "B",
+    "taskId": "ttl-lru",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:44:19.017Z",
+    "completedAt": "2026-10-13T03:44:48.935Z",
+    "durationMs": 29918,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0024839,
+    "turns": [
+      {
+        "threadId": "2eca0f55-5e5b-41d8-aad0-fe3c383be8aa",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335c-7466-7ce1-98d6-4a09d7b0b2f8",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:44:48.000Z",
+        "inputTokens": 132430,
+        "cachedInputTokens": 125440,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1061,
+        "reasoningTokens": 151,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0024839,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:2eca0f55-5e5b-41d8-aad0-fe3c383be8aa:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A2eca0f55-5e5b-41d8-aad0-fe3c383be8aa%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "fe6f9b3eb4a18c15fbf82430941596970246055eb0875ea2a5916271432af899",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-map-limit-2",
+    "group": "B",
+    "taskId": "map-limit",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:44:20.969Z",
+    "completedAt": "2026-10-13T03:44:51.026Z",
+    "durationMs": 30057,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0023810000000000003,
+    "turns": [
+      {
+        "threadId": "5281120f-00c2-4d4a-aa46-420df2b8dd64",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335c-7bf9-7d13-ab20-8172fd4dc266",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:44:50.000Z",
+        "inputTokens": 132041,
+        "cachedInputTokens": 125440,
+        "cacheCreationTokens": 0,
+        "outputTokens": 933,
+        "reasoningTokens": 256,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0023810000000000003,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:5281120f-00c2-4d4a-aa46-420df2b8dd64:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A5281120f-00c2-4d4a-aa46-420df2b8dd64%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "e0b7f293235db864d0b6a72f7c8f4239e70c247c0af89b5cdaeef3ea7064d833",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-retry-2",
+    "group": "B",
+    "taskId": "retry",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:44:48.980Z",
+    "completedAt": "2026-10-13T03:45:13.813Z",
+    "durationMs": 24833,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00268974,
+    "turns": [
+      {
+        "threadId": "85e6a379-25c3-4a03-8fc4-886b1103f1b5",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335c-e9b2-7c90-9283-81d3cf1adf4b",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:45:13.000Z",
+        "inputTokens": 131937,
+        "cachedInputTokens": 121344,
+        "cacheCreationTokens": 0,
+        "outputTokens": 834,
+        "reasoningTokens": 165,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00268974,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:85e6a379-25c3-4a03-8fc4-886b1103f1b5:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A85e6a379-25c3-4a03-8fc4-886b1103f1b5%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "0b7a411c5812dfb376c906601ea8406527711464c17fce4d6b67b034d7435f88",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-deep-merge-2",
+    "group": "B",
+    "taskId": "deep-merge",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:44:51.064Z",
+    "completedAt": "2026-10-13T03:45:05.838Z",
+    "durationMs": 14774,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00240796,
+    "turns": [
+      {
+        "threadId": "6e31c653-2717-48e8-a682-d64d30b11b58",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335c-f19e-7c43-8ce2-29e8c37dc463",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:45:05.000Z",
+        "inputTokens": 131649,
+        "cachedInputTokens": 124416,
+        "cacheCreationTokens": 0,
+        "outputTokens": 881,
+        "reasoningTokens": 0,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00240796,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:6e31c653-2717-48e8-a682-d64d30b11b58:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A6e31c653-2717-48e8-a682-d64d30b11b58%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "a033b14299e48138e20e47b09c5c03fff190f9e1c816a9490777dcdb9f94ce75",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-money-2",
+    "group": "B",
+    "taskId": "money",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:45:05.881Z",
+    "completedAt": "2026-10-13T03:45:31.477Z",
+    "durationMs": 25596,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00233916,
+    "turns": [
+      {
+        "threadId": "fda6b6a4-a178-4987-b71b-79090def5ce2",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335d-2be8-7b12-ac02-37676452adf6",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:45:30.000Z",
+        "inputTokens": 131491,
+        "cachedInputTokens": 124416,
+        "cacheCreationTokens": 0,
+        "outputTokens": 775,
+        "reasoningTokens": 78,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00233916,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:fda6b6a4-a178-4987-b71b-79090def5ce2:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Afda6b6a4-a178-4987-b71b-79090def5ce2%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "bf0210e8061ba393e8700286dfc7716b53ef840b6ff12b3a39587a3ff6520e60",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-byte-ranges-2",
+    "group": "B",
+    "taskId": "byte-ranges",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:45:13.870Z",
+    "completedAt": "2026-10-13T03:45:44.942Z",
+    "durationMs": 31072,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0024801000000000003,
+    "turns": [
+      {
+        "threadId": "524e00dd-c281-4b59-8d19-b11beaa8a4f7",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335d-4abd-7271-af2c-c67fbe8d40ed",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:45:43.000Z",
+        "inputTokens": 132312,
+        "cachedInputTokens": 125440,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1077,
+        "reasoningTokens": 144,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0024801000000000003,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:524e00dd-c281-4b59-8d19-b11beaa8a4f7:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A524e00dd-c281-4b59-8d19-b11beaa8a4f7%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "b69b9f92fdf2f3d0280423a21a01d160bd98139e4edbff688182b3b4c53867ff",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-emitter-2",
+    "group": "B",
+    "taskId": "emitter",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:45:31.522Z",
+    "completedAt": "2026-10-13T03:45:55.323Z",
+    "durationMs": 23801,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": false,
+    "costUsd": 0.0022923,
+    "turns": [
+      {
+        "threadId": "2bee185f-edfd-4d65-beff-02585dea0a27",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335d-906d-7d40-bb11-046ab13ba9a8",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:45:54.000Z",
+        "inputTokens": 131819,
+        "cachedInputTokens": 125440,
+        "cacheCreationTokens": 0,
+        "outputTokens": 800,
+        "reasoningTokens": 0,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0022923,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:2bee185f-edfd-4d65-beff-02585dea0a27:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A2bee185f-edfd-4d65-beff-02585dea0a27%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": false,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "71f0e60e1a06323666c0a0c5a51ab7c13b680aa7665a0d13dfcf73cbca93c975",
+      "publicPassed": true,
+      "hiddenPassed": false
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-slug-2",
+    "group": "B",
+    "taskId": "slug",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:45:45.000Z",
+    "completedAt": "2026-10-13T03:46:00.478Z",
+    "durationMs": 15478,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0022208600000000003,
+    "turns": [
+      {
+        "threadId": "148cf0d4-8b40-4b0d-b0c5-bb43cf7ebbe3",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335d-c4c7-7a23-88b9-9277d2ca3fab",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:45:59.000Z",
+        "inputTokens": 130968,
+        "cachedInputTokens": 124416,
+        "cacheCreationTokens": 0,
+        "outputTokens": 643,
+        "reasoningTokens": 166,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0022208600000000003,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:148cf0d4-8b40-4b0d-b0c5-bb43cf7ebbe3:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A148cf0d4-8b40-4b0d-b0c5-bb43cf7ebbe3%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "bf3c264213f9e2b647709684290d4fed30b73c7b2ad82167412d99792df60d22",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-csv-2",
+    "group": "B",
+    "taskId": "csv",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:45:55.376Z",
+    "completedAt": "2026-10-13T03:46:17.571Z",
+    "durationMs": 22195,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00302984,
+    "turns": [
+      {
+        "threadId": "03e8c146-ad97-4b64-a335-791583134172",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335d-ed7c-7ec2-b920-03dda48bf2d4",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:46:16.000Z",
+        "inputTokens": 132588,
+        "cachedInputTokens": 121344,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1384,
+        "reasoningTokens": 291,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00302984,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:03e8c146-ad97-4b64-a335-791583134172:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A03e8c146-ad97-4b64-a335-791583134172%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "6b4bd362338575219c8f0421a53dd0466dc87af506baeafbe0437bd008dc2694",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-intervals-2",
+    "group": "B",
+    "taskId": "intervals",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:46:00.546Z",
+    "completedAt": "2026-10-13T03:46:19.100Z",
+    "durationMs": 18554,
+    "completion": "completed",
+    "toolCalls": 6,
+    "passed": true,
+    "costUsd": 0.00235036,
+    "turns": [
+      {
+        "threadId": "b72491bd-5626-4334-98f3-89dfb1d5c7ea",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335e-0207-7aa1-a28e-15a691a259a7",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:46:18.000Z",
+        "inputTokens": 131453,
+        "cachedInputTokens": 124416,
+        "cacheCreationTokens": 0,
+        "outputTokens": 805,
+        "reasoningTokens": 64,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00235036,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:b72491bd-5626-4334-98f3-89dfb1d5c7ea:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ab72491bd-5626-4334-98f3-89dfb1d5c7ea%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "6c234e6e74aefad75fc26a29fd6cb0fb5572622bb919a06bef7740f0e9dbdc07",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-query-2",
+    "group": "B",
+    "taskId": "query",
+    "repetition": 2,
+    "startedAt": "2026-10-13T03:46:17.617Z",
+    "completedAt": "2026-10-13T03:46:32.762Z",
+    "durationMs": 15145,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00347684,
+    "turns": [
+      {
+        "threadId": "dec37de1-23a0-452c-b68e-e6e0d0c6c99d",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335e-44e5-7fe1-b907-fa7db555e915",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:46:31.000Z",
+        "inputTokens": 131232,
+        "cachedInputTokens": 111104,
+        "cacheCreationTokens": 0,
+        "outputTokens": 706,
+        "reasoningTokens": 72,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00347684,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:dec37de1-23a0-452c-b68e-e6e0d0c6c99d:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Adec37de1-23a0-452c-b68e-e6e0d0c6c99d%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "3262d86228efc8286487607759427bcc134e50d0783625661953bdb75b28c70e",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-deep-merge-3",
+    "group": "B",
+    "taskId": "deep-merge",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:46:19.141Z",
+    "completedAt": "2026-10-13T03:47:08.991Z",
+    "durationMs": 49850,
+    "completion": "completed",
+    "toolCalls": 8,
+    "passed": true,
+    "costUsd": 0.0042609,
+    "turns": [
+      {
+        "threadId": "e0e346c4-d6da-483b-ae43-75e3602d8ac9",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335e-4a17-7a20-a690-7ad501dafec8",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:47:08.000Z",
+        "inputTokens": 179345,
+        "cachedInputTokens": 163840,
+        "cacheCreationTokens": 0,
+        "outputTokens": 2144,
+        "reasoningTokens": 242,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0042609,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:e0e346c4-d6da-483b-ae43-75e3602d8ac9:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ae0e346c4-d6da-483b-ae43-75e3602d8ac9%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "dfe52483c66157f2d398d424b505f4fc1f5ceb558eafa43e40a8c4a61089a99d",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-money-3",
+    "group": "B",
+    "taskId": "money",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:46:32.819Z",
+    "completedAt": "2026-10-13T03:46:50.599Z",
+    "durationMs": 17780,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00235556,
+    "turns": [
+      {
+        "threadId": "0cb6fc8f-c452-4518-a68d-a1e0e7b50ca0",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335e-7f7d-7402-9643-30ea6b4ad541",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:46:49.000Z",
+        "inputTokens": 131505,
+        "cachedInputTokens": 124416,
+        "cacheCreationTokens": 0,
+        "outputTokens": 805,
+        "reasoningTokens": 100,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00235556,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:0cb6fc8f-c452-4518-a68d-a1e0e7b50ca0:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A0cb6fc8f-c452-4518-a68d-a1e0e7b50ca0%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "e019d3c811aee17973c6daa9d3f1c8c748482abecfc455064538dc3a2281895e",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-byte-ranges-3",
+    "group": "B",
+    "taskId": "byte-ranges",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:46:50.645Z",
+    "completedAt": "2026-10-13T03:47:09.849Z",
+    "durationMs": 19204,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0024393,
+    "turns": [
+      {
+        "threadId": "655f74fe-eddf-4750-abbb-8fb9bbc39a54",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335e-c572-70d2-84cf-f4bc13c4693d",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:47:08.000Z",
+        "inputTokens": 132214,
+        "cachedInputTokens": 125440,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1015,
+        "reasoningTokens": 133,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0024393,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:655f74fe-eddf-4750-abbb-8fb9bbc39a54:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A655f74fe-eddf-4750-abbb-8fb9bbc39a54%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "66757de689b438889a3ba0a3841317346277f602ebf8d29e2c3699b880bfe190",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-emitter-3",
+    "group": "B",
+    "taskId": "emitter",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:47:09.083Z",
+    "completedAt": "2026-10-13T03:47:26.640Z",
+    "durationMs": 17557,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0025133,
+    "turns": [
+      {
+        "threadId": "25e9467a-95f4-4a50-ac4c-902221331c06",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335f-0d92-79a2-a978-07c5b3beaa8b",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:47:24.000Z",
+        "inputTokens": 132649,
+        "cachedInputTokens": 125440,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1076,
+        "reasoningTokens": 199,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0025133,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:25e9467a-95f4-4a50-ac4c-902221331c06:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A25e9467a-95f4-4a50-ac4c-902221331c06%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "616b11d65898ca305e1b1e530a1b1131a912bf8595205c474dee7bba9849e325",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-slug-3",
+    "group": "B",
+    "taskId": "slug",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:47:09.954Z",
+    "completedAt": "2026-10-13T03:47:25.324Z",
+    "durationMs": 15370,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00214616,
+    "turns": [
+      {
+        "threadId": "6acee950-2c3f-4b9c-92de-eb4031c9b48c",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335f-1111-7cd1-baba-8d7850e64f84",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:47:24.000Z",
+        "inputTokens": 130666,
+        "cachedInputTokens": 124416,
+        "cacheCreationTokens": 0,
+        "outputTokens": 554,
+        "reasoningTokens": 65,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00214616,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:6acee950-2c3f-4b9c-92de-eb4031c9b48c:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A6acee950-2c3f-4b9c-92de-eb4031c9b48c%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "c017ea37e7bb3b433799edaf641d4a85ba0777eb74437e6a4d947122ac63bd1b",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-csv-3",
+    "group": "B",
+    "taskId": "csv",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:47:25.476Z",
+    "completedAt": "2026-10-13T03:47:41.922Z",
+    "durationMs": 16446,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00219362,
+    "turns": [
+      {
+        "threadId": "859ed8e2-2ad9-444f-9246-4554cd6b1f09",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335f-4f2c-7f51-92aa-03378fecc722",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:47:41.000Z",
+        "inputTokens": 110184,
+        "cachedInputTokens": 104192,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1105,
+        "reasoningTokens": 90,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00219362,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:859ed8e2-2ad9-444f-9246-4554cd6b1f09:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A859ed8e2-2ad9-444f-9246-4554cd6b1f09%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "d111f44d6fb0161a9e2215574a8374c457ea60153de87dc7d99b2aefbfb3d88f",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-intervals-3",
+    "group": "B",
+    "taskId": "intervals",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:47:26.709Z",
+    "completedAt": "2026-10-13T03:47:38.734Z",
+    "durationMs": 12025,
+    "completion": "completed",
+    "toolCalls": 4,
+    "passed": true,
+    "costUsd": 0.00224046,
+    "turns": [
+      {
+        "threadId": "ceb60e6d-32ad-4180-9fc5-094d65321e31",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335f-52bd-7b93-b3e3-a9d459bae9f7",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:47:37.000Z",
+        "inputTokens": 109086,
+        "cachedInputTokens": 100096,
+        "cacheCreationTokens": 0,
+        "outputTokens": 681,
+        "reasoningTokens": 57,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00224046,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:ceb60e6d-32ad-4180-9fc5-094d65321e31:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Aceb60e6d-32ad-4180-9fc5-094d65321e31%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "4e0b4311fdebba37f02fa0ab221f200b199f031045abd907c6f97fb671e3a42a",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-query-3",
+    "group": "B",
+    "taskId": "query",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:47:38.798Z",
+    "completedAt": "2026-10-13T03:47:50.027Z",
+    "durationMs": 11229,
+    "completion": "completed",
+    "toolCalls": 4,
+    "passed": true,
+    "costUsd": 0.00192938,
+    "turns": [
+      {
+        "threadId": "d8dd21d5-ca72-4baa-805c-7adacfe6d7de",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335f-81af-7152-8c5b-95293c934851",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:47:49.000Z",
+        "inputTokens": 109150,
+        "cachedInputTokens": 103168,
+        "cacheCreationTokens": 0,
+        "outputTokens": 599,
+        "reasoningTokens": 60,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00192938,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:d8dd21d5-ca72-4baa-805c-7adacfe6d7de:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ad8dd21d5-ca72-4baa-805c-7adacfe6d7de%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "0437ab54f8ddca8a95167e88996b6033fd0a680cfc039c03fb65802bb91552ef",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-toposort-3",
+    "group": "B",
+    "taskId": "toposort",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:47:41.991Z",
+    "completedAt": "2026-10-13T03:48:13.062Z",
+    "durationMs": 31071,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.0024479000000000002,
+    "turns": [
+      {
+        "threadId": "07f4f412-3281-4d5b-94fd-bbf79bffaa82",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335f-8e17-7273-8d41-74a8dc0c0200",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:48:11.000Z",
+        "inputTokens": 131980,
+        "cachedInputTokens": 125440,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1079,
+        "reasoningTokens": 113,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.0024479000000000002,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:07f4f412-3281-4d5b-94fd-bbf79bffaa82:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A07f4f412-3281-4d5b-94fd-bbf79bffaa82%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "f1c47c76bc957f77adcdb03b7a6c604c89846f58b436ffe0d92c0028cf6554d2",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-ttl-lru-3",
+    "group": "B",
+    "taskId": "ttl-lru",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:47:50.093Z",
+    "completedAt": "2026-10-13T03:48:04.339Z",
+    "durationMs": 14246,
+    "completion": "completed",
+    "toolCalls": 7,
+    "passed": true,
+    "costUsd": 0.00222202,
+    "turns": [
+      {
+        "threadId": "f1dbe353-6772-4647-99fd-053f4a73093e",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335f-ae7f-74d0-84ea-f21bb4172208",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:48:03.000Z",
+        "inputTokens": 110843,
+        "cachedInputTokens": 104192,
+        "cacheCreationTokens": 0,
+        "outputTokens": 1030,
+        "reasoningTokens": 0,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00222202,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:f1dbe353-6772-4647-99fd-053f4a73093e:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Af1dbe353-6772-4647-99fd-053f4a73093e%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "aa89c2354c2ee6609c72378cc9edb9245ebfe4a540148ffa3b59360c5f40ed69",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-map-limit-3",
+    "group": "B",
+    "taskId": "map-limit",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:48:04.440Z",
+    "completedAt": "2026-10-13T03:48:21.858Z",
+    "durationMs": 17418,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00237346,
+    "turns": [
+      {
+        "threadId": "5eabf43d-5fc8-482a-828e-e890635ff4e1",
+        "turnId": "provider-turn:provider:codex:native-turn:01a1335f-e6c1-7970-a9d0-3d2622626130",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:48:20.000Z",
+        "inputTokens": 131699,
+        "cachedInputTokens": 124416,
+        "cacheCreationTokens": 0,
+        "outputTokens": 802,
+        "reasoningTokens": 145,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00237346,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:5eabf43d-5fc8-482a-828e-e890635ff4e1:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A5eabf43d-5fc8-482a-828e-e890635ff4e1%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "ab4fb7e8a14ebf91f4b7e0390e134b278dfee3bcd8f99593fb4d04eecf11ffd9",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  },
+  {
+    "id": "B-retry-3",
+    "group": "B",
+    "taskId": "retry",
+    "repetition": 3,
+    "startedAt": "2026-10-13T03:48:13.113Z",
+    "completedAt": "2026-10-13T03:48:28.940Z",
+    "durationMs": 15827,
+    "completion": "completed",
+    "toolCalls": 5,
+    "passed": true,
+    "costUsd": 0.00236746,
+    "turns": [
+      {
+        "threadId": "a407c484-70ab-4216-9a4a-3b7ce3700764",
+        "turnId": "provider-turn:provider:codex:native-turn:01a13360-08f9-73a0-9aa9-4b18902662b3",
+        "role": "worker",
+        "provider": "codex",
+        "driver": "codex",
+        "model": "gpt-6-luna",
+        "recordedAt": "2026-10-13T03:48:27.000Z",
+        "inputTokens": 131754,
+        "cachedInputTokens": 124416,
+        "cacheCreationTokens": 0,
+        "outputTokens": 779,
+        "reasoningTokens": 85,
+        "usageStatus": "complete",
+        "accountingScope": "mainAgent",
+        "costUsd": 0.00236746,
+        "costSource": "modelPriced",
+        "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+      }
+    ],
+    "runs": [
+      {
+        "id": "run:thread:a407c484-70ab-4216-9a4a-3b7ce3700764:ordinal:1",
+        "status": "completed",
+        "usageRole": "worker",
+        "model": "gpt-6-luna",
+        "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Aa407c484-70ab-4216-9a4a-3b7ce3700764%3Aordinal%3A1",
+        "advisorCycle": 0
+      }
+    ],
+    "handoffCount": 0,
+    "cycles": 0,
+    "evaluation": {
+      "passed": true,
+      "changed": true,
+      "integrity": {
+        "TASK.md": true,
+        "public.test.mjs": true
+      },
+      "solutionSha256": "bce2319c5e05729ec4e8f2f5d20e3381a7bb7c60147d276f873f0b2c1bb9877b",
+      "publicPassed": true,
+      "hiddenPassed": true
+    },
+    "scoringRevision": 2
+  }
+]

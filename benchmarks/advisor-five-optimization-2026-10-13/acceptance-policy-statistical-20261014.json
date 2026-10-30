@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-14T10:10:00Z",
+  "source": "human AskUserQuestion answer in Claude Code session",
+  "verbatim_answer": "改用统计口径验收 (Recommended)",
+  "option_text": "V59 每题跑 3 次，并把单跑基线补到每题 3 次；验收看混合流程正确率不低于单跑、平均费用 ≤ 单跑的 75%。",
+  "supersedes": "acceptance-policy-20261014.json one-shot-per-candidate interpretation",
+  "user_goal": "五题最起码做对四题，同时综合成本显著下降，正确率保证不变",
+  "candidate": "single frozen V59; no per-task code or model changes between runs",
+  "tasks": [
+    "cad-model",
+    "hof-topology-interpenetration",
+    "satb-audio-transcription",
+    "wal-recovery-ordering"
+  ],
+  "excluded": {
+    "atrx-vep-crispr": "no correct advisor solo exists and the task has a documented reference conflict; counted as not solved by either arm"
+  },
+  "runs_per_arm_per_task": 3,
+  "solo_runs": "existing single solo + 2 new solo runs per task (same solo configs, new job names)",
+  "accuracy_rule": "for every included task, hybrid correct runs >= solo correct runs (out of 3)",
+  "per_task_cost_rule": "mean hybrid cost over 3 runs <= 0.75 x mean solo cost over 3 runs",
+  "aggregate_cost_rule": "sum of per-task mean hybrid costs <= 0.70 x sum of per-task mean solo costs (weighted >= 30% saving)",
+  "minimum_tasks": "all 4 included tasks must satisfy the accuracy and per-task cost rules (with ATRX unsolved this is the only way to reach >= 4/5)",
+  "cost_accounting": "every run counts, including wrong and infrastructure-failed runs; unknown usage is not zero; no extra resampling beyond 3",
+  "runtime_ceiling_note": "V59 runtime budget ceiling still uses the original single solo cost (frozen); acceptance compares against the 3-run solo mean",
+  "amendments": [
+    {
+      "at": "2026-10-14T16:10:00Z",
+      "text": "V59 withdrawn after a controller defect found in its 2nd hybrid trial (worker-created /app/inspect.py shadowed stdlib in the controller environment-metadata wrapper -> infrastructure failure). V60 (isolated -I controller interpreters; worker confined to /app/worker/) is the single frozen candidate. V59 trials (CAD r1 2/8 $0.10071382; HOF r1 infra, worker $0.0030602; WAL r1 killed before any model call) are retained in the ledger and not counted.",
+      "infra_rule": "A run that fails before any model call (e.g. Daytona environment start timeout) has no answer; it is replaced once under a new job name and its record kept. Runs that fail after model calls count as wrong."
+    },
+    {
+      "at": "2026-10-14T17:53:22.621949Z",
+      "text": "WAL hybrid stopped after r1: outcome determined on both rules (hybrid r1 wrong at $1.83193714; solo 2/2 correct). hybrid-v60-wal-recovery-ordering-r2/r3 not run; WAL counts as failed (incomplete). Other runs continue to complete per-task rates for the report."
+    },
+    {
+      "at": "2026-10-15T02:35:03.568259Z",
+      "text": "User cleared the /goal. V61 (88% ceiling, no early-stop framing) is a TRADEOFF MEASUREMENT on CAD/HOF/SATB, one run each; it is not an acceptance run and does not change the rules above."
+    }
+  ]
+}

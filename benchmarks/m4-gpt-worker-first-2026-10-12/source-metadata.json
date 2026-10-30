@@ -1,0 +1,19 @@
+{
+  "baseCommit": "b4d378588c91fa0f11942fac7543a0bd5ceaafde",
+  "dirty": true,
+  "diffSha256": "37517a42296f0dc529ae0fc1c624e8c08ba0d38a0cb5bffc5b710cff022abc1b",
+  "untrackedFiles": {
+    "apps/server/src/orchestration-v2/advisorContext.ts": "1c8a795fda801d6e5c396547a163ffc579357fbf4ffa28503f155aa73ad19b0e",
+    "apps/server/src/orchestration-v2/advisorContext.test.ts": "14be1969acc4dd12c1442ebc74af1be8330a77e1edff9730b539c6e11be243fb"
+  },
+  "recordedAt": "2026-10-13T03:40:56.398Z",
+  "node": "v24.21.0",
+  "oldBaseline": "benchmarks/m4-gpt-2026-10-12",
+  "supersededAttempt": "../M4-gpt-worker-first",
+  "supersededProbes": "../M4-gpt-worker-first-probes",
+  "fixes": [
+    "Read main provider assistant-message nodes rather than requiring the run root node.",
+    "Accept descriptions after a plan file bullet."
+  ],
+  "evaluation": "Same frozen revision-2 tasks and hidden assertions; no hidden feedback returned to models."
+}

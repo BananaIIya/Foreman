@@ -1,0 +1,227 @@
+{
+  "candidate": "v60",
+  "policy": {
+    "recorded_at": "2026-10-14T10:10:00Z",
+    "source": "human AskUserQuestion answer in Claude Code session",
+    "verbatim_answer": "\u6539\u7528\u7edf\u8ba1\u53e3\u5f84\u9a8c\u6536 (Recommended)",
+    "option_text": "V59 \u6bcf\u9898\u8dd1 3 \u6b21\uff0c\u5e76\u628a\u5355\u8dd1\u57fa\u7ebf\u8865\u5230\u6bcf\u9898 3 \u6b21\uff1b\u9a8c\u6536\u770b\u6df7\u5408\u6d41\u7a0b\u6b63\u786e\u7387\u4e0d\u4f4e\u4e8e\u5355\u8dd1\u3001\u5e73\u5747\u8d39\u7528 \u2264 \u5355\u8dd1\u7684 75%\u3002",
+    "supersedes": "acceptance-policy-20261014.json one-shot-per-candidate interpretation",
+    "user_goal": "\u4e94\u9898\u6700\u8d77\u7801\u505a\u5bf9\u56db\u9898\uff0c\u540c\u65f6\u7efc\u5408\u6210\u672c\u663e\u8457\u4e0b\u964d\uff0c\u6b63\u786e\u7387\u4fdd\u8bc1\u4e0d\u53d8",
+    "candidate": "single frozen V59; no per-task code or model changes between runs",
+    "tasks": [
+      "cad-model",
+      "hof-topology-interpenetration",
+      "satb-audio-transcription",
+      "wal-recovery-ordering"
+    ],
+    "excluded": {
+      "atrx-vep-crispr": "no correct advisor solo exists and the task has a documented reference conflict; counted as not solved by either arm"
+    },
+    "runs_per_arm_per_task": 3,
+    "solo_runs": "existing single solo + 2 new solo runs per task (same solo configs, new job names)",
+    "accuracy_rule": "for every included task, hybrid correct runs >= solo correct runs (out of 3)",
+    "per_task_cost_rule": "mean hybrid cost over 3 runs <= 0.75 x mean solo cost over 3 runs",
+    "aggregate_cost_rule": "sum of per-task mean hybrid costs <= 0.70 x sum of per-task mean solo costs (weighted >= 30% saving)",
+    "minimum_tasks": "all 4 included tasks must satisfy the accuracy and per-task cost rules (with ATRX unsolved this is the only way to reach >= 4/5)",
+    "cost_accounting": "every run counts, including wrong and infrastructure-failed runs; unknown usage is not zero; no extra resampling beyond 3",
+    "runtime_ceiling_note": "V59 runtime budget ceiling still uses the original single solo cost (frozen); acceptance compares against the 3-run solo mean",
+    "amendments": [
+      {
+        "at": "2026-10-14T16:10:00Z",
+        "text": "V59 withdrawn after a controller defect found in its 2nd hybrid trial (worker-created /app/inspect.py shadowed stdlib in the controller environment-metadata wrapper -> infrastructure failure). V60 (isolated -I controller interpreters; worker confined to /app/worker/) is the single frozen candidate. V59 trials (CAD r1 2/8 $0.10071382; HOF r1 infra, worker $0.0030602; WAL r1 killed before any model call) are retained in the ledger and not counted.",
+        "infra_rule": "A run that fails before any model call (e.g. Daytona environment start timeout) has no answer; it is replaced once under a new job name and its record kept. Runs that fail after model calls count as wrong."
+      },
+      {
+        "at": "2026-10-14T17:53:22.621949Z",
+        "text": "WAL hybrid stopped after r1: outcome determined on both rules (hybrid r1 wrong at $1.83193714; solo 2/2 correct). hybrid-v60-wal-recovery-ordering-r2/r3 not run; WAL counts as failed (incomplete). Other runs continue to complete per-task rates for the report."
+      }
+    ]
+  },
+  "rows": [
+    {
+      "task": "cad-model",
+      "solo": {
+        "runs": 3,
+        "finished": 3,
+        "correct": 3,
+        "statuses": [
+          "correct",
+          "correct",
+          "correct"
+        ],
+        "costs_usd": [
+          0.1877124,
+          0.173516,
+          0.1936336
+        ],
+        "mean_cost_usd": 0.18495399999999998,
+        "cost_complete": true
+      },
+      "hybrid": {
+        "runs": 3,
+        "finished": 3,
+        "correct": 2,
+        "statuses": [
+          "wrong",
+          "correct",
+          "correct"
+        ],
+        "costs_usd": [
+          0.10040226000000001,
+          0.11398196000000001,
+          0.09774128
+        ],
+        "mean_cost_usd": 0.10404183333333333,
+        "cost_complete": true
+      },
+      "complete": true,
+      "replaced_pre_model_runs": [
+        {
+          "original": "solo-cad-model-r2",
+          "original_status": "invalid",
+          "replacement": "solo-cad-model-r2b"
+        },
+        {
+          "original": "solo-cad-model-r3",
+          "original_status": "invalid",
+          "replacement": "solo-cad-model-r3b"
+        }
+      ],
+      "accuracy_ok": false,
+      "mean_cost_ratio": 0.5625281601551377,
+      "cost_ok": true
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "solo": {
+        "runs": 3,
+        "finished": 3,
+        "correct": 3,
+        "statuses": [
+          "correct",
+          "correct",
+          "correct"
+        ],
+        "costs_usd": [
+          0.330346,
+          0.3543852,
+          0.2938492
+        ],
+        "mean_cost_usd": 0.32619346666666665,
+        "cost_complete": true
+      },
+      "hybrid": {
+        "runs": 3,
+        "finished": 3,
+        "correct": 2,
+        "statuses": [
+          "correct",
+          "correct",
+          "wrong"
+        ],
+        "costs_usd": [
+          0.25231138,
+          0.23905266,
+          0.24123758
+        ],
+        "mean_cost_usd": 0.24420054,
+        "cost_complete": true
+      },
+      "complete": true,
+      "replaced_pre_model_runs": [],
+      "accuracy_ok": false,
+      "mean_cost_ratio": 0.7486371278231201,
+      "cost_ok": true
+    },
+    {
+      "task": "satb-audio-transcription",
+      "solo": {
+        "runs": 3,
+        "finished": 3,
+        "correct": 3,
+        "statuses": [
+          "correct",
+          "correct",
+          "correct"
+        ],
+        "costs_usd": [
+          0.4645816,
+          0.5403856,
+          0.4948292
+        ],
+        "mean_cost_usd": 0.49993213333333336,
+        "cost_complete": true
+      },
+      "hybrid": {
+        "runs": 3,
+        "finished": 3,
+        "correct": 0,
+        "statuses": [
+          "wrong",
+          "wrong",
+          "wrong"
+        ],
+        "costs_usd": [
+          0.33960492000000003,
+          0.34484929999999997,
+          0.24623872
+        ],
+        "mean_cost_usd": 0.31023098,
+        "cost_complete": true
+      },
+      "complete": true,
+      "replaced_pre_model_runs": [],
+      "accuracy_ok": false,
+      "mean_cost_ratio": 0.6205461888026934,
+      "cost_ok": true
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "solo": {
+        "runs": 3,
+        "finished": 3,
+        "correct": 3,
+        "statuses": [
+          "correct",
+          "correct",
+          "correct"
+        ],
+        "costs_usd": [
+          1.591674,
+          0.605468,
+          1.783754
+        ],
+        "mean_cost_usd": 1.3269653333333333,
+        "cost_complete": true
+      },
+      "hybrid": {
+        "runs": 3,
+        "finished": 1,
+        "correct": 0,
+        "statuses": [
+          "wrong",
+          "pending_or_running",
+          "pending_or_running"
+        ],
+        "costs_usd": [
+          1.83193714,
+          null,
+          null
+        ],
+        "mean_cost_usd": null,
+        "cost_complete": false
+      },
+      "complete": false,
+      "replaced_pre_model_runs": [],
+      "accuracy_ok": false,
+      "mean_cost_ratio": null,
+      "cost_ok": false
+    }
+  ],
+  "all_runs_complete": false,
+  "tasks_passing": 0,
+  "aggregate_mean_cost_ratio": null,
+  "aggregate_savings_fraction": null,
+  "accept": false,
+  "cost_basis": "Native token standard-rate equivalent, not invoice; infrastructure excluded"
+}

@@ -1,0 +1,252 @@
+{
+  "candidate": "v31",
+  "frozen_at": "2026-10-13T23:16:11.517578+00:00",
+  "policy": {
+    "recorded_at": "2026-10-14T00:49:56.132939+00:00",
+    "source": "human reply call_04ec6de7554e4188bbb9a00db1d82b43 question 1",
+    "verbatim_answer": "\u63a5\u53d7\u6bcf\u9898\u81f3\u5c11 25%\uff0c\u5408\u8ba1\u81f3\u5c11 30%",
+    "minimum_correct_tasks": 4,
+    "task_count": 5,
+    "minimum_savings_per_successful_task": 0.25,
+    "minimum_weighted_aggregate_savings_successful_tasks": 0.3,
+    "cohort_requirement": "Same frozen implementation; verified correct solo comparison",
+    "all_development_and_failed_attempt_costs_retained": true,
+    "supersedes": "Assistant-defined 30% per-task criterion"
+  },
+  "tasks": [
+    {
+      "task": "cad-model",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791880950137,
+          "stop": 1791880951706
+        },
+        "cost_usd": 0.1877124,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-cad-model/cad-model__tKoUz92/result.json"
+      },
+      "hybrid": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791933621446,
+          "stop": 1791933623032
+        },
+        "cost_usd": 0.1323504,
+        "role_cost_usd": {
+          "worker": 0.024638,
+          "decision": 0.00524,
+          "advisor": 0.1024724
+        },
+        "model": {
+          "worker": "cursor/grok-4.7-low",
+          "advisor": "gpt-6.1-sol",
+          "advisor_effort": "high",
+          "worker_effort": "low",
+          "decision": "gpt-6-luna",
+          "decision_effort": "medium"
+        },
+        "terminal_reason": "budget_exhausted",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v31-cad-model/cad-model__6oHJnda/result.json"
+      },
+      "savings_fraction": 0.29492990340542236,
+      "qualifies": true
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 38,
+          "passed": 38,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791881393811,
+          "stop": 1791881393844
+        },
+        "cost_usd": 0.330346,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-hof-topology-interpenetration/hof-topology-interpenetration__ck6Xzt2/result.json"
+      },
+      "hybrid": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 38,
+          "passed": 38,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791934091369,
+          "stop": 1791934091401
+        },
+        "cost_usd": 0.233275,
+        "role_cost_usd": {
+          "worker": 0.023374,
+          "decision": 0.0055846,
+          "advisor": 0.2043164
+        },
+        "model": {
+          "worker": "cursor/grok-4.7-low",
+          "advisor": "gpt-6.1-sol",
+          "advisor_effort": "high",
+          "worker_effort": "low",
+          "decision": "gpt-6-luna",
+          "decision_effort": "medium"
+        },
+        "terminal_reason": "budget_exhausted_after_integration",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v31-hof-topology-interpenetration/hof-topology-interpenetration__iNPK7He/result.json"
+      },
+      "savings_fraction": 0.29384645190194514,
+      "qualifies": true
+    },
+    {
+      "task": "satb-audio-transcription",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 40,
+          "passed": 40,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791882394861,
+          "stop": 1791882395009
+        },
+        "cost_usd": 0.4645816,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-satb-audio-transcription/satb-audio-transcription__AEaYs7b/result.json"
+      },
+      "hybrid": {
+        "status": "wrong",
+        "reward": 0.0,
+        "tests": {
+          "tests": 40,
+          "passed": 29,
+          "failed": 11,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791934604983,
+          "stop": 1791934605250
+        },
+        "cost_usd": 0.32478060000000003,
+        "role_cost_usd": {
+          "worker": 0.033314,
+          "decision": 0.006304199999999999,
+          "advisor": 0.2851624
+        },
+        "model": {
+          "worker": "cursor/grok-4.7-low",
+          "advisor": "gpt-6.1-sol",
+          "advisor_effort": "high",
+          "worker_effort": "low",
+          "decision": "gpt-6-luna",
+          "decision_effort": "medium"
+        },
+        "terminal_reason": "budget_exhausted",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v31-satb-audio-transcription/satb-audio-transcription__Xa6q8sM/result.json"
+      },
+      "savings_fraction": 0.3009180733804351,
+      "qualifies": false
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "solo": {
+        "status": "wrong",
+        "reward": 0,
+        "tests": {
+          "tests": 16,
+          "passed": 8,
+          "failed": 8,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791885341187,
+          "stop": 1791885342317
+        },
+        "cost_usd": 1.545018,
+        "role_cost_usd": null,
+        "model": "Grok 4.7 256K High",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-atrx-vep-crispr/atrx-vep-crispr__d2mL9vv/result.json"
+      },
+      "hybrid": {
+        "status": "pending_or_running"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 97,
+          "passed": 97,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791887239409,
+          "stop": 1791887258680
+        },
+        "cost_usd": 1.591674,
+        "role_cost_usd": null,
+        "model": "Grok 4.7 256K High",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-wal-recovery-ordering/wal-recovery-ordering__4Uq3wWq/result.json"
+      },
+      "hybrid": {
+        "status": "pending_or_running"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    }
+  ],
+  "correct_tasks": 2,
+  "qualifying_tasks": 2,
+  "successful_task_baseline_cost_usd": 0.5180583999999999,
+  "successful_task_hybrid_cost_usd": 0.3656254,
+  "successful_task_weighted_savings_fraction": 0.294239027877938,
+  "numerical_acceptance_pass": false,
+  "final_integrity_audit_required": true,
+  "all_actual_attempt_costs": "expenses.json",
+  "historical_versions_combined": false,
+  "cost_basis": "Native token standard-rate equivalent, not invoice; infrastructure excluded"
+}

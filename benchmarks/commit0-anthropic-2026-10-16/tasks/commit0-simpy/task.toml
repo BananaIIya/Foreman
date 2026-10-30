@@ -1,0 +1,23 @@
+version = "1.0"
+
+[task]
+name = "commit0/simpy"
+
+[metadata]
+source = "commit0"
+base_commit = "25496719af798e5a276289279651873ea5b6e7d1"
+reference_commit = "937f488d8524c15006184979c1977e370788cac7"
+
+[verifier]
+timeout_sec = 1800.0
+
+[agent]
+timeout_sec = 5400.0
+
+[environment]
+build_timeout_sec = 1800.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+gpus = 0
+allow_internet = true

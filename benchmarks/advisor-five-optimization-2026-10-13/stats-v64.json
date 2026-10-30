@@ -1,0 +1,152 @@
+{
+  "tasks": {
+    "cad-model": {
+      "haiku_solo": {
+        "run": "haiku-solo-v64-cad-model-r1",
+        "status": "wrong",
+        "passed": 1,
+        "tests": 8,
+        "cost_usd": 0.03371329000000001,
+        "executor_cost_usd": 0.03371329000000001,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "native_server_tools": []
+      },
+      "haiku_plus_advisor": {
+        "run": "haiku-official-v64-cad-model-r1",
+        "status": "wrong",
+        "passed": 2,
+        "tests": 8,
+        "cost_usd": 0.04579231,
+        "executor_cost_usd": 0.023377510000000004,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "native_server_tools": [],
+        "advisor_cost_usd": 0.0224148,
+        "advisor_calls": 1,
+        "nudged": true
+      }
+    },
+    "hof-topology-interpenetration": {
+      "haiku_solo": {
+        "run": "haiku-solo-v64-hof-topology-interpenetration-r1",
+        "status": "wrong",
+        "passed": 26,
+        "tests": 38,
+        "cost_usd": 0.14602864000000002,
+        "executor_cost_usd": 0.14602864000000002,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "native_server_tools": []
+      },
+      "haiku_plus_advisor": {
+        "run": "haiku-official-v64-hof-topology-interpenetration-r1b",
+        "status": "wrong",
+        "passed": 27,
+        "tests": 38,
+        "cost_usd": 0.5191667600000001,
+        "executor_cost_usd": 0.41728356000000005,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "native_server_tools": [],
+        "advisor_cost_usd": 0.1018832,
+        "advisor_calls": 3,
+        "nudged": true,
+        "replaced_invalid_run": "haiku-official-v64-hof-topology-interpenetration-r1"
+      }
+    },
+    "satb-audio-transcription": {
+      "haiku_solo": {
+        "run": "haiku-solo-v64-satb-audio-transcription-r1",
+        "status": "wrong",
+        "passed": 29,
+        "tests": 40,
+        "cost_usd": 0.39355276,
+        "executor_cost_usd": 0.39355276,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "native_server_tools": []
+      },
+      "haiku_plus_advisor": {
+        "run": "haiku-official-v64-satb-audio-transcription-r1",
+        "status": "wrong",
+        "passed": 24,
+        "tests": 40,
+        "cost_usd": 0.29906703,
+        "executor_cost_usd": 0.20849423,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "native_server_tools": [],
+        "advisor_cost_usd": 0.0905728,
+        "advisor_calls": 2,
+        "nudged": true
+      }
+    },
+    "wal-recovery-ordering": {
+      "haiku_solo": {
+        "run": "haiku-solo-v64-wal-recovery-ordering-r1",
+        "status": "correct",
+        "passed": 97,
+        "tests": 97,
+        "cost_usd": 0.02861888,
+        "executor_cost_usd": 0.02861888,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "native_server_tools": []
+      },
+      "haiku_plus_advisor": {
+        "run": "haiku-official-v64-wal-recovery-ordering-r1",
+        "status": "wrong",
+        "passed": 95,
+        "tests": 97,
+        "cost_usd": 0.09587422000000001,
+        "executor_cost_usd": 0.04350462,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "native_server_tools": [],
+        "advisor_cost_usd": 0.0523696,
+        "advisor_calls": 3,
+        "nudged": true
+      }
+    },
+    "atrx-vep-crispr": {
+      "haiku_solo": {
+        "run": "haiku-solo-v64-atrx-vep-crispr-r1",
+        "status": "wrong",
+        "passed": 8,
+        "tests": 16,
+        "cost_usd": 0.14358423,
+        "executor_cost_usd": 0.14358423,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "native_server_tools": []
+      },
+      "haiku_plus_advisor": {
+        "run": "haiku-official-v64-atrx-vep-crispr-r1",
+        "status": "wrong",
+        "passed": 9,
+        "tests": 16,
+        "cost_usd": 0.3503485,
+        "executor_cost_usd": 0.2682969,
+        "models": [
+          "claude-haiku-5-5"
+        ],
+        "native_server_tools": [],
+        "advisor_cost_usd": 0.0820516,
+        "advisor_calls": 2,
+        "nudged": true
+      }
+    }
+  },
+  "note": "Haiku: one run per arm (n=1). Luna: n=3 from stats-v63.json.",
+  "known_cost_usd": 2.05574662
+}

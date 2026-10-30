@@ -1,0 +1,113 @@
+{
+  "verifiedAt": "2026-10-13T03:58:45.207Z",
+  "rerunTrials": 11,
+  "nativeSessions": 13,
+  "nativeAdvisorCalls": 0,
+  "advisorIterations": 0,
+  "verification": [
+    {
+      "trialId": "A-csv-1",
+      "nativeSessionId": "f99a40db-764f-4d86-aefd-cb333ce11c28",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5", "claude-opus-5-5"],
+      "totalCostUsd": 0.216531
+    },
+    {
+      "trialId": "A-emitter-2",
+      "nativeSessionId": "8f3e389e-4fd0-4bdb-899c-43b4379921b6",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5", "claude-opus-5-5"],
+      "totalCostUsd": 0.21683719999999998
+    },
+    {
+      "trialId": "A-intervals-1",
+      "nativeSessionId": "fe0708dd-35fb-47db-902f-eb8b0cbdcf3d",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5", "claude-opus-5-5"],
+      "totalCostUsd": 0.20733479999999999
+    },
+    {
+      "trialId": "A-intervals-3",
+      "nativeSessionId": "5994adff-b369-4380-85f3-0e72810b3e9c",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5", "claude-opus-5-5"],
+      "totalCostUsd": 0.20922839999999998
+    },
+    {
+      "trialId": "A-map-limit-3",
+      "nativeSessionId": "c60061ec-43a4-4532-afac-ccc1f407e04e",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5", "claude-opus-5-5"],
+      "totalCostUsd": 0.21465299999999998
+    },
+    {
+      "trialId": "A-ttl-lru-1",
+      "nativeSessionId": "19bb70aa-8e8e-4ab2-8819-143786768d36",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5", "claude-opus-5-5"],
+      "totalCostUsd": 0.2131347
+    },
+    {
+      "trialId": "A-ttl-lru-3",
+      "nativeSessionId": "c3db54a9-c4a2-4704-bf98-66b0e24b67ca",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5", "claude-opus-5-5"],
+      "totalCostUsd": 0.21761049999999998
+    },
+    {
+      "trialId": "B-retry-3",
+      "nativeSessionId": "863914a9-3236-4912-b092-ae81fed9536a",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5", "claude-opus-5-5"],
+      "totalCostUsd": 0.2596795
+    },
+    {
+      "trialId": "B-retry-3",
+      "nativeSessionId": "adb3eff0-c9e8-4744-a0e1-dab2e16656e1",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5"],
+      "totalCostUsd": 0.00825382
+    },
+    {
+      "trialId": "B-ttl-lru-1",
+      "nativeSessionId": "fa407cb2-144b-41c1-86d6-1c1956c7e5d4",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5", "claude-opus-5-5"],
+      "totalCostUsd": 0.2664391
+    },
+    {
+      "trialId": "B-ttl-lru-1",
+      "nativeSessionId": "d52d06db-81e6-44d4-9d9c-a825c55961f1",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5"],
+      "totalCostUsd": 0.00839751
+    },
+    {
+      "trialId": "C-csv-1",
+      "nativeSessionId": "77b757df-1ebb-4176-9f1a-a7c81abb35b2",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5"],
+      "totalCostUsd": 0.008071970000000001
+    },
+    {
+      "trialId": "C-ttl-lru-1",
+      "nativeSessionId": "73607699-e50b-47b9-aa1c-fa9d58676a67",
+      "nativeAdvisorCalls": 0,
+      "advisorIterations": 0,
+      "finalModels": ["claude-haiku-5-5"],
+      "totalCostUsd": 0.00825969
+    }
+  ]
+}

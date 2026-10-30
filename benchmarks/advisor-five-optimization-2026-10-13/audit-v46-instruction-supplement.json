@@ -1,0 +1,31 @@
+{
+  "candidate": "v46",
+  "frozen_auditor_findings": [
+    "satb-audio-transcription: Original instruction changed",
+    "satb-audio-transcription: Advisor original task changed",
+    "satb-audio-transcription: Advisor original task changed"
+  ],
+  "correction": "Compare against Harbor Task.instruction, which removes leading canary marker comments; do not change original task files or runtime.",
+  "installed_loader": "/private/tmp/kimi-k28-uv-tools/harbor/lib/python3.14/site-packages/harbor/models/task/task.py",
+  "installed_loader_sha256": "6b87b99d62b438b8e2692f7a03c12b2f14a9ecf26a667efd7c2c16b970254211",
+  "checks": [
+    {
+      "task": "satb-audio-transcription",
+      "coordinator_instruction_matches_harbor": true,
+      "advisor_requests": [
+        {
+          "phase": "advisor-0",
+          "matches_harbor_instruction": true
+        },
+        {
+          "phase": "advisor-1",
+          "matches_harbor_instruction": true
+        }
+      ]
+    }
+  ],
+  "remaining_problems": [],
+  "source_files_checked": 786,
+  "original_files_checked": 98,
+  "goal_evidence_passes": false
+}

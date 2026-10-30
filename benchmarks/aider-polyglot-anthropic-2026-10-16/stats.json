@@ -1,0 +1,155 @@
+{
+  "opus-solo": {
+    "finished": 10,
+    "passed": 9,
+    "invalid": 2,
+    "total_cost": 2.3932569999999997,
+    "mean_cost": 0.23932569999999997,
+    "cost_by_model": {
+      "claude-opus-5-5": 2.393257
+    },
+    "advisor_calls": 0,
+    "per_task": {
+      "polyglot_cpp_circular-buffer": ["pass", 0.3026822],
+      "polyglot_cpp_sublist": ["pass", 0.078306],
+      "polyglot_go_tree-building": ["pass", 0.29485859999999997],
+      "polyglot_go_variable-length-quantity": ["pass", 0.2919362],
+      "polyglot_java_variable-length-quantity": ["invalid", 0.2964812],
+      "polyglot_java_word-search": ["invalid", 0.3438888],
+      "polyglot_javascript_queen-attack": ["pass", 0.2927274],
+      "polyglot_javascript_simple-linked-list": ["pass", 0.2891918],
+      "polyglot_python_poker": ["pass", 0.2850334],
+      "polyglot_python_tree-building": ["fail", 0.0805194],
+      "polyglot_rust_book-store": ["pass", 0.091919],
+      "polyglot_rust_decimal": ["pass", 0.38608299999999995]
+    }
+  },
+  "haiku-solo": {
+    "finished": 10,
+    "passed": 7,
+    "invalid": 2,
+    "total_cost": 0.09994028,
+    "mean_cost": 0.009994028,
+    "cost_by_model": {
+      "claude-haiku-5-5": 0.09994027999999999
+    },
+    "advisor_calls": 0,
+    "per_task": {
+      "polyglot_cpp_circular-buffer": ["pass", 0.00573126],
+      "polyglot_cpp_sublist": ["fail", 0.00916283],
+      "polyglot_go_tree-building": ["pass", 0.009923030000000001],
+      "polyglot_go_variable-length-quantity": ["pass", 0.0093293],
+      "polyglot_java_variable-length-quantity": ["invalid", 0.01034142],
+      "polyglot_java_word-search": ["invalid", 0.00397414],
+      "polyglot_javascript_queen-attack": ["pass", 0.00657862],
+      "polyglot_javascript_simple-linked-list": ["pass", 0.003039],
+      "polyglot_python_poker": ["fail", 0.01031029],
+      "polyglot_python_tree-building": ["fail", 0.01028896],
+      "polyglot_rust_book-store": ["pass", 0.01624898],
+      "polyglot_rust_decimal": ["pass", 0.01932801]
+    }
+  },
+  "plan-write": {
+    "finished": 10,
+    "passed": 10,
+    "invalid": 2,
+    "total_cost": 2.46920782,
+    "mean_cost": 0.24692078199999998,
+    "cost_by_model": {
+      "claude-opus-5-5": 2.3693558,
+      "claude-haiku-5-5": 0.09985202
+    },
+    "advisor_calls": 0,
+    "per_task": {
+      "polyglot_cpp_circular-buffer": ["pass", 0.31343858999999996],
+      "polyglot_cpp_sublist": ["pass", 0.31788623],
+      "polyglot_go_tree-building": ["pass", 0.08665663],
+      "polyglot_go_variable-length-quantity": ["pass", 0.30872165],
+      "polyglot_java_variable-length-quantity": ["invalid", 0.30287498],
+      "polyglot_java_word-search": ["invalid", 0.3148813],
+      "polyglot_javascript_queen-attack": ["pass", 0.29813054999999994],
+      "polyglot_javascript_simple-linked-list": ["pass", 0.3171547],
+      "polyglot_python_poker": ["pass", 0.29434743],
+      "polyglot_python_tree-building": ["pass", 0.31027159000000004],
+      "polyglot_rust_book-store": ["pass", 0.08999040999999999],
+      "polyglot_rust_decimal": ["pass", 0.13261003999999998]
+    }
+  },
+  "native-advisor": {
+    "finished": 10,
+    "passed": 9,
+    "invalid": 2,
+    "total_cost": 2.208688135,
+    "mean_cost": 0.2208688135,
+    "cost_by_model": {
+      "claude-haiku-5-5": 0.102104135,
+      "claude-opus-5-5": 2.1065840000000002
+    },
+    "advisor_calls": 11,
+    "per_task": {
+      "polyglot_cpp_circular-buffer": ["pass", 0.203195695],
+      "polyglot_cpp_sublist": ["pass", 0.17573840999999998],
+      "polyglot_go_tree-building": ["pass", 0.18686058500000002],
+      "polyglot_go_variable-length-quantity": ["pass", 0.183855915],
+      "polyglot_java_variable-length-quantity": ["invalid", 0.181162655],
+      "polyglot_java_word-search": ["invalid", 0.19288903999999998],
+      "polyglot_javascript_queen-attack": ["pass", 0.19147329],
+      "polyglot_javascript_simple-linked-list": ["pass", 0.21994608999999998],
+      "polyglot_python_poker": ["pass", 0.39850148500000004],
+      "polyglot_python_tree-building": ["fail", 0.202041875],
+      "polyglot_rust_book-store": ["pass", 0.182947855],
+      "polyglot_rust_decimal": ["pass", 0.264126935]
+    }
+  },
+  "opus-lean": {
+    "finished": 10,
+    "passed": 10,
+    "invalid": 0,
+    "total_cost": 0.566006,
+    "mean_cost": 0.0566006,
+    "cost_by_model": {
+      "claude-opus-5-5": 0.566006
+    },
+    "advisor_calls": 0,
+    "per_task": {
+      "polyglot_cpp_circular-buffer": ["pass", 0.26474000000000003],
+      "polyglot_cpp_sublist": ["pass", 0.03272],
+      "polyglot_go_tree-building": ["pass", 0.022996000000000003],
+      "polyglot_go_variable-length-quantity": ["pass", 0.02064],
+      "polyglot_java_variable-length-quantity": null,
+      "polyglot_java_word-search": null,
+      "polyglot_javascript_queen-attack": ["pass", 0.030424],
+      "polyglot_javascript_simple-linked-list": ["pass", 0.028228],
+      "polyglot_python_poker": ["pass", 0.020676],
+      "polyglot_python_tree-building": ["pass", 0.044102],
+      "polyglot_rust_book-store": ["pass", 0.027416],
+      "polyglot_rust_decimal": ["pass", 0.074064]
+    }
+  },
+  "leanplan-write": {
+    "finished": 9,
+    "passed": 9,
+    "invalid": 0,
+    "total_cost": 0.63420039,
+    "mean_cost": 0.07046670999999999,
+    "cost_by_model": {
+      "claude-opus-5-5": 0.5583424,
+      "claude-haiku-5-5": 0.07585799
+    },
+    "advisor_calls": 0,
+    "per_task": {
+      "polyglot_cpp_circular-buffer": ["pass", 0.062228439999999996],
+      "polyglot_cpp_sublist": null,
+      "polyglot_go_tree-building": ["pass", 0.0710715],
+      "polyglot_go_variable-length-quantity": ["pass", 0.05220096],
+      "polyglot_java_variable-length-quantity": null,
+      "polyglot_java_word-search": null,
+      "polyglot_javascript_queen-attack": ["pass", 0.06584983],
+      "polyglot_javascript_simple-linked-list": ["pass", 0.06605326],
+      "polyglot_python_poker": ["pass", 0.06357265999999999],
+      "polyglot_python_tree-building": ["pass", 0.07524755],
+      "polyglot_rust_book-store": ["pass", 0.07733173],
+      "polyglot_rust_decimal": ["pass", 0.10064445999999999]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "candidate": "v16",
+  "all_five_complete": false,
+  "pending": [
+    "satb-audio-transcription",
+    "atrx-vep-crispr",
+    "wal-recovery-ordering"
+  ],
+  "problems": [],
+  "original_files_checked": 98,
+  "qualifying_correct_and_cheaper": 0,
+  "hybrid_total_usd": null,
+  "solo_total_usd": 4.119332,
+  "aggregate_savings_fraction": null,
+  "goal_evidence_passes": false,
+  "rows": [
+    {
+      "task": "cad-model",
+      "status": "correct",
+      "problems": [],
+      "cost_usd": 0.1349561,
+      "solo_cost_usd": 0.1877124,
+      "solo_status": "correct",
+      "savings_fraction": 0.2810485615228403,
+      "qualifies": false,
+      "tests": {
+        "tests": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791923545071,
+        "stop": 1791923546895
+      },
+      "roles": {
+        "advisor": 0.089566,
+        "decision": 0.0089301,
+        "worker": 0.03646
+      }
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "status": "wrong",
+      "problems": [],
+      "cost_usd": 0.24270180000000002,
+      "solo_cost_usd": 0.330346,
+      "solo_status": "correct",
+      "savings_fraction": 0.2653103110072468,
+      "qualifies": false,
+      "tests": {
+        "tests": 38,
+        "passed": 0,
+        "failed": 38,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1791923915984,
+        "stop": 1791923916103
+      },
+      "roles": {
+        "advisor": 0.2185756,
+        "decision": 0.0059242,
+        "worker": 0.018202
+      }
+    },
+    {
+      "task": "satb-audio-transcription",
+      "status": "pending_or_running",
+      "problems": []
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "status": "pending_or_running",
+      "problems": []
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "status": "pending_or_running",
+      "problems": []
+    }
+  ],
+  "limitations": [
+    "One frozen attempt per task; does not establish repeat-run stability.",
+    "Standard native token price equivalents, not subscription invoice.",
+    "Development attempts are retained separately in expenses.json.",
+    "Infrastructure, outer engineering cost and unreported provider tool surcharges excluded."
+  ]
+}

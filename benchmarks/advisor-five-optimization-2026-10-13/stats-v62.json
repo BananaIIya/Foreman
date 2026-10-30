@@ -1,0 +1,678 @@
+{
+  "tasks": {
+    "cad-model": {
+      "luna_solo": {
+        "finished": 3,
+        "correct": 0,
+        "mean_cost_usd": 0.0067529999999999995,
+        "mean_tests_passed_fraction": 0.25,
+        "runs": [
+          {
+            "run": "luna-solo-v62-cad-model-r1",
+            "status": "wrong",
+            "tests": {
+              "tests": 8,
+              "passed": 2,
+              "failed": 6,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792038840168,
+              "stop": 1792038841957
+            },
+            "cost_usd": 0.00662342,
+            "executor_cost_usd": 0.00662342,
+            "usage_complete": true
+          },
+          {
+            "run": "luna-solo-v62-cad-model-r2",
+            "status": "wrong",
+            "tests": {
+              "tests": 8,
+              "passed": 2,
+              "failed": 6,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792048454331,
+              "stop": 1792048456222
+            },
+            "cost_usd": 0.00648298,
+            "executor_cost_usd": 0.00648298,
+            "usage_complete": true
+          },
+          {
+            "run": "luna-solo-v62-cad-model-r3",
+            "status": "wrong",
+            "tests": {
+              "tests": 8,
+              "passed": 2,
+              "failed": 6,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792051754344,
+              "stop": 1792051756453
+            },
+            "cost_usd": 0.0071526,
+            "executor_cost_usd": 0.0071526,
+            "usage_complete": true
+          }
+        ]
+      },
+      "luna_plus_advisor": {
+        "finished": 3,
+        "correct": 0,
+        "mean_cost_usd": 0.09996363333333334,
+        "mean_tests_passed_fraction": 0.375,
+        "runs": [
+          {
+            "run": "official-v62-cad-model-r1",
+            "status": "wrong",
+            "tests": {
+              "tests": 8,
+              "passed": 2,
+              "failed": 6,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792038706684,
+              "stop": 1792038708435
+            },
+            "cost_usd": 0.07532134,
+            "executor_cost_usd": 0.01382334,
+            "usage_complete": true,
+            "advisor_cost_usd": 0.061498,
+            "advisor_calls": 3,
+            "advisor_failed_calls": 0,
+            "nudged": false
+          },
+          {
+            "run": "official-v62-cad-model-r2",
+            "status": "wrong",
+            "tests": {
+              "tests": 8,
+              "passed": 3,
+              "failed": 5,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792048311629,
+              "stop": 1792048313595
+            },
+            "cost_usd": 0.12626732000000002,
+            "executor_cost_usd": 0.05366572,
+            "usage_complete": true,
+            "advisor_cost_usd": 0.0726016,
+            "advisor_calls": 3,
+            "advisor_failed_calls": 0,
+            "nudged": false
+          },
+          {
+            "run": "official-v62-cad-model-r3",
+            "status": "wrong",
+            "tests": {
+              "tests": 8,
+              "passed": 4,
+              "failed": 4,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792051605786,
+              "stop": 1792051608161
+            },
+            "cost_usd": 0.09830223999999999,
+            "executor_cost_usd": 0.03377264,
+            "usage_complete": true,
+            "advisor_cost_usd": 0.0645296,
+            "advisor_calls": 3,
+            "advisor_failed_calls": 0,
+            "nudged": false
+          }
+        ],
+        "mean_advisor_calls": 3.0,
+        "nudges": 0,
+        "advisor_cost_share": 0.6623382036600644
+      },
+      "advisor_solo_reference": {
+        "runs": 3,
+        "correct": 3,
+        "mean_cost_usd": 0.18495399999999998
+      },
+      "cost_multiple_vs_luna": 14.802848116886326,
+      "cost_ratio_vs_advisor_solo": 0.5404783531761052
+    },
+    "hof-topology-interpenetration": {
+      "luna_solo": {
+        "finished": 3,
+        "correct": 0,
+        "mean_cost_usd": 0.023993913333333335,
+        "mean_tests_passed_fraction": 0.0,
+        "runs": [
+          {
+            "run": "luna-solo-v62-hof-topology-interpenetration-r1",
+            "status": "wrong",
+            "tests": {
+              "tests": 38,
+              "passed": 0,
+              "failed": 38,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792039552330,
+              "stop": 1792039552442
+            },
+            "cost_usd": 0.0128227,
+            "executor_cost_usd": 0.0128227,
+            "usage_complete": true
+          },
+          {
+            "run": "luna-solo-v62-hof-topology-interpenetration-r2",
+            "status": "wrong",
+            "tests": {
+              "tests": 38,
+              "passed": 0,
+              "failed": 38,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792044931110,
+              "stop": 1792044931228
+            },
+            "cost_usd": 0.04801826,
+            "executor_cost_usd": 0.04801826,
+            "usage_complete": true
+          },
+          {
+            "run": "luna-solo-v62-hof-topology-interpenetration-r3",
+            "status": "wrong",
+            "tests": {
+              "tests": 38,
+              "passed": 0,
+              "failed": 38,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792049248462,
+              "stop": 1792049248585
+            },
+            "cost_usd": 0.01114078,
+            "executor_cost_usd": 0.01114078,
+            "usage_complete": true
+          }
+        ]
+      },
+      "luna_plus_advisor": {
+        "finished": 3,
+        "correct": 0,
+        "mean_cost_usd": 0.14895821333333334,
+        "mean_tests_passed_fraction": 0.7543859649122807,
+        "runs": [
+          {
+            "run": "official-v62-hof-topology-interpenetration-r1",
+            "status": "wrong",
+            "tests": {
+              "tests": 38,
+              "passed": 24,
+              "failed": 14,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792039408258,
+              "stop": 1792039408338
+            },
+            "cost_usd": 0.10422706000000001,
+            "executor_cost_usd": 0.03359306,
+            "usage_complete": true,
+            "advisor_cost_usd": 0.070634,
+            "advisor_calls": 3,
+            "advisor_failed_calls": 0,
+            "nudged": false
+          },
+          {
+            "run": "official-v62-hof-topology-interpenetration-r2",
+            "status": "wrong",
+            "tests": {
+              "tests": 38,
+              "passed": 35,
+              "failed": 3,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792044516898,
+              "stop": 1792044516952
+            },
+            "cost_usd": 0.21955106000000002,
+            "executor_cost_usd": 0.13788706,
+            "usage_complete": true,
+            "advisor_cost_usd": 0.081664,
+            "advisor_calls": 3,
+            "advisor_failed_calls": 0,
+            "nudged": false
+          },
+          {
+            "run": "official-v62-hof-topology-interpenetration-r3",
+            "status": "wrong",
+            "tests": {
+              "tests": 38,
+              "passed": 27,
+              "failed": 11,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792049131277,
+              "stop": 1792049131350
+            },
+            "cost_usd": 0.12309652000000001,
+            "executor_cost_usd": 0.04464412,
+            "usage_complete": true,
+            "advisor_cost_usd": 0.0784524,
+            "advisor_calls": 3,
+            "advisor_failed_calls": 0,
+            "nudged": false
+          }
+        ],
+        "mean_advisor_calls": 3.0,
+        "nudges": 0,
+        "advisor_cost_share": 0.5163649474492443
+      },
+      "advisor_solo_reference": {
+        "runs": 3,
+        "correct": 3,
+        "mean_cost_usd": 0.32619346666666665
+      },
+      "cost_multiple_vs_luna": 6.208166682272476,
+      "cost_ratio_vs_advisor_solo": 0.45665602948924794
+    },
+    "satb-audio-transcription": {
+      "luna_solo": {
+        "finished": 3,
+        "correct": 0,
+        "mean_cost_usd": 0.06966661333333334,
+        "mean_tests_passed_fraction": 0.4916666666666667,
+        "runs": [
+          {
+            "run": "luna-solo-v62-satb-audio-transcription-r1",
+            "status": "wrong",
+            "tests": {
+              "tests": 40,
+              "passed": 19,
+              "failed": 21,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792041670164,
+              "stop": 1792041670507
+            },
+            "cost_usd": 0.08589832,
+            "executor_cost_usd": 0.08589832,
+            "usage_complete": true
+          },
+          {
+            "run": "luna-solo-v62-satb-audio-transcription-r2",
+            "status": "wrong",
+            "tests": {
+              "tests": 40,
+              "passed": 24,
+              "failed": 16,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792047051949,
+              "stop": 1792047052174
+            },
+            "cost_usd": 0.08067634,
+            "executor_cost_usd": 0.08067634,
+            "usage_complete": true
+          },
+          {
+            "run": "luna-solo-v62-satb-audio-transcription-r3",
+            "status": "wrong",
+            "tests": {
+              "tests": 40,
+              "passed": 16,
+              "failed": 24,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792050570522,
+              "stop": 1792050570929
+            },
+            "cost_usd": 0.04242518,
+            "executor_cost_usd": 0.04242518,
+            "usage_complete": true
+          }
+        ]
+      },
+      "luna_plus_advisor": {
+        "finished": 3,
+        "correct": 0,
+        "mean_cost_usd": 0.19430775999999997,
+        "mean_tests_passed_fraction": 0.6,
+        "runs": [
+          {
+            "run": "official-v62-satb-audio-transcription-r1",
+            "status": "wrong",
+            "tests": {
+              "tests": 40,
+              "passed": 24,
+              "failed": 16,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792040334896,
+              "stop": 1792040335204
+            },
+            "cost_usd": 0.18245499999999998,
+            "executor_cost_usd": 0.091531,
+            "usage_complete": true,
+            "advisor_cost_usd": 0.09092399999999999,
+            "advisor_calls": 3,
+            "advisor_failed_calls": 0,
+            "nudged": false
+          },
+          {
+            "run": "official-v62-satb-audio-transcription-r2",
+            "status": "wrong",
+            "tests": {
+              "tests": 40,
+              "passed": 24,
+              "failed": 16,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792046294399,
+              "stop": 1792046294623
+            },
+            "cost_usd": 0.2758002,
+            "executor_cost_usd": 0.1683938,
+            "usage_complete": true,
+            "advisor_cost_usd": 0.10740640000000001,
+            "advisor_calls": 3,
+            "advisor_failed_calls": 0,
+            "nudged": false
+          },
+          {
+            "run": "official-v62-satb-audio-transcription-r3",
+            "status": "wrong",
+            "tests": {
+              "tests": 40,
+              "passed": 24,
+              "failed": 16,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792050015508,
+              "stop": 1792050015828
+            },
+            "cost_usd": 0.12466808,
+            "executor_cost_usd": 0.05441968,
+            "usage_complete": true,
+            "advisor_cost_usd": 0.0702484,
+            "advisor_calls": 3,
+            "advisor_failed_calls": 0,
+            "nudged": false
+          }
+        ],
+        "mean_advisor_calls": 3.0,
+        "nudges": 0,
+        "advisor_cost_share": 0.460744679814469
+      },
+      "advisor_solo_reference": {
+        "runs": 3,
+        "correct": 3,
+        "mean_cost_usd": 0.49993213333333336
+      },
+      "cost_multiple_vs_luna": 2.7891087380736748,
+      "cost_ratio_vs_advisor_solo": 0.38866827524055925
+    },
+    "wal-recovery-ordering": {
+      "luna_solo": {
+        "finished": 3,
+        "correct": 0,
+        "mean_cost_usd": 0.00862802,
+        "mean_tests_passed_fraction": 0.979381443298969,
+        "runs": [
+          {
+            "run": "luna-solo-v62-wal-recovery-ordering-r1",
+            "status": "wrong",
+            "tests": {
+              "tests": 97,
+              "passed": 95,
+              "failed": 2,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792042413588,
+              "stop": 1792042447668
+            },
+            "cost_usd": 0.01047732,
+            "executor_cost_usd": 0.01047732,
+            "usage_complete": true
+          },
+          {
+            "run": "luna-solo-v62-wal-recovery-ordering-r2",
+            "status": "wrong",
+            "tests": {
+              "tests": 97,
+              "passed": 95,
+              "failed": 2,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792047172627,
+              "stop": 1792047205998
+            },
+            "cost_usd": 0.0079971,
+            "executor_cost_usd": 0.0079971,
+            "usage_complete": true
+          },
+          {
+            "run": "luna-solo-v62-wal-recovery-ordering-r3",
+            "status": "wrong",
+            "tests": {
+              "tests": 97,
+              "passed": 95,
+              "failed": 2,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792050672432,
+              "stop": 1792050705221
+            },
+            "cost_usd": 0.00740964,
+            "executor_cost_usd": 0.00740964,
+            "usage_complete": true
+          }
+        ]
+      },
+      "luna_plus_advisor": {
+        "finished": 1,
+        "correct": 0,
+        "mean_cost_usd": 0.26904734,
+        "mean_tests_passed_fraction": 0.979381443298969,
+        "runs": [
+          {
+            "run": "official-v62-wal-recovery-ordering-r1",
+            "status": "wrong",
+            "tests": {
+              "tests": 97,
+              "passed": 95,
+              "failed": 2,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792042278656,
+              "stop": 1792042312283
+            },
+            "cost_usd": 0.26904734,
+            "executor_cost_usd": 0.02586734,
+            "usage_complete": true,
+            "recovered_failed_call_costs": [
+              {
+                "call": 2,
+                "cost_usd": 0.097036
+              },
+              {
+                "call": 3,
+                "cost_usd": 0.108246
+              }
+            ],
+            "advisor_cost_usd": 0.24318,
+            "advisor_calls": 1,
+            "advisor_failed_calls": 2,
+            "nudged": true
+          },
+          {
+            "run": "official-v62-wal-recovery-ordering-r2",
+            "status": "pending_or_running",
+            "tests": null,
+            "cost_usd": null
+          },
+          {
+            "run": "official-v62-wal-recovery-ordering-r3",
+            "status": "pending_or_running",
+            "tests": null,
+            "cost_usd": null
+          }
+        ],
+        "mean_advisor_calls": 1.0,
+        "nudges": 1,
+        "advisor_cost_share": 0.9038558047070824
+      },
+      "advisor_solo_reference": {
+        "runs": 3,
+        "correct": 3,
+        "mean_cost_usd": 1.3269653333333333
+      },
+      "cost_multiple_vs_luna": 31.182975931905585,
+      "cost_ratio_vs_advisor_solo": 0.20275385742305252
+    },
+    "atrx-vep-crispr": {
+      "luna_solo": {
+        "finished": 3,
+        "correct": 0,
+        "mean_cost_usd": 0.02760578666666667,
+        "mean_tests_passed_fraction": 0.25,
+        "runs": [
+          {
+            "run": "luna-solo-v62-atrx-vep-crispr-r1",
+            "status": "wrong",
+            "tests": {
+              "tests": 16,
+              "passed": 0,
+              "failed": 16,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792043118885,
+              "stop": 1792043119122
+            },
+            "cost_usd": 0.0059235,
+            "executor_cost_usd": 0.0059235,
+            "usage_complete": true
+          },
+          {
+            "run": "luna-solo-v62-atrx-vep-crispr-r2",
+            "status": "wrong",
+            "tests": {
+              "tests": 16,
+              "passed": 8,
+              "failed": 8,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792047562437,
+              "stop": 1792047563092
+            },
+            "cost_usd": 0.0405169,
+            "executor_cost_usd": 0.0405169,
+            "usage_complete": true
+          },
+          {
+            "run": "luna-solo-v62-atrx-vep-crispr-r3",
+            "status": "wrong",
+            "tests": {
+              "tests": 16,
+              "passed": 4,
+              "failed": 12,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792051039862,
+              "stop": 1792051040483
+            },
+            "cost_usd": 0.03637696,
+            "executor_cost_usd": 0.03637696,
+            "usage_complete": true
+          }
+        ]
+      },
+      "luna_plus_advisor": {
+        "finished": 1,
+        "correct": 0,
+        "mean_cost_usd": 0.15598193999999999,
+        "mean_tests_passed_fraction": 0.4375,
+        "runs": [
+          {
+            "run": "official-v62-atrx-vep-crispr-r1",
+            "status": "wrong",
+            "tests": {
+              "tests": 16,
+              "passed": 7,
+              "failed": 9,
+              "skipped": 0,
+              "pending": 0,
+              "other": 0,
+              "start": 1792042926871,
+              "stop": 1792042927453
+            },
+            "cost_usd": 0.15598193999999999,
+            "executor_cost_usd": 0.07886594,
+            "usage_complete": true,
+            "recovered_failed_call_costs": [
+              {
+                "call": 1,
+                "cost_usd": 0.077116
+              }
+            ],
+            "advisor_cost_usd": 0.077116,
+            "advisor_calls": 0,
+            "advisor_failed_calls": 1,
+            "nudged": true
+          },
+          {
+            "run": "official-v62-atrx-vep-crispr-r2",
+            "status": "pending_or_running",
+            "tests": null,
+            "cost_usd": null
+          },
+          {
+            "run": "official-v62-atrx-vep-crispr-r3",
+            "status": "pending_or_running",
+            "tests": null,
+            "cost_usd": null
+          }
+        ],
+        "mean_advisor_calls": 0.0,
+        "nudges": 1,
+        "advisor_cost_share": 0.4943905685491539
+      },
+      "advisor_solo_reference": {
+        "runs": 1,
+        "correct": 0,
+        "mean_cost_usd": 1.545018
+      },
+      "cost_multiple_vs_luna": 5.650334905628481,
+      "cost_ratio_vs_advisor_solo": 0.10095800825621448
+    }
+  },
+  "note": "n=3 per arm; primary comparison is Luna+advisor vs Luna alone (Anthropic framing)",
+  "ledger": {
+    "runs": 26,
+    "known_cost_usd": 2.1646601,
+    "unknown_cost_runs": 0,
+    "protocol_probe_usd": 0.02433762,
+    "total_known_usd": 2.1889977199999997
+  }
+}

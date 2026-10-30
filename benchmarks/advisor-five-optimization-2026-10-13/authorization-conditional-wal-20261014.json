@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-14T00:49:56.132939+00:00",
+  "source": "human reply call_04ec6de7554e4188bbb9a00db1d82b43 question 0",
+  "verbatim_answer": "\u5141\u8bb8\uff0cSATB \u901a\u8fc7\u540e\u91cd\u8dd1 WAL \u4e00\u6b21",
+  "task": "wal-recovery-ordering",
+  "additional_paid_attempts": 1,
+  "consumed": 0,
+  "conditions": [
+    "SATB passes original grader",
+    "Use same frozen candidate as passing SATB"
+  ],
+  "condition_satisfied": false,
+  "latest_satb_candidate": "v56",
+  "latest_satb_result": "wrong 26/40",
+  "atrx_additional_attempts": 0
+}

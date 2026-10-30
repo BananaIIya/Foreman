@@ -1,0 +1,37 @@
+{
+  "cad-model": {
+    "executor": "gpt-6-luna",
+    "executor_effort": "medium",
+    "advisor": "gpt-6.1-sol",
+    "advisor_effort": "high",
+    "pattern": "official_advisor_tool"
+  },
+  "hof-topology-interpenetration": {
+    "executor": "gpt-6-luna",
+    "executor_effort": "medium",
+    "advisor": "gpt-6.1-sol",
+    "advisor_effort": "high",
+    "pattern": "official_advisor_tool"
+  },
+  "satb-audio-transcription": {
+    "executor": "gpt-6-luna",
+    "executor_effort": "medium",
+    "advisor": "gpt-6.1-sol",
+    "advisor_effort": "high",
+    "pattern": "official_advisor_tool"
+  },
+  "wal-recovery-ordering": {
+    "executor": "gpt-6-luna",
+    "executor_effort": "medium",
+    "advisor": "cursor/grok-4.7-high",
+    "advisor_effort": "high",
+    "pattern": "official_advisor_tool"
+  },
+  "atrx-vep-crispr": {
+    "executor": "gpt-6-luna",
+    "executor_effort": "medium",
+    "advisor": "cursor/grok-4.7-high",
+    "advisor_effort": "high",
+    "pattern": "official_advisor_tool"
+  }
+}

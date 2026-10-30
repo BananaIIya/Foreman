@@ -1,0 +1,424 @@
+{
+  "purpose": "Controlled route acceptance, not task-success evidence",
+  "probes": [
+    {
+      "id": "failed-check",
+      "passed": true,
+      "triggerVerified": true,
+      "threadId": "0b1d4b2e-22b1-4dfd-82b9-30bdd3093839",
+      "expected": ["worker", "advisor", "worker"],
+      "completion": "completed",
+      "durationMs": 24439,
+      "costUsd": 0.038431,
+      "phases": ["executing", "planning", "executing", "completed"],
+      "runs": [
+        {
+          "id": "run:thread:0b1d4b2e-22b1-4dfd-82b9-30bdd3093839:ordinal:1",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A0b1d4b2e-22b1-4dfd-82b9-30bdd3093839%3Aordinal%3A1",
+          "advisorCycle": 0
+        },
+        {
+          "id": "run:thread:0b1d4b2e-22b1-4dfd-82b9-30bdd3093839:ordinal:2",
+          "status": "completed",
+          "usageRole": "advisor",
+          "model": "gpt-6-astra",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A0b1d4b2e-22b1-4dfd-82b9-30bdd3093839%3Aordinal%3A2",
+          "advisorCycle": 1
+        },
+        {
+          "id": "run:thread:0b1d4b2e-22b1-4dfd-82b9-30bdd3093839:ordinal:3",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A0b1d4b2e-22b1-4dfd-82b9-30bdd3093839%3Aordinal%3A3",
+          "advisorCycle": 1
+        }
+      ],
+      "advisorToolCalls": 0,
+      "turns": [
+        {
+          "threadId": "0b1d4b2e-22b1-4dfd-82b9-30bdd3093839",
+          "turnId": "provider-turn:provider:codex:native-turn:01a13359-6965-7c72-9b49-6935c619c65b",
+          "role": "worker",
+          "provider": "codex",
+          "driver": "codex",
+          "model": "gpt-6-luna",
+          "recordedAt": "2026-10-13T03:41:07.000Z",
+          "inputTokens": 38554,
+          "cachedInputTokens": 30208,
+          "cacheCreationTokens": 0,
+          "outputTokens": 245,
+          "reasoningTokens": 114,
+          "usageStatus": "complete",
+          "accountingScope": "mainAgent",
+          "costUsd": 0.0012591800000000002,
+          "costSource": "modelPriced",
+          "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+        },
+        {
+          "threadId": "0b1d4b2e-22b1-4dfd-82b9-30bdd3093839",
+          "turnId": "provider-turn:provider:codex:native-turn:01a13359-89cc-7b50-b807-db80d89683bf",
+          "role": "advisor",
+          "provider": "codex",
+          "driver": "codex",
+          "model": "gpt-6-astra",
+          "recordedAt": "2026-10-13T03:41:17.000Z",
+          "inputTokens": 12640,
+          "cachedInputTokens": 10880,
+          "cacheCreationTokens": 0,
+          "outputTokens": 150,
+          "reasoningTokens": 0,
+          "usageStatus": "complete",
+          "accountingScope": "mainAgent",
+          "costUsd": 0.03598,
+          "costSource": "modelPriced",
+          "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+        },
+        {
+          "threadId": "0b1d4b2e-22b1-4dfd-82b9-30bdd3093839",
+          "turnId": "provider-turn:provider:codex:native-turn:01a13359-ada3-7473-9c0a-c9cda6525a0b",
+          "role": "worker",
+          "provider": "codex",
+          "driver": "codex",
+          "model": "gpt-6-luna",
+          "recordedAt": "2026-10-13T03:41:23.000Z",
+          "inputTokens": 65338,
+          "cachedInputTokens": 60672,
+          "cacheCreationTokens": 0,
+          "outputTokens": 237,
+          "reasoningTokens": 0,
+          "usageStatus": "complete",
+          "accountingScope": "mainAgent",
+          "costUsd": 0.00119182,
+          "costSource": "modelPriced",
+          "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+        }
+      ]
+    },
+    {
+      "id": "legacy-pause",
+      "passed": true,
+      "triggerVerified": true,
+      "threadId": "735ab40b-c502-4e55-950d-196416460626",
+      "expected": ["advisor", "worker"],
+      "completion": "completed",
+      "durationMs": 17596,
+      "costUsd": 0.03448156,
+      "phases": ["planning", "executing", "completed"],
+      "runs": [
+        {
+          "id": "run:thread:735ab40b-c502-4e55-950d-196416460626:ordinal:1",
+          "status": "completed",
+          "usageRole": "advisor",
+          "model": "gpt-6-astra",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A735ab40b-c502-4e55-950d-196416460626%3Aordinal%3A1",
+          "advisorCycle": 0
+        },
+        {
+          "id": "run:thread:735ab40b-c502-4e55-950d-196416460626:ordinal:2",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A735ab40b-c502-4e55-950d-196416460626%3Aordinal%3A2",
+          "advisorCycle": 0
+        }
+      ],
+      "advisorToolCalls": 0,
+      "turns": [
+        {
+          "threadId": "735ab40b-c502-4e55-950d-196416460626",
+          "turnId": "provider-turn:provider:codex:native-turn:01a1335a-2d9c-7d61-9097-6b0b760f439f",
+          "role": "advisor",
+          "provider": "codex",
+          "driver": "codex",
+          "model": "gpt-6-astra",
+          "recordedAt": "2026-10-13T03:41:58.000Z",
+          "inputTokens": 12169,
+          "cachedInputTokens": 10880,
+          "cacheCreationTokens": 0,
+          "outputTokens": 156,
+          "reasoningTokens": 0,
+          "usageStatus": "complete",
+          "accountingScope": "mainAgent",
+          "costUsd": 0.03157,
+          "costSource": "modelPriced",
+          "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+        },
+        {
+          "threadId": "735ab40b-c502-4e55-950d-196416460626",
+          "turnId": "provider-turn:provider:codex:native-turn:01a1335a-4e61-7602-9722-2939f3489ec3",
+          "role": "worker",
+          "provider": "codex",
+          "driver": "codex",
+          "model": "gpt-6-luna",
+          "recordedAt": "2026-10-13T03:42:06.000Z",
+          "inputTokens": 86803,
+          "cachedInputTokens": 65536,
+          "cacheCreationTokens": 0,
+          "outputTokens": 259,
+          "reasoningTokens": 16,
+          "usageStatus": "complete",
+          "accountingScope": "mainAgent",
+          "costUsd": 0.00291156,
+          "costSource": "modelPriced",
+          "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+        }
+      ]
+    },
+    {
+      "id": "requested-help",
+      "passed": true,
+      "triggerVerified": true,
+      "threadId": "cdbb2a18-457e-49c3-bc0d-6d110f57e47d",
+      "expected": ["worker", "advisor", "worker"],
+      "completion": "completed",
+      "durationMs": 25708,
+      "costUsd": 0.13388568,
+      "phases": ["executing", "planning", "executing", "completed"],
+      "runs": [
+        {
+          "id": "run:thread:cdbb2a18-457e-49c3-bc0d-6d110f57e47d:ordinal:1",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Acdbb2a18-457e-49c3-bc0d-6d110f57e47d%3Aordinal%3A1",
+          "advisorCycle": 0
+        },
+        {
+          "id": "run:thread:cdbb2a18-457e-49c3-bc0d-6d110f57e47d:ordinal:2",
+          "status": "completed",
+          "usageRole": "advisor",
+          "model": "gpt-6-astra",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Acdbb2a18-457e-49c3-bc0d-6d110f57e47d%3Aordinal%3A2",
+          "advisorCycle": 1
+        },
+        {
+          "id": "run:thread:cdbb2a18-457e-49c3-bc0d-6d110f57e47d:ordinal:3",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Acdbb2a18-457e-49c3-bc0d-6d110f57e47d%3Aordinal%3A3",
+          "advisorCycle": 1
+        }
+      ],
+      "advisorToolCalls": 0,
+      "turns": [
+        {
+          "threadId": "cdbb2a18-457e-49c3-bc0d-6d110f57e47d",
+          "turnId": "provider-turn:provider:codex:native-turn:01a13359-c93c-7953-9c0d-21684916d696",
+          "role": "worker",
+          "provider": "codex",
+          "driver": "codex",
+          "model": "gpt-6-luna",
+          "recordedAt": "2026-10-13T03:41:29.000Z",
+          "inputTokens": 43447,
+          "cachedInputTokens": 33280,
+          "cacheCreationTokens": 0,
+          "outputTokens": 225,
+          "reasoningTokens": 45,
+          "usageStatus": "complete",
+          "accountingScope": "mainAgent",
+          "costUsd": 0.0014620000000000002,
+          "costSource": "modelPriced",
+          "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+        },
+        {
+          "threadId": "cdbb2a18-457e-49c3-bc0d-6d110f57e47d",
+          "turnId": "provider-turn:provider:codex:native-turn:01a13359-dfd8-70b2-836c-9546bc32f046",
+          "role": "advisor",
+          "provider": "codex",
+          "driver": "codex",
+          "model": "gpt-6-astra",
+          "recordedAt": "2026-10-13T03:41:39.000Z",
+          "inputTokens": 12304,
+          "cachedInputTokens": 0,
+          "cacheCreationTokens": 0,
+          "outputTokens": 150,
+          "reasoningTokens": 0,
+          "usageStatus": "complete",
+          "accountingScope": "mainAgent",
+          "costUsd": 0.13054000000000002,
+          "costSource": "modelPriced",
+          "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+        },
+        {
+          "threadId": "cdbb2a18-457e-49c3-bc0d-6d110f57e47d",
+          "turnId": "provider-turn:provider:codex:native-turn:01a1335a-062d-7c70-a9d5-d7a60cddfe07",
+          "role": "worker",
+          "provider": "codex",
+          "driver": "codex",
+          "model": "gpt-6-luna",
+          "recordedAt": "2026-10-13T03:41:49.000Z",
+          "inputTokens": 110078,
+          "cachedInputTokens": 103168,
+          "cacheCreationTokens": 0,
+          "outputTokens": 322,
+          "reasoningTokens": 10,
+          "usageStatus": "complete",
+          "accountingScope": "mainAgent",
+          "costUsd": 0.0018836800000000002,
+          "costSource": "modelPriced",
+          "pricingVersion": "2026-10-13-cache-ttl:1791825175816:{}"
+        }
+      ]
+    }
+  ],
+  "nativeAudit": {
+    "auditedAt": "2026-10-13T03:43:16.240Z",
+    "trials": 3,
+    "nativeSessions": 8,
+    "uniqueNativeSessions": true,
+    "accountingScope": "mainAgent",
+    "changes": [],
+    "audits": [
+      {
+        "id": "failed-check",
+        "sessions": [
+          {
+            "nativeId": "01a13359-6869-7d11-9f41-b8dd5aa6e9f6",
+            "model": "gpt-6-luna",
+            "requests": 2,
+            "maxPromptTokens": 19543,
+            "totals": {
+              "inputTokens": 38554,
+              "cachedInputTokens": 30208,
+              "cacheCreationTokens": 0,
+              "outputTokens": 245,
+              "reasoningTokens": 114
+            },
+            "costUsd": 0.0012591800000000002
+          },
+          {
+            "nativeId": "01a13359-8941-7d93-8a01-456cda6f4150",
+            "model": "gpt-6-astra",
+            "requests": 1,
+            "maxPromptTokens": 12640,
+            "totals": {
+              "inputTokens": 12640,
+              "cachedInputTokens": 10880,
+              "cacheCreationTokens": 0,
+              "outputTokens": 150,
+              "reasoningTokens": 0
+            },
+            "costUsd": 0.03598
+          },
+          {
+            "nativeId": "01a13359-ace6-7a50-9167-0fbfa4e90d37",
+            "model": "gpt-6-luna",
+            "requests": 3,
+            "maxPromptTokens": 21946,
+            "totals": {
+              "inputTokens": 65338,
+              "cachedInputTokens": 60672,
+              "cacheCreationTokens": 0,
+              "outputTokens": 237,
+              "reasoningTokens": 0
+            },
+            "costUsd": 0.0011918200000000001
+          }
+        ],
+        "costUsd": 0.038431,
+        "nativePriceUsd": 0.038431,
+        "nativePriceDifferenceUsd": 0,
+        "changedFiles": ["solution.mjs"],
+        "newFiles": [],
+        "fixtureCommitUnchanged": true
+      },
+      {
+        "id": "legacy-pause",
+        "sessions": [
+          {
+            "nativeId": "01a1335a-2be7-7f91-9e8a-17d03d08379c",
+            "model": "gpt-6-astra",
+            "requests": 1,
+            "maxPromptTokens": 12169,
+            "totals": {
+              "inputTokens": 12169,
+              "cachedInputTokens": 10880,
+              "cacheCreationTokens": 0,
+              "outputTokens": 156,
+              "reasoningTokens": 0
+            },
+            "costUsd": 0.03157
+          },
+          {
+            "nativeId": "01a1335a-4d94-70d1-99ad-2c61e3cb8263",
+            "model": "gpt-6-luna",
+            "requests": 4,
+            "maxPromptTokens": 21895,
+            "totals": {
+              "inputTokens": 86803,
+              "cachedInputTokens": 65536,
+              "cacheCreationTokens": 0,
+              "outputTokens": 259,
+              "reasoningTokens": 16
+            },
+            "costUsd": 0.00291156
+          }
+        ],
+        "costUsd": 0.03448156,
+        "nativePriceUsd": 0.03448156,
+        "nativePriceDifferenceUsd": 0,
+        "changedFiles": ["solution.mjs"],
+        "newFiles": [],
+        "fixtureCommitUnchanged": true
+      },
+      {
+        "id": "requested-help",
+        "sessions": [
+          {
+            "nativeId": "01a13359-c75a-7522-a559-9c94ea5938f1",
+            "model": "gpt-6-luna",
+            "requests": 2,
+            "maxPromptTokens": 21963,
+            "totals": {
+              "inputTokens": 43447,
+              "cachedInputTokens": 33280,
+              "cacheCreationTokens": 0,
+              "outputTokens": 225,
+              "reasoningTokens": 45
+            },
+            "costUsd": 0.0014620000000000002
+          },
+          {
+            "nativeId": "01a13359-df45-7822-b861-346a2ef0f233",
+            "model": "gpt-6-astra",
+            "requests": 1,
+            "maxPromptTokens": 12304,
+            "totals": {
+              "inputTokens": 12304,
+              "cachedInputTokens": 0,
+              "cacheCreationTokens": 0,
+              "outputTokens": 150,
+              "reasoningTokens": 0
+            },
+            "costUsd": 0.13054
+          },
+          {
+            "nativeId": "01a1335a-04e3-7f92-b112-63d4a162ceba",
+            "model": "gpt-6-luna",
+            "requests": 5,
+            "maxPromptTokens": 22369,
+            "totals": {
+              "inputTokens": 110078,
+              "cachedInputTokens": 103168,
+              "cacheCreationTokens": 0,
+              "outputTokens": 322,
+              "reasoningTokens": 10
+            },
+            "costUsd": 0.00188368
+          }
+        ],
+        "costUsd": 0.13388568,
+        "nativePriceUsd": 0.13388567999999998,
+        "nativePriceDifferenceUsd": 2.7755575615628914e-17,
+        "changedFiles": ["solution.mjs"],
+        "newFiles": [],
+        "fixtureCommitUnchanged": true
+      }
+    ]
+  }
+}

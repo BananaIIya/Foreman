@@ -1,0 +1,244 @@
+{
+  "status": "Superseded after implementation fixes; never merged into the final matrix.",
+  "costUsd": 0.99712222,
+  "reason": "Codex assistant messages have child execution nodes, so requiring the run root discarded valid completion reports and caused spurious advisor calls. Descriptions after file bullets were rejected by the plan parser. Initial controlled probes did not distinguish the intended trigger from missing-report escalation; v2 adds trigger assertions.",
+  "records": [
+    {
+      "id": "B-csv-1",
+      "group": "B",
+      "taskId": "csv",
+      "passed": false,
+      "completion": "blocked",
+      "costUsd": 0.16309248,
+      "runs": [
+        {
+          "id": "run:thread:a47872be-94e9-43a0-b488-39e83d4c2a53:ordinal:1",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Aa47872be-94e9-43a0-b488-39e83d4c2a53%3Aordinal%3A1",
+          "advisorCycle": 0
+        },
+        {
+          "id": "run:thread:a47872be-94e9-43a0-b488-39e83d4c2a53:ordinal:2",
+          "status": "completed",
+          "usageRole": "advisor",
+          "model": "gpt-6-astra",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Aa47872be-94e9-43a0-b488-39e83d4c2a53%3Aordinal%3A2",
+          "advisorCycle": 1
+        }
+      ]
+    },
+    {
+      "id": "B-intervals-1",
+      "group": "B",
+      "taskId": "intervals",
+      "passed": false,
+      "completion": "blocked",
+      "costUsd": 0.14927192,
+      "stopReason": "runner_interrupted",
+      "runs": [
+        {
+          "id": "run:thread:3e6a7e64-22af-4bd7-921d-f8d6fd319524:ordinal:1",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A3e6a7e64-22af-4bd7-921d-f8d6fd319524%3Aordinal%3A1",
+          "advisorCycle": 0
+        },
+        {
+          "id": "run:thread:3e6a7e64-22af-4bd7-921d-f8d6fd319524:ordinal:2",
+          "status": "completed",
+          "usageRole": "advisor",
+          "model": "gpt-6-astra",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A3e6a7e64-22af-4bd7-921d-f8d6fd319524%3Aordinal%3A2",
+          "advisorCycle": 1
+        }
+      ]
+    },
+    {
+      "id": "B-query-1",
+      "group": "B",
+      "taskId": "query",
+      "passed": false,
+      "completion": "blocked",
+      "costUsd": 0.14494594000000002,
+      "stopReason": "runner_interrupted",
+      "runs": [
+        {
+          "id": "run:thread:82817b72-e105-45c8-a16b-c725fef28cdd:ordinal:1",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A82817b72-e105-45c8-a16b-c725fef28cdd%3Aordinal%3A1",
+          "advisorCycle": 0
+        },
+        {
+          "id": "run:thread:82817b72-e105-45c8-a16b-c725fef28cdd:ordinal:2",
+          "status": "completed",
+          "usageRole": "advisor",
+          "model": "gpt-6-astra",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A82817b72-e105-45c8-a16b-c725fef28cdd%3Aordinal%3A2",
+          "advisorCycle": 1
+        }
+      ]
+    },
+    {
+      "id": "B-slug-1",
+      "group": "B",
+      "taskId": "slug",
+      "passed": false,
+      "completion": "blocked",
+      "costUsd": 0.13854318000000002,
+      "runs": [
+        {
+          "id": "run:thread:75eb42d1-073f-46ed-9603-e8f52dd9be00:ordinal:1",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A75eb42d1-073f-46ed-9603-e8f52dd9be00%3Aordinal%3A1",
+          "advisorCycle": 0
+        },
+        {
+          "id": "run:thread:75eb42d1-073f-46ed-9603-e8f52dd9be00:ordinal:2",
+          "status": "completed",
+          "usageRole": "advisor",
+          "model": "gpt-6-astra",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A75eb42d1-073f-46ed-9603-e8f52dd9be00%3Aordinal%3A2",
+          "advisorCycle": 1
+        }
+      ]
+    },
+    {
+      "id": "cold-cold-add",
+      "group": "cold",
+      "taskId": "cold-add",
+      "passed": true,
+      "completion": "completed",
+      "costUsd": 0.0018287000000000002,
+      "runs": [
+        {
+          "id": "run:thread:bcbe2aed-f6d0-4dd5-a10a-ca55120cea81:ordinal:1",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Abcbe2aed-f6d0-4dd5-a10a-ca55120cea81%3Aordinal%3A1"
+        }
+      ]
+    },
+    {
+      "id": "cold-cold-dedupe",
+      "group": "cold",
+      "taskId": "cold-dedupe",
+      "passed": true,
+      "completion": "completed",
+      "costUsd": 0.0017841,
+      "runs": [
+        {
+          "id": "run:thread:5351f2cc-f64f-49c9-b00f-92d30dc35e7f:ordinal:1",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A5351f2cc-f64f-49c9-b00f-92d30dc35e7f%3Aordinal%3A1"
+        }
+      ]
+    },
+    {
+      "id": "failed-check",
+      "group": "B",
+      "taskId": "cold-add",
+      "passed": true,
+      "completion": "completed",
+      "costUsd": 0.13406898,
+      "stopReason": null,
+      "runs": [
+        {
+          "id": "run:thread:d5f89c19-b2b6-422f-9b3e-cd08bd55263e:ordinal:1",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ad5f89c19-b2b6-422f-9b3e-cd08bd55263e%3Aordinal%3A1",
+          "advisorCycle": 0
+        },
+        {
+          "id": "run:thread:d5f89c19-b2b6-422f-9b3e-cd08bd55263e:ordinal:2",
+          "status": "completed",
+          "usageRole": "advisor",
+          "model": "gpt-6-astra",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ad5f89c19-b2b6-422f-9b3e-cd08bd55263e%3Aordinal%3A2",
+          "advisorCycle": 1
+        },
+        {
+          "id": "run:thread:d5f89c19-b2b6-422f-9b3e-cd08bd55263e:ordinal:3",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ad5f89c19-b2b6-422f-9b3e-cd08bd55263e%3Aordinal%3A3",
+          "advisorCycle": 1
+        }
+      ]
+    },
+    {
+      "id": "legacy-pause",
+      "group": "B",
+      "taskId": "cold-add",
+      "passed": true,
+      "completion": "completed",
+      "costUsd": 0.13016462,
+      "stopReason": null,
+      "runs": [
+        {
+          "id": "run:thread:6a7e6156-2f29-41c3-8267-53262216ea9e:ordinal:1",
+          "status": "completed",
+          "usageRole": "advisor",
+          "model": "gpt-6-astra",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A6a7e6156-2f29-41c3-8267-53262216ea9e%3Aordinal%3A1",
+          "advisorCycle": 0
+        },
+        {
+          "id": "run:thread:6a7e6156-2f29-41c3-8267-53262216ea9e:ordinal:2",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3A6a7e6156-2f29-41c3-8267-53262216ea9e%3Aordinal%3A2",
+          "advisorCycle": 0
+        }
+      ]
+    },
+    {
+      "id": "requested-help",
+      "group": "B",
+      "taskId": "cold-add",
+      "passed": true,
+      "completion": "completed",
+      "costUsd": 0.13342230000000002,
+      "stopReason": null,
+      "runs": [
+        {
+          "id": "run:thread:b90919da-dc4d-482f-b68b-31ff96e51e08:ordinal:1",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ab90919da-dc4d-482f-b68b-31ff96e51e08%3Aordinal%3A1",
+          "advisorCycle": 0
+        },
+        {
+          "id": "run:thread:b90919da-dc4d-482f-b68b-31ff96e51e08:ordinal:2",
+          "status": "completed",
+          "usageRole": "advisor",
+          "model": "gpt-6-astra",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ab90919da-dc4d-482f-b68b-31ff96e51e08%3Aordinal%3A2",
+          "advisorCycle": 1
+        },
+        {
+          "id": "run:thread:b90919da-dc4d-482f-b68b-31ff96e51e08:ordinal:3",
+          "status": "completed",
+          "usageRole": "worker",
+          "model": "gpt-6-luna",
+          "providerThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Ab90919da-dc4d-482f-b68b-31ff96e51e08%3Aordinal%3A3",
+          "advisorCycle": 1
+        }
+      ]
+    }
+  ]
+}

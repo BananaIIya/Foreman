@@ -1,0 +1,15 @@
+{
+  "historicalControls": true,
+  "newBCostUsd": 0.09558459999999998,
+  "oldBCostUsd": 7.407491180000001,
+  "oldACostUsd": 7.194662,
+  "oldCCostUsd": 0.09195877999999999,
+  "newBVsOldBSavingsPercent": 98.70962249326634,
+  "newBVsOldASavingsPercent": 98.67145113974777,
+  "newBVsOldCChangePercent": 3.9428752752048046,
+  "advisorRuns": 0,
+  "finalMatrixAndColdUsd": 0.09859847999999997,
+  "recoveryProbesUsd": 0.20679824000000002,
+  "diagnosticAttemptsUsd": 0.99712222,
+  "allNewInferenceUsd": 1.3025189400000001
+}

@@ -1,0 +1,37 @@
+{
+  "cad-model": {
+    "executor": "claude-haiku-5-5",
+    "executor_effort": "default",
+    "advisor": "gpt-6.1-sol",
+    "advisor_effort": "high",
+    "pattern": "official_advisor_tool"
+  },
+  "hof-topology-interpenetration": {
+    "executor": "claude-haiku-5-5",
+    "executor_effort": "default",
+    "advisor": "gpt-6.1-sol",
+    "advisor_effort": "high",
+    "pattern": "official_advisor_tool"
+  },
+  "satb-audio-transcription": {
+    "executor": "claude-haiku-5-5",
+    "executor_effort": "default",
+    "advisor": "gpt-6.1-sol",
+    "advisor_effort": "high",
+    "pattern": "official_advisor_tool"
+  },
+  "wal-recovery-ordering": {
+    "executor": "claude-haiku-5-5",
+    "executor_effort": "default",
+    "advisor": "gpt-6.1-sol",
+    "advisor_effort": "high",
+    "pattern": "official_advisor_tool"
+  },
+  "atrx-vep-crispr": {
+    "executor": "claude-haiku-5-5",
+    "executor_effort": "default",
+    "advisor": "gpt-6.1-sol",
+    "advisor_effort": "high",
+    "pattern": "official_advisor_tool"
+  }
+}

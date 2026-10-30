@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-14T00:49:56.132939+00:00",
+  "source": "human reply call_04ec6de7554e4188bbb9a00db1d82b43 question 1",
+  "verbatim_answer": "接受每题至少 25%，合计至少 30%",
+  "minimum_correct_tasks": 4,
+  "task_count": 5,
+  "minimum_savings_per_successful_task": 0.25,
+  "minimum_weighted_aggregate_savings_successful_tasks": 0.3,
+  "cohort_requirement": "Same frozen implementation; verified correct solo comparison",
+  "all_development_and_failed_attempt_costs_retained": true,
+  "supersedes": "Assistant-defined 30% per-task criterion"
+}

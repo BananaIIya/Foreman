@@ -1,0 +1,8 @@
+{
+  "name": "advisor-bounded-native-cursor",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@cursor/sdk": "1.0.37"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "testedAt": "2026-10-12T08:41:18.665Z",
+  "sameThread": true,
+  "sameWorkspace": true,
+  "sameTask": true,
+  "results": [
+    {
+      "threadId": "c03337e8-6ded-4561-a8da-a8a60c290a89",
+      "worker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "persistedWorker": {
+        "provider": "claudeAgent",
+        "model": "claude-haiku-5-5"
+      },
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 6093
+    },
+    {
+      "threadId": "c03337e8-6ded-4561-a8da-a8a60c290a89",
+      "worker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "persistedWorker": {
+        "provider": "codex",
+        "model": "gpt-6-luna"
+      },
+      "status": "completed",
+      "success": true,
+      "changedFiles": ["status.txt"],
+      "durationMs": 13166
+    }
+  ]
+}

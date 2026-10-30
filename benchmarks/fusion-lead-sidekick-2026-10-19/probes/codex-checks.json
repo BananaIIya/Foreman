@@ -1,0 +1,33 @@
+{
+  "outcome": {
+    "thread_id": "01a157ec-773d-7632-bd11-77a87ce0c22f",
+    "turn_id": "01a157ec-7855-7821-ac53-75b9f74041a7",
+    "status": "completed",
+    "interrupted": null
+  },
+  "delegate_calls": 2,
+  "call_tools": ["delegate", "delegate"],
+  "items_started": [
+    "userMessage",
+    "dynamicToolCall",
+    "reasoning",
+    "reasoning",
+    "reasoning",
+    "reasoning",
+    "reasoning",
+    "dynamicToolCall",
+    "agentMessage"
+  ],
+  "final_mentions_code": true,
+  "delay_sec": 130,
+  "cost_usd": 0.0022448,
+  "responses": 7,
+  "tokens": {
+    "inputTokens": 85931,
+    "cachedInputTokens": 72320,
+    "cacheWriteInputTokens": 0,
+    "outputTokens": 321,
+    "reasoningOutputTokens": 111
+  },
+  "codex_login": "unchanged"
+}

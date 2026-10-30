@@ -1,0 +1,189 @@
+{
+  "candidate": "v23",
+  "complete": false,
+  "tasks": [
+    {
+      "task": "cad-model",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791880950137,
+          "stop": 1791880951706
+        },
+        "cost_usd": 0.1877124,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-cad-model/cad-model__tKoUz92/result.json"
+      },
+      "hybrid": {
+        "status": "pending_or_running"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    },
+    {
+      "task": "hof-topology-interpenetration",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 38,
+          "passed": 38,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791881393811,
+          "stop": 1791881393844
+        },
+        "cost_usd": 0.330346,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-hof-topology-interpenetration/hof-topology-interpenetration__ck6Xzt2/result.json"
+      },
+      "hybrid": {
+        "status": "pending_or_running"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    },
+    {
+      "task": "satb-audio-transcription",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 40,
+          "passed": 40,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791882394861,
+          "stop": 1791882395009
+        },
+        "cost_usd": 0.4645816,
+        "role_cost_usd": null,
+        "model": "gpt-6.1-sol high",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-satb-audio-transcription/satb-audio-transcription__AEaYs7b/result.json"
+      },
+      "hybrid": {
+        "status": "invalid",
+        "reward": null,
+        "tests": null,
+        "cost_usd": null,
+        "role_cost_usd": null,
+        "model": null,
+        "terminal_reason": "missing_completion",
+        "exception": {
+          "exception_type": "RuntimeError",
+          "exception_message": "decision_model_attempted_tool",
+          "exception_traceback": "Traceback (most recent call last):\n  File \"/private/tmp/kimi-k28-uv-tools/harbor/lib/python3.14/site-packages/harbor/trial/trial.py\", line 500, in run\n    await self._run()\n  File \"/private/tmp/kimi-k28-uv-tools/harbor/lib/python3.14/site-packages/harbor/trial/single_step.py\", line 40, in _run\n    await self._run_agent()\n  File \"/private/tmp/kimi-k28-uv-tools/harbor/lib/python3.14/site-packages/harbor/trial/single_step.py\", line 76, in _run_agent\n    await self._run_agent_phase(\n    ...<5 lines>...\n    )\n  File \"/private/tmp/kimi-k28-uv-tools/harbor/lib/python3.14/site-packages/harbor/trial/trial.py\", line 651, in _run_agent_phase\n    await asyncio.wait_for(\n    ...<6 lines>...\n    )\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.8_2/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py\", line 486, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v23_runtime/agent.py\", line 170, in run\n    result=await coordinator.run(instruction)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v20_runtime/coordinator.py\", line 30, in run\n    gate = await self.decision('decision-' + str(cycle), context)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v23_runtime/agent.py\", line 123, in decision\n    r=await codex(phase,phase,'gpt-6-luna','medium',payload,DECISION,schema=DECISION_SCHEMA)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v23_runtime/agent.py\", line 65, in codex\n    return await guarded_turn(client,tunnel,invoke) if url else await invoke()\n                                                                ^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/v23_runtime/agent.py\", line 63, in invoke\n    return await client.turn(url,json.dumps(payload,ensure_ascii=False),policy,'/app' if url else str(work),thread_id=session_id,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n      schema=schema,extra_input=images if attach_images and not session_id else None,budget_usd=cap,no_tools=url is None)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/hybrid_native.py\", line 119, in turn\n    raise RuntimeError(interrupted)\nRuntimeError: decision_model_attempted_tool\n",
+          "occurred_at": "2026-10-13T21:50:44.632707Z"
+        },
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/hybrid-v23-satb-audio-transcription/satb-audio-transcription__r28XPeT/result.json"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    },
+    {
+      "task": "atrx-vep-crispr",
+      "solo": {
+        "status": "wrong",
+        "reward": 0,
+        "tests": {
+          "tests": 16,
+          "passed": 8,
+          "failed": 8,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791885341187,
+          "stop": 1791885342317
+        },
+        "cost_usd": 1.545018,
+        "role_cost_usd": null,
+        "model": "Grok 4.7 256K High",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-atrx-vep-crispr/atrx-vep-crispr__d2mL9vv/result.json"
+      },
+      "hybrid": {
+        "status": "pending_or_running"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    },
+    {
+      "task": "wal-recovery-ordering",
+      "solo": {
+        "status": "correct",
+        "reward": 1.0,
+        "tests": {
+          "tests": 97,
+          "passed": 97,
+          "failed": 0,
+          "skipped": 0,
+          "pending": 0,
+          "other": 0,
+          "start": 1791887239409,
+          "stop": 1791887258680
+        },
+        "cost_usd": 1.591674,
+        "role_cost_usd": null,
+        "model": "Grok 4.7 256K High",
+        "terminal_reason": "native_completed",
+        "exception": null,
+        "result_path": "<workspace>/benchmark-results/advisor-five-optimization-2026-10-13/raw/jobs/solo-wal-recovery-ordering/wal-recovery-ordering__4Uq3wWq/result.json"
+      },
+      "hybrid": {
+        "status": "pending_or_running"
+      },
+      "savings_fraction": null,
+      "qualifies": false
+    }
+  ],
+  "qualifying_tasks": 0,
+  "correct_tasks": 0,
+  "solo_cost_usd": 4.119332,
+  "hybrid_cost_usd": null,
+  "aggregate_savings_fraction": null,
+  "goal_achieved": false,
+  "final_audit_required": true,
+  "cost_basis": {
+    "kind": "native token usage at standard list prices",
+    "actual_subscription_invoice": false,
+    "included": [
+      "all worker phases",
+      "all decision phases",
+      "all advisor phases",
+      "all attempted repair phases",
+      "explicit cache read/write counters",
+      "reasoning included once in output"
+    ],
+    "excluded": [
+      "Daytona infrastructure",
+      "outer engineering agent work",
+      "unreported provider tool surcharges"
+    ],
+    "development_runs_reported_separately": true,
+    "sources": [
+      "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "https://cursor.com/docs/models-and-pricing"
+    ]
+  }
+}

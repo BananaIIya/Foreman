@@ -1,0 +1,17 @@
+"""Keep complete worker ownership while minimizing routine implementation cost."""
+from v43_runtime.policy import PLAN_SCHEMA, WORKER_SYSTEM, DECISION, DECISION_SCHEMA, preparation_images
+from v43_runtime.policy import PLAN as PREVIOUS_PLAN, INITIAL_WORK as PREVIOUS_WORK, ADVISOR as PREVIOUS_ADVISOR
+
+LIBRARY_PLAN = '''
+Choose an economical implementation route, not merely a smaller output fragment. For a structured standard format or routine scientific transformation, prefer a thin adapter around a mature high-level library that implements that format or operation. A low-level token, XML, or byte writer does not remove the work of implementing the format yourself. Do not commission a general serializer, extensive defensive-validation framework, or many optional features when a format library plus a small mapping of caller data suffices. Keep every original required behavior covered. Simple standard-library code remains appropriate when it is genuinely simpler; do not add a dependency for trivial work.
+Name the proposed dependency and its purpose inside the existing work order when useful, without inventing a version or claiming it is already installed. Missing optional packages are not a missing task input: when installation is available, dependency setup may be included in the worker's two commands. The observed environment determines whether a local virtual environment is needed. Unknown specialist values remain caller parameters, not a reason to implement a second solver. The worker's role is to leave a concise, tested reusable adapter, not a library of its own.
+'''
+PLAN = PREVIOUS_PLAN + LIBRARY_PLAN
+INITIAL_WORK = PREVIOUS_WORK + '''
+Minimize the cost of this routine implementation itself. Prefer the proposed appropriate high-level library and its existing exporter/parser/operation over implementing a standard format manually. Keep only task-required input mapping and checks; avoid a general framework, speculative compatibility branches, redundant documentation, and exhaustive synthetic cases. One small substantive round-trip or output-content check is enough for the component; all original requirements still apply. Do not silently substitute incomplete output to make the code short.
+If a necessary library is absent, install it in a task-local virtual environment when the system Python is externally managed. Use its interpreter explicitly for the component runner and checks, and report that exact path plus the observed installed package version. Setup and code creation can share one command; the other command performs the actual check. Do not fabricate installation success or an API; failures and their costs remain visible. If the selected library cannot implement an original requirement, state the concrete mismatch and use the smallest supported alternative. Never add benchmark-specific data, algorithms or answers to this generic adapter.
+'''
+ADVISOR = PREVIOUS_ADVISOR + '''
+The worker may have installed a high-level dependency in a task-local virtual environment. Reuse the exact interpreter and supported dependency recorded by its actual execution when invoking the component runner. Do not rebuild a supported format implementation simply because it is packaged behind that adapter. If an actual API or semantic mismatch is found, repair the adapter or explain the evidence for replacing it. The library handles routine representation; you retain responsibility for all substantive caller data and original-task correctness.
+'''
+SOL_ADVISOR = ADVISOR

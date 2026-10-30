@@ -1,0 +1,274 @@
+{
+  "scoringRevision": 2,
+  "complete": true,
+  "recorded": 36,
+  "expected": 36,
+  "missing": [],
+  "coldStarts": {
+    "recorded": 2,
+    "passed": 2,
+    "costUsd": 0.00301388
+  },
+  "groups": {
+    "A": {
+      "recorded": 0,
+      "expected": 0,
+      "passed": 0,
+      "passRate": null,
+      "totalCostUsd": 0,
+      "costPerTrialUsd": null,
+      "medianDurationSeconds": null,
+      "advisorCostUsd": 0
+    },
+    "B": {
+      "recorded": 36,
+      "expected": 36,
+      "passed": 35,
+      "passRate": 0.9722222222222222,
+      "totalCostUsd": 0.09558459999999998,
+      "costPerTrialUsd": 0.0026551277777777773,
+      "medianDurationSeconds": 17.487499999999997,
+      "advisorCostUsd": 0
+    },
+    "C": {
+      "recorded": 0,
+      "expected": 0,
+      "passed": 0,
+      "passRate": null,
+      "totalCostUsd": 0,
+      "costPerTrialUsd": null,
+      "medianDurationSeconds": null,
+      "advisorCostUsd": 0
+    }
+  },
+  "matrixCostUsd": 0.09558459999999998,
+  "totalCostUsd": 0.09859847999999997,
+  "withinBudget": true,
+  "comparison": null,
+  "perTask": [
+    {
+      "taskId": "slug",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.006744160000000001
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "csv",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.00916754
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "intervals",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.0098256
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "query",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.007626279999999999
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "toposort",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.007885360000000001
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "ttl-lru",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.00757116
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "map-limit",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.0071172200000000005
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "retry",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.00788992
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "deep-merge",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.00986458
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "money",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.00757594
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "byte-ranges",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 3,
+        "recorded": 3,
+        "costUsd": 0.007262620000000001
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    },
+    {
+      "taskId": "emitter",
+      "A": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      },
+      "B": {
+        "passed": 2,
+        "recorded": 3,
+        "costUsd": 0.00705422
+      },
+      "C": {
+        "passed": 0,
+        "recorded": 0,
+        "costUsd": 0
+      }
+    }
+  ],
+  "limitations": [
+    "Small synthetic JavaScript tasks; 3 repetitions of the same task are not independent task samples.",
+    "Hidden checks are withheld, but all required behavior is described in TASK.md. Harness instructions prohibit accessing other workspaces; this is not an adversarial sandbox.",
+    "B uses worker-first routing and public-acceptance retries. Results compare complete systems rather than model quality alone.",
+    "Native subscription usage is converted to API-equivalent dollars. This is not an invoice or a measurement of subscription cash cost.",
+    "Codex accounting covers the recorded main-agent token usage. No Claude-style native auxiliary cost-state is available; cross-provider totals therefore have different scopes.",
+    "NVIDIA/Nebius cold starts, costs and pass rates have not been evaluated in this experiment."
+  ]
+}

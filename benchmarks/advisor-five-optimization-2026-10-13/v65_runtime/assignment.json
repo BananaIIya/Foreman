@@ -1,0 +1,22 @@
+{
+  "cad-model": {
+    "stage1": "claude-haiku-5-5 (capped)",
+    "stage2": "gpt-6.1-sol high, verify-first in workspace (capped)"
+  },
+  "hof-topology-interpenetration": {
+    "stage1": "claude-haiku-5-5 (capped)",
+    "stage2": "gpt-6.1-sol high, verify-first in workspace (capped)"
+  },
+  "satb-audio-transcription": {
+    "stage1": "claude-haiku-5-5 (capped)",
+    "stage2": "gpt-6.1-sol high, verify-first in workspace (capped)"
+  },
+  "wal-recovery-ordering": {
+    "stage1": "claude-haiku-5-5 (capped)",
+    "stage2": "gpt-6.1-sol high, verify-first in workspace (capped)"
+  },
+  "atrx-vep-crispr": {
+    "stage1": "claude-haiku-5-5 (capped)",
+    "stage2": "gpt-6.1-sol high, verify-first in workspace (capped)"
+  }
+}
